@@ -1,0 +1,189 @@
+<map edf:definitions="editor_main,race">
+    <!-- Spawnpoints -->
+    <spawnpoint id="spawnpoint (Landstalker) (1)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (2)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (3)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (4)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (5)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (6)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (7)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (8)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (9)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (10)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (11)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (12)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (13)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (14)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (15)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (16)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (17)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (18)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (19)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (20)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (21)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (22)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (23)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (24)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (25)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (26)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (27)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (28)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (29)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (30)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (31)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (32)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (33)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (34)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (35)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="8"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (36)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (37)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (38)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (39)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (40)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (41)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (42)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (43)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (44)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (45)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (46)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (47)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (48)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (49)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (50)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (51)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (52)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (53)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (54)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (55)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (56)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (57)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (58)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (59)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (60)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (61)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (62)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (63)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (64)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (65)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (66)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (67)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (68)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (69)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (70)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (71)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (72)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (73)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (74)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (75)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (76)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (77)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (78)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (79)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (80)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (81)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (82)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (83)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (84)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (85)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (86)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (87)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (88)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (89)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (90)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (91)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (92)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (93)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (94)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (95)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (96)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (97)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (98)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (99)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (100)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (101)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (102)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (103)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (104)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (105)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (106)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (107)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (108)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (109)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (110)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (111)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (112)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (113)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (114)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (115)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (116)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (117)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (118)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (119)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (120)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (121)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (122)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (123)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (124)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (125)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (126)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (127)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Landstalker) (128)" vehicle="400" alpha="255" interior="0" posX="2154.45" posY="-2906.73" posZ="0" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <!-- Objects -->
+    <object id="object (fuckknows) (2)" breakable="false" interior="0" alpha="255" dimension="0" model="13656" scale="0.6" doublesided="false" collisions="true" frozen="false" posX="2121.2705" posY="-2929.0098" posZ="197.53" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (cuntyeland04) (1)" breakable="false" interior="0" alpha="255" dimension="0" model="12814" scale="1" doublesided="false" collisions="true" frozen="false" posX="2110.8105" posY="-2922.7998" posZ="200.13" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (cuntyeland04) (2)" breakable="false" interior="0" alpha="255" dimension="0" model="12814" scale="1" doublesided="false" collisions="true" frozen="false" posX="2140.7402" posY="-2922.7998" posZ="200.13" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (cxreffencesld) (2)" breakable="false" interior="0" alpha="255" dimension="0" model="3276" scale="1" doublesided="false" collisions="true" frozen="false" posX="2137.5" posY="-2938.8501" posZ="201.03999" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (cxreffencesld) (6)" breakable="false" interior="0" alpha="255" dimension="0" model="3276" scale="1" doublesided="false" collisions="true" frozen="false" posX="2110.75" posY="-2933.54" posZ="201.03999" rotX="0" rotY="0" rotZ="-90"></object>
+    <object id="object (cxreffencesld) (7)" breakable="false" interior="0" alpha="255" dimension="0" model="3276" scale="1" doublesided="false" collisions="true" frozen="false" posX="2110.76" posY="-2922.05" posZ="201.03999" rotX="0" rotY="0" rotZ="-90"></object>
+    <object id="object (cxreffencesld) (13)" breakable="false" interior="0" alpha="255" dimension="0" model="3276" scale="1" doublesided="false" collisions="true" frozen="false" posX="2137.3201" posY="-2904.99" posZ="201.03999" rotX="0" rotY="0" rotZ="179.995"></object>
+    <object id="object (cxreffencesld) (15)" breakable="false" interior="0" alpha="255" dimension="0" model="3276" scale="1" doublesided="false" collisions="true" frozen="false" posX="2142.8301" posY="-2910.27" posZ="201.03999" rotX="0" rotY="0" rotZ="89.995"></object>
+    <object id="object (cxreffencesld) (16)" breakable="false" interior="0" alpha="255" dimension="0" model="3276" scale="1" doublesided="false" collisions="true" frozen="false" posX="2142.8101" posY="-2921.8101" posZ="201.03999" rotX="0" rotY="0" rotZ="89.984"></object>
+    <object id="object (cxreffencesld) (17)" breakable="false" interior="0" alpha="255" dimension="0" model="3276" scale="1" doublesided="false" collisions="true" frozen="false" posX="2142.8" posY="-2933.4199" posZ="201.03999" rotX="0" rotY="0" rotZ="89.984"></object>
+    <object id="object (vgsSairportland15) (1)" breakable="false" interior="0" alpha="255" dimension="0" model="8356" scale="0" doublesided="false" collisions="true" frozen="false" posX="2142.8701" posY="-2911.3701" posZ="200.16" rotX="0" rotY="-90" rotZ="-0.008"></object>
+    <object id="object (vgsSairportland15) (2)" breakable="false" interior="0" alpha="255" dimension="0" model="8356" scale="0" doublesided="false" collisions="true" frozen="false" posX="2154.6599" posY="-2905.1101" posZ="200.16" rotX="0" rotY="-90" rotZ="89.737"></object>
+    <object id="object (vgsSairportland15) (3)" breakable="false" interior="0" alpha="255" dimension="0" model="8356" scale="0" doublesided="false" collisions="true" frozen="false" posX="2110.75" posY="-2899.8701" posZ="200.16" rotX="0" rotY="-90" rotZ="179.992"></object>
+    <object id="object (vgsSairportland15) (4)" breakable="false" interior="0" alpha="255" dimension="0" model="8356" scale="0" doublesided="false" collisions="true" frozen="false" posX="2096.3401" posY="-2939.0601" posZ="200.16" rotX="0" rotY="-90" rotZ="-89.758"></object>
+    <object id="object (cuntyeland04) (3)" breakable="false" interior="0" alpha="255" dimension="0" model="12814" scale="1" doublesided="false" collisions="true" frozen="false" posX="2080.8101" posY="-2922.8" posZ="200.13" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (cuntyeland04) (4)" breakable="false" interior="0" alpha="255" dimension="0" model="12814" scale="1" doublesided="false" collisions="true" frozen="false" posX="2080.8301" posY="-2972.77" posZ="200.13" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (cuntyeland04) (5)" breakable="false" interior="0" alpha="255" dimension="0" model="12814" scale="1" doublesided="false" collisions="true" frozen="false" posX="2110.8203" posY="-2972.7695" posZ="200.13" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (cuntyeland04) (6)" breakable="false" interior="0" alpha="255" dimension="0" model="12814" scale="1" doublesided="false" collisions="true" frozen="false" posX="2140.8501" posY="-2972.77" posZ="200.13" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (cuntyeland04) (7)" breakable="false" interior="0" alpha="255" dimension="0" model="12814" scale="1" doublesided="false" collisions="true" frozen="false" posX="2170.71" posY="-2922.8" posZ="200.13" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (cuntyeland04) (8)" breakable="false" interior="0" alpha="255" dimension="0" model="12814" scale="1" doublesided="false" collisions="true" frozen="false" posX="2170.8501" posY="-2972.77" posZ="200.13" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (cuntyeland04) (9)" breakable="false" interior="0" alpha="255" dimension="0" model="12814" scale="1" doublesided="false" collisions="true" frozen="false" posX="2110.8101" posY="-2872.9399" posZ="200.13" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (cuntyeland04) (10)" breakable="false" interior="0" alpha="255" dimension="0" model="12814" scale="1" doublesided="false" collisions="true" frozen="false" posX="2080.8101" posY="-2872.8301" posZ="200.13" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (cuntyeland04) (12)" breakable="false" interior="0" alpha="255" dimension="0" model="12814" scale="1" doublesided="false" collisions="true" frozen="false" posX="2170.71" posY="-2872.8401" posZ="200.13" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (cuntyeland04) (13)" breakable="false" interior="0" alpha="255" dimension="0" model="12814" scale="1" doublesided="false" collisions="true" frozen="false" posX="2140.71" posY="-2872.9399" posZ="200.13" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (excalibur03_lvS) (2)" breakable="false" interior="0" alpha="255" dimension="0" model="8882" scale="1" doublesided="false" collisions="true" frozen="false" posX="2074.8" posY="-2869.72" posZ="234.39999" rotX="0" rotY="0" rotZ="-154"></object>
+    <object id="object (excalibur03_lvS) (3)" breakable="false" interior="0" alpha="255" dimension="0" model="8882" scale="1" doublesided="false" collisions="true" frozen="false" posX="2189.51" posY="-2881.22" posZ="234.39999" rotX="0" rotY="0" rotZ="121.999"></object>
+    <object id="object (excalibur02_lvS) (1)" breakable="false" interior="0" alpha="255" dimension="0" model="8881" scale="1" doublesided="false" collisions="true" frozen="false" posX="2125.8799" posY="-2867.6699" posZ="226.57001" rotX="0" rotY="0" rotZ="118"></object>
+    <object id="object (excalibur02_lvS) (2)" breakable="false" interior="0" alpha="255" dimension="0" model="8881" scale="1" doublesided="false" collisions="true" frozen="false" posX="2186.6299" posY="-2915.1699" posZ="226.57001" rotX="0" rotY="0" rotZ="27.999"></object>
+    <object id="object (excalibur02_lvS) (3)" breakable="false" interior="0" alpha="255" dimension="0" model="8881" scale="1" doublesided="false" collisions="true" frozen="false" posX="2144.8799" posY="-2980.8401" posZ="226.57001" rotX="0" rotY="0" rotZ="-64.001"></object>
+    <object id="object (excalibur02_lvS) (4)" breakable="false" interior="0" alpha="255" dimension="0" model="8881" scale="1" doublesided="false" collisions="true" frozen="false" posX="2069.23" posY="-2944.0901" posZ="226.57001" rotX="0" rotY="0" rotZ="-152.756"></object>
+    <object id="object (exclbrsign01_lvS) (1)" breakable="false" interior="0" alpha="255" dimension="0" model="8620" scale="1" doublesided="false" collisions="true" frozen="false" posX="2165.0601" posY="-2961.28" posZ="228.44" rotX="0" rotY="0" rotZ="30"></object>
+    <object id="object (cxreffencesld) (19)" breakable="false" interior="0" alpha="255" dimension="0" model="3276" scale="1" doublesided="false" collisions="true" frozen="false" posX="2126.6699" posY="-2904.99" posZ="201.03999" rotX="0" rotY="0" rotZ="179.995"></object>
+    <object id="object (cxreffencesld) (20)" breakable="false" interior="0" alpha="255" dimension="0" model="3276" scale="1" doublesided="false" collisions="true" frozen="false" posX="2116.02" posY="-2904.99" posZ="201.03999" rotX="0" rotY="0" rotZ="179.995"></object>
+    <object id="object (cxreffencesld) (21)" breakable="false" interior="0" alpha="255" dimension="0" model="3276" scale="1" doublesided="false" collisions="true" frozen="false" posX="2126.8601" posY="-2938.8501" posZ="201.03999" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (cxreffencesld) (22)" breakable="false" interior="0" alpha="255" dimension="0" model="3276" scale="1" doublesided="false" collisions="true" frozen="false" posX="2116.1799" posY="-2938.8501" posZ="201.03999" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (cxreffencesld) (23)" breakable="false" interior="0" alpha="255" dimension="0" model="3276" scale="1" doublesided="false" collisions="true" frozen="false" posX="2110.74" posY="-2910.4099" posZ="201.03999" rotX="0" rotY="0" rotZ="-90"></object>
+    <object id="object (DYN_BOX_PILE) (1)" breakable="false" interior="0" alpha="255" dimension="0" model="1431" scale="1" doublesided="false" collisions="true" frozen="false" posX="2095.54" posY="-2896.5901" posZ="200.64999" rotX="0" rotY="0" rotZ="60"></object>
+    <object id="object (DYN_CART) (1)" breakable="false" interior="0" alpha="255" dimension="0" model="1458" scale="1" doublesided="false" collisions="true" frozen="false" posX="2126.4099" posY="-2949.1101" posZ="200.36" rotX="0" rotY="0" rotZ="50"></object>
+    <object id="object (des_oldwattwr_) (1)" breakable="false" interior="0" alpha="255" dimension="0" model="3252" scale="1" doublesided="false" collisions="true" frozen="false" posX="2132.3701" posY="-2947.55" posZ="200.14" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (sw_logcover) (1)" breakable="false" interior="0" alpha="255" dimension="0" model="3403" scale="1" doublesided="false" collisions="true" frozen="false" posX="2153.3101" posY="-2947.3401" posZ="202.42999" rotX="0" rotY="0" rotZ="-50"></object>
+    <object id="object (CEtruth_barn02) (1)" breakable="false" interior="0" alpha="255" dimension="0" model="13206" scale="1" doublesided="false" collisions="true" frozen="false" posX="2154.54" posY="-2914.3999" posZ="200.14" rotX="0" rotY="0" rotZ="40"></object>
+    <object id="object (sw_watertower01) (1)" breakable="false" interior="0" alpha="255" dimension="0" model="13367" scale="1" doublesided="false" collisions="true" frozen="false" posX="2099.8899" posY="-2927.53" posZ="211.61" rotX="0" rotY="0" rotZ="40"></object>
+    <object id="object (Kylie_hay) (1)" breakable="false" interior="0" alpha="255" dimension="0" model="14873" scale="2" doublesided="false" collisions="true" frozen="false" posX="2100.97" posY="-2908.71" posZ="200.95" rotX="0" rotY="0" rotZ="82"></object>
+    <object id="object (Kylie_hay1) (1)" breakable="false" interior="0" alpha="255" dimension="0" model="14875" scale="3" doublesided="false" collisions="true" frozen="false" posX="2127.7" posY="-2896.26" posZ="200.96001" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (desn2_hutskel03) (1)" breakable="false" interior="0" alpha="255" dimension="0" model="16405" scale="1" doublesided="false" collisions="true" frozen="false" posX="2136.6699" posY="-2898.3799" posZ="201.95" rotX="0" rotY="0" rotZ="44"></object>
+    <object id="object (desn2_weemineb) (1)" breakable="false" interior="0" alpha="255" dimension="0" model="16406" scale="1" doublesided="false" collisions="true" frozen="false" posX="2151.3899" posY="-2900.5801" posZ="203.27" rotX="0" rotY="0" rotZ="-110"></object>
+    <object id="object (wt6suppsxc) (1)" breakable="false" interior="0" alpha="255" dimension="0" model="17000" scale="1" doublesided="false" collisions="true" frozen="false" posX="2151.3401" posY="-2930.75" posZ="199.78999" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (cuntw_weebarn1_) (1)" breakable="false" interior="0" alpha="255" dimension="0" model="17039" scale="1" doublesided="false" collisions="true" frozen="false" posX="2116.52" posY="-2946.5" posZ="199.94" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (sm_bushytree) (1)" breakable="false" interior="0" alpha="255" dimension="0" model="671" scale="1" doublesided="false" collisions="true" frozen="false" posX="2107.72" posY="-2915.4199" posZ="200.23" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (sm_bevhiltree) (1)" breakable="false" interior="0" alpha="255" dimension="0" model="673" scale="1" doublesided="false" collisions="true" frozen="false" posX="2107.22" posY="-2926.1699" posZ="200.05" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (sm_fir_scabg) (1)" breakable="false" interior="0" alpha="255" dimension="0" model="688" scale="1" doublesided="false" collisions="true" frozen="false" posX="2115.79" posY="-2896.9199" posZ="199.69" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (trailer2_01) (1)" breakable="false" interior="0" alpha="255" dimension="0" model="3168" scale="1" doublesided="false" collisions="true" frozen="false" posX="2100.46" posY="-2917.3999" posZ="200.14" rotX="0" rotY="0" rotZ="18"></object>
+    <object id="object (sm_airstrm_med_) (1)" breakable="false" interior="0" alpha="255" dimension="0" model="3175" scale="1" doublesided="false" collisions="true" frozen="false" posX="2127.98" posY="-2945.2" posZ="199.94" rotX="0" rotY="0" rotZ="54"></object>
+    <!-- Decorative vehicles -->
+    <vehicle id="vehicle (Tractor) (1)" sirens="false" landingGearDown="false" locked="false" plate="SFSVCDK" paintjob="3" dimension="0" interior="0" health="1000" alpha="255" model="531" collisions="true" frozen="true" color="37,37,39,42,119,161,0,0,0,0,0,0" posX="2144.3899" posY="-2946.25" posZ="201.14" rotX="0" rotY="0" rotZ="30"></vehicle>
+    <vehicle id="vehicle (Tractor) (2)" sirens="false" landingGearDown="false" locked="false" plate="4LRGKKJ" paintjob="3" dimension="0" interior="0" health="1000" alpha="255" model="531" collisions="true" frozen="true" color="37,37,39,42,119,161,0,0,0,0,0,0" posX="2139.8899" posY="-2946.75" posZ="201.14" rotX="0" rotY="0" rotZ="-0.002"></vehicle>
+    <vehicle id="vehicle (Combine Harvester) (1)" sirens="false" landingGearDown="false" locked="false" plate="DRUE7FJ" paintjob="3" dimension="0" interior="0" health="1000" alpha="255" model="532" collisions="true" frozen="true" color="0,0,0,0,0,0,0,0,0,0,0,0" posX="2102.72" posY="-2942.6599" posZ="202.14" rotX="0" rotY="0" rotZ="-44"></vehicle>
+</map>

@@ -1,0 +1,330 @@
+<map xmlns:edf="https://wiki.multitheftauto.com/wiki/Resource:Editor/EDF" edf:definitions="editor_main,race,race_ghost,edf_123robot">
+	<!-- Spawnpoints -->
+	<spawnpoint id="spawnpoint (Landstalker) (1)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (2)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (3)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (4)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (5)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (6)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (7)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (8)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (9)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (10)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (11)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (12)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (13)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (14)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (15)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (16)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (17)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (18)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (19)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (20)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (21)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (22)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (23)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (24)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (25)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (26)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (27)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (28)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (29)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (30)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (31)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (32)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (33)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (34)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (35)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (36)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (37)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (38)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (39)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (40)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (41)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (42)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (43)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (44)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (45)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (46)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (47)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (48)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (49)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (50)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (51)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (52)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (53)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (54)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (55)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (56)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (57)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (58)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (59)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (60)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (61)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (62)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (63)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (64)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (65)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (66)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (67)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (68)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (69)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (70)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (71)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (72)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (73)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (74)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (75)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (76)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (77)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (78)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (79)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (80)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (81)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (82)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (83)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (84)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (85)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (86)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (87)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (88)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (89)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (90)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (91)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (92)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (93)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (94)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (95)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (96)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (97)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (98)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (99)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (100)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (101)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (102)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (103)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (104)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (105)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (106)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (107)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (108)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (109)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (110)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (111)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (112)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (113)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (114)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (115)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (116)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (117)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (118)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (119)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (120)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (121)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (122)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (123)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (124)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (125)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (126)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (127)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Landstalker) (128)" vehicle="400" alpha="255" interior="0" posX="1586.2578" posY="1189.5938" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<!-- Objects -->
+	<removeWorldObject id="removeWorldObject (vgsSairportland16) (1)" radius="155.11195" interior="-1" model="8352" lodModel="8359" posX="1637.3828" posY="1481.3359" posZ="7.89844" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+	<removeWorldObject id="removeWorldObject (vegasairportlight) (1)" radius="2.4636648" interior="-1" model="3526" lodModel="0" posX="1497.4453" posY="1443.1094" posZ="9.89063" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+	<removeWorldObject id="removeWorldObject (vegasairportlight) (2)" radius="2.4636648" interior="-1" model="3526" lodModel="0" posX="1457.5078" posY="1443.1094" posZ="9.89063" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+	<object id="object (kickcrowd01) (1)" breakable="false" interior="0" alpha="255" dimension="0" model="13650" scale="1" doublesided="false" collisions="true" frozen="false" posX="1463.2" posY="1432.2" posZ="16.2" rotX="0" rotY="0" rotZ="0"></object>
+	<object id="object (kickcrowd01) (2)" breakable="false" interior="0" alpha="255" dimension="0" model="13650" scale="1" doublesided="false" collisions="true" frozen="false" posX="1501.9" posY="1444.2" posZ="16.2" rotX="0" rotY="0" rotZ="45"></object>
+	<object id="object (kickcrowd01) (3)" breakable="false" interior="0" alpha="255" dimension="0" model="13650" scale="1" doublesided="false" collisions="true" frozen="false" posX="1502.7" posY="1462" posZ="16.2" rotX="0" rotY="0" rotZ="90"></object>
+	<object id="object (kickcrowd01) (4)" breakable="false" interior="0" alpha="255" dimension="0" model="13650" scale="1" doublesided="false" collisions="true" frozen="false" posX="1508.7" posY="1457.2" posZ="16.2" rotX="0" rotY="0" rotZ="135"></object>
+	<object id="object (kickcrowd01) (5)" breakable="false" interior="0" alpha="255" dimension="0" model="13650" scale="1" doublesided="false" collisions="true" frozen="false" posX="1498.3" posY="1476.1" posZ="16.2" rotX="0" rotY="0" rotZ="-180"></object>
+	<object id="object (kickcrowd01) (6)" breakable="false" interior="0" alpha="255" dimension="0" model="13650" scale="1" doublesided="false" collisions="true" frozen="false" posX="1459.6" posY="1464.1" posZ="16.2" rotX="0" rotY="0" rotZ="-135"></object>
+	<object id="object (kickcrowd01) (7)" breakable="false" interior="0" alpha="255" dimension="0" model="13650" scale="1" doublesided="false" collisions="true" frozen="false" posX="1458.8" posY="1446.3" posZ="16.2" rotX="0" rotY="0" rotZ="-90"></object>
+	<object id="object (kickcrowd01) (8)" breakable="false" interior="0" alpha="255" dimension="0" model="13650" scale="1" doublesided="false" collisions="true" frozen="false" posX="1470.8" posY="1433.1" posZ="16.2" rotX="0" rotY="0" rotZ="-45"></object>
+	<object id="object (pkr_chp_hi02) (1)" breakable="false" interior="0" alpha="255" dimension="0" model="1856" scale="100" doublesided="false" collisions="true" frozen="false" posX="1480.3" posY="1453.6" posZ="8.128" rotX="0" rotY="0" rotZ="0"></object>
+	<object id="object (csrsfence02_lvs) (1)" breakable="false" interior="0" alpha="255" dimension="0" model="8674" scale="1" doublesided="false" collisions="true" frozen="false" posX="1480.9" posY="1466.5" posZ="11.3" rotX="0" rotY="0" rotZ="0"></object>
+	<object id="object (fuckknows) (1)" breakable="false" interior="0" alpha="255" dimension="0" model="13656" scale="0.5" doublesided="false" collisions="true" frozen="false" posX="1479" posY="1448.4" posZ="9.824" rotX="0" rotY="0" rotZ="0"></object>
+	<object id="object (csrsfence02_lvs) (2)" breakable="false" interior="0" alpha="255" dimension="0" model="8674" scale="1" doublesided="false" collisions="true" frozen="false" posX="1480.9" posY="1441.4" posZ="11.3" rotX="0" rotY="0" rotZ="0"></object>
+	<object id="object (csrsfence02_lvs) (3)" breakable="false" interior="0" alpha="255" dimension="0" model="8674" scale="1" doublesided="false" collisions="true" frozen="false" posX="1493.4" posY="1454" posZ="11.3" rotX="0" rotY="0" rotZ="90"></object>
+	<object id="object (csrsfence02_lvs) (4)" breakable="false" interior="0" alpha="255" dimension="0" model="8674" scale="1" doublesided="false" collisions="true" frozen="false" posX="1468.3" posY="1454" posZ="11.3" rotX="0" rotY="0" rotZ="90"></object>
+	<object id="object (csrsfence02_lvs) (5)" breakable="false" interior="0" alpha="255" dimension="0" model="8674" scale="1" doublesided="false" collisions="true" frozen="false" posX="1489.7" posY="1445.1" posZ="11.3" rotX="0" rotY="0" rotZ="45"></object>
+	<object id="object (csrsfence02_lvs) (6)" breakable="false" interior="0" alpha="255" dimension="0" model="8674" scale="1" doublesided="false" collisions="true" frozen="false" posX="1489.7" posY="1445.1" posZ="14.2" rotX="0" rotY="0" rotZ="44.995"></object>
+	<object id="object (csrsfence02_lvs) (8)" breakable="false" interior="0" alpha="255" dimension="0" model="8674" scale="1" doublesided="false" collisions="true" frozen="false" posX="1489.7" posY="1462.8" posZ="11.3" rotX="0" rotY="0" rotZ="134.995"></object>
+	<object id="object (csrsfence02_lvs) (9)" breakable="false" interior="0" alpha="255" dimension="0" model="8674" scale="1" doublesided="false" collisions="true" frozen="false" posX="1489.7" posY="1462.8" posZ="14.2" rotX="0" rotY="0" rotZ="134.995"></object>
+	<object id="object (csrsfence02_lvs) (10)" breakable="false" interior="0" alpha="255" dimension="0" model="8674" scale="1" doublesided="false" collisions="true" frozen="false" posX="1493.4" posY="1454" posZ="14.2" rotX="0" rotY="0" rotZ="90"></object>
+	<object id="object (csrsfence02_lvs) (11)" breakable="false" interior="0" alpha="255" dimension="0" model="8674" scale="1" doublesided="false" collisions="true" frozen="false" posX="1480.9" posY="1466.5" posZ="14.2" rotX="0" rotY="0" rotZ="0"></object>
+	<object id="object (csrsfence02_lvs) (12)" breakable="false" interior="0" alpha="255" dimension="0" model="8674" scale="1" doublesided="false" collisions="true" frozen="false" posX="1472" posY="1462.9" posZ="11.3" rotX="0" rotY="0" rotZ="45"></object>
+	<object id="object (csrsfence02_lvs) (13)" breakable="false" interior="0" alpha="255" dimension="0" model="8674" scale="1" doublesided="false" collisions="true" frozen="false" posX="1472" posY="1462.9" posZ="14.2" rotX="0" rotY="0" rotZ="44.995"></object>
+	<object id="object (csrsfence02_lvs) (14)" breakable="false" interior="0" alpha="255" dimension="0" model="8674" scale="1" doublesided="false" collisions="true" frozen="false" posX="1468.3" posY="1454" posZ="14.2" rotX="0" rotY="0" rotZ="90"></object>
+	<object id="object (csrsfence02_lvs) (15)" breakable="false" interior="0" alpha="255" dimension="0" model="8674" scale="1" doublesided="false" collisions="true" frozen="false" posX="1480.9" posY="1441.4" posZ="14.2" rotX="0" rotY="0" rotZ="0"></object>
+	<object id="object (csrsfence02_lvs) (16)" breakable="false" interior="0" alpha="255" dimension="0" model="8674" scale="1" doublesided="false" collisions="true" frozen="false" posX="1472" posY="1445.1" posZ="11.3" rotX="0" rotY="0" rotZ="134.995"></object>
+	<object id="object (csrsfence02_lvs) (17)" breakable="false" interior="0" alpha="255" dimension="0" model="8674" scale="1" doublesided="false" collisions="true" frozen="false" posX="1472" posY="1445.1" posZ="14.2" rotX="0" rotY="0" rotZ="134.995"></object>
+	<object id="object (fuckknows) (2)" breakable="false" interior="0" alpha="255" dimension="0" model="13656" scale="0.5" doublesided="true" collisions="true" frozen="false" posX="1598.9" posY="1448.4" posZ="-40.5" rotX="0" rotY="0" rotZ="0"></object>
+	<object id="object (fuckknows) (3)" breakable="false" interior="0" alpha="255" dimension="0" model="13656" scale="0.5" doublesided="true" collisions="true" frozen="false" posX="1362.8" posY="1448.4" posZ="-40.5" rotX="0" rotY="0" rotZ="0"></object>
+	<object id="object (fuckknows) (4)" breakable="false" interior="0" alpha="255" dimension="0" model="13656" scale="0.5" doublesided="true" collisions="true" frozen="false" posX="1396" posY="1523.3" posZ="-40.5" rotX="0" rotY="0" rotZ="0"></object>
+	<object id="object (fuckknows) (5)" breakable="false" interior="0" alpha="255" dimension="0" model="13656" scale="0.5" doublesided="true" collisions="true" frozen="false" posX="1396" posY="1384.6" posZ="-40.5" rotX="0" rotY="0" rotZ="0"></object>
+	<object id="object (fuckknows) (6)" breakable="false" interior="0" alpha="255" dimension="0" model="13656" scale="0.5" doublesided="true" collisions="true" frozen="false" posX="1396" posY="1371.9" posZ="-40.5" rotX="0" rotY="0" rotZ="45"></object>
+	<object id="object (fuckknows) (7)" breakable="false" interior="0" alpha="255" dimension="0" model="13656" scale="0.5" doublesided="true" collisions="true" frozen="false" posX="1537.5" posY="1412.6" posZ="-40.5" rotX="0" rotY="0" rotZ="44.995"></object>
+	<object id="object (fuckknows) (8)" breakable="false" interior="0" alpha="255" dimension="0" model="13656" scale="0.5" doublesided="true" collisions="true" frozen="false" posX="1591.9" posY="1509.8" posZ="-40.5" rotX="0" rotY="0" rotZ="45"></object>
+	<object id="object (fuckknows) (9)" breakable="false" interior="0" alpha="255" dimension="0" model="13656" scale="0.5" doublesided="true" collisions="true" frozen="false" posX="1490.7" posY="1561.9" posZ="-40.5" rotX="0" rotY="0" rotZ="44.995"></object>
+	<object id="object (cxrf_floodlite_) (1)" breakable="false" interior="0" alpha="255" dimension="0" model="3398" scale="1" doublesided="false" collisions="true" frozen="false" posX="1468.2" posY="1459.3" posZ="9.5" rotX="0" rotY="0" rotZ="72"></object>
+	<object id="object (cxrf_floodlite_) (2)" breakable="false" interior="0" alpha="255" dimension="0" model="3398" scale="1" doublesided="false" collisions="true" frozen="false" posX="1475.6" posY="1466.6" posZ="9.5" rotX="0" rotY="0" rotZ="21.999"></object>
+	<object id="object (cxrf_floodlite_) (3)" breakable="false" interior="0" alpha="255" dimension="0" model="3398" scale="1" doublesided="false" collisions="true" frozen="false" posX="1486.1" posY="1466.6" posZ="9.5" rotX="0" rotY="0" rotZ="-22.005"></object>
+	<object id="object (cxrf_floodlite_) (4)" breakable="false" interior="0" alpha="255" dimension="0" model="3398" scale="1" doublesided="false" collisions="true" frozen="false" posX="1493.5" posY="1459.3" posZ="9.5" rotX="0" rotY="0" rotZ="-61.256"></object>
+	<object id="object (cxrf_floodlite_) (5)" breakable="false" interior="0" alpha="255" dimension="0" model="3398" scale="1" doublesided="false" collisions="true" frozen="false" posX="1493.5" posY="1448.7" posZ="9.5" rotX="0" rotY="0" rotZ="-113.26"></object>
+	<object id="object (cxrf_floodlite_) (6)" breakable="false" interior="0" alpha="255" dimension="0" model="3398" scale="1" doublesided="false" collisions="true" frozen="false" posX="1486.1" posY="1441.3" posZ="9.5" rotX="0" rotY="0" rotZ="-151.264"></object>
+	<object id="object (cxrf_floodlite_) (7)" breakable="false" interior="0" alpha="255" dimension="0" model="3398" scale="1" doublesided="false" collisions="true" frozen="false" posX="1475.6" posY="1441.3" posZ="9.5" rotX="0" rotY="0" rotZ="158.735"></object>
+	<object id="object (cxrf_floodlite_) (8)" breakable="false" interior="0" alpha="255" dimension="0" model="3398" scale="1" doublesided="false" collisions="true" frozen="false" posX="1468.2" posY="1448.9" posZ="9.5" rotX="0" rotY="0" rotZ="114.73"></object>
+	<object id="object (rbridge3_girders) (1)" breakable="false" interior="0" alpha="255" dimension="0" model="17936" scale="1" doublesided="false" collisions="true" frozen="false" posX="1483.1" posY="1453.4" posZ="35.4" rotX="0" rotY="0" rotZ="0"></object>
+	<object id="object (CJ_SEX_TV2) (1)" breakable="false" interior="0" alpha="255" dimension="0" model="2700" scale="10" doublesided="true" collisions="true" frozen="false" posX="1482.8" posY="1472.1" posZ="38.2" rotX="0" rotY="0" rotZ="87.5"></object>
+	<object id="object (CJ_SEX_TV2) (2)" breakable="false" interior="0" alpha="255" dimension="0" model="2700" scale="10" doublesided="true" collisions="true" frozen="false" posX="1482.8" posY="1435.8" posZ="38.2" rotX="0" rotY="0" rotZ="-92.505"></object>
+	<object id="object (MED_OFFICE8_DESK_02) (1)" breakable="false" interior="0" alpha="255" dimension="0" model="2206" scale="1" doublesided="false" collisions="true" frozen="false" posX="1481.8" posY="1476.1" posZ="9.8" rotX="0" rotY="0" rotZ="-180"></object>
+	<!-- SpeedyFolf lines below -->
+	<!-- Judge chair -->
+	<object id="object (swivelchair_A) (1)" breakable="false" interior="0" alpha="255" dimension="0" model="1671" scale="1" doublesided="false" collisions="true" posX="1480.86" posY="1477.3" posZ="10.3" rotX="0" rotY="0" rotZ="0"></object>
+	<!-- Judge -->
+	<ped id="ped (wmyri) (1)" interior="0" dimension="0" model="98" health="100" armor="0" collisions="true" alpha="255" posX="1480.86" posY="1476.69" posZ="10.3" rotX="0" rotY="0" rotZ="180" scale="1"></ped>
+	<!-- Row 1 -->
+	<fighter id="fighter (1)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1477.5" posY="1464.8" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (2)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1478.5" posY="1464.8" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (3)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1479.5" posY="1464.8" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (4)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1480.5" posY="1464.8" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (5)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1481.5" posY="1464.8" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (6)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1482.5" posY="1464.8" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (7)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1483.5" posY="1464.8" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (8)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1484.5" posY="1464.8" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<!-- Row 2 -->
+	<fighter id="fighter (9)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1477.5" posY="1463.3" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (10)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1478.5" posY="1463.3" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (11)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1479.5" posY="1463.3" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (12)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1480.5" posY="1463.3" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (13)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1481.5" posY="1463.3" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (14)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1482.5" posY="1463.3" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (15)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1483.5" posY="1463.3" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (16)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1484.5" posY="1463.3" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<!-- Row 3 -->
+	<fighter id="fighter (17)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1477.5" posY="1461.8" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (18)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1478.5" posY="1461.8" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (19)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1479.5" posY="1461.8" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (20)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1480.5" posY="1461.8" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (21)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1481.5" posY="1461.8" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (22)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1482.5" posY="1461.8" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (23)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1483.5" posY="1461.8" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (24)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1484.5" posY="1461.8" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<!-- Row 4 -->
+	<fighter id="fighter (25)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1477.5" posY="1460.3" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (26)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1478.5" posY="1460.3" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (27)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1479.5" posY="1460.3" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (28)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1480.5" posY="1460.3" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (29)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1481.5" posY="1460.3" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (30)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1482.5" posY="1460.3" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (31)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1483.5" posY="1460.3" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (32)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1484.5" posY="1460.3" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<!-- Row 5 -->
+	<fighter id="fighter (33)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1477.5" posY="1458.8" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (34)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1478.5" posY="1458.8" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (35)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1479.5" posY="1458.8" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (36)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1480.5" posY="1458.8" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (37)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1481.5" posY="1458.8" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (38)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1482.5" posY="1458.8" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (39)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1483.5" posY="1458.8" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (40)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1484.5" posY="1458.8" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<!-- Row 6 -->
+	<fighter id="fighter (41)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1477.5" posY="1457.3" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (42)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1478.5" posY="1457.3" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (43)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1479.5" posY="1457.3" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (44)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1480.5" posY="1457.3" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (45)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1481.5" posY="1457.3" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (46)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1482.5" posY="1457.3" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (47)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1483.5" posY="1457.3" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (48)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1484.5" posY="1457.3" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<!-- Row 7 -->
+	<fighter id="fighter (49)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1477.5" posY="1455.8" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (50)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1478.5" posY="1455.8" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (51)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1479.5" posY="1455.8" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (52)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1480.5" posY="1455.8" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (53)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1481.5" posY="1455.8" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (54)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1482.5" posY="1455.8" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (55)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1483.5" posY="1455.8" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (56)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1484.5" posY="1455.8" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<!-- Row 8 -->
+	<fighter id="fighter (57)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1477.5" posY="1454.3" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (58)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1478.5" posY="1454.3" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (59)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1479.5" posY="1454.3" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (60)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1480.5" posY="1454.3" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (61)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1481.5" posY="1454.3" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (62)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1482.5" posY="1454.3" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (63)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1483.5" posY="1454.3" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (64)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1484.5" posY="1454.3" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<!-- Row 9 -->
+	<fighter id="fighter (65)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1477.5" posY="1452.8" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (66)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1478.5" posY="1452.8" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (67)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1479.5" posY="1452.8" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (68)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1480.5" posY="1452.8" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (69)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1481.5" posY="1452.8" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (70)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1482.5" posY="1452.8" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (71)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1483.5" posY="1452.8" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (72)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1484.5" posY="1452.8" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<!-- Row 10 -->
+	<fighter id="fighter (73)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1477.5" posY="1451.3" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (74)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1478.5" posY="1451.3" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (75)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1479.5" posY="1451.3" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (76)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1480.5" posY="1451.3" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (77)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1481.5" posY="1451.3" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (78)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1482.5" posY="1451.3" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (79)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1483.5" posY="1451.3" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (80)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1484.5" posY="1451.3" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<!-- Row 11 -->
+	<fighter id="fighter (81)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1477.5" posY="1449.8" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (82)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1478.5" posY="1449.8" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (83)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1479.5" posY="1449.8" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (84)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1480.5" posY="1449.8" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (85)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1481.5" posY="1449.8" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (86)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1482.5" posY="1449.8" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (87)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1483.5" posY="1449.8" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (88)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1484.5" posY="1449.8" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<!-- Row 12 -->
+	<fighter id="fighter (89)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1477.5" posY="1448.3" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (90)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1478.5" posY="1448.3" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (91)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1479.5" posY="1448.3" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (92)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1480.5" posY="1448.3" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (93)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1481.5" posY="1448.3" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (94)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1482.5" posY="1448.3" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (95)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1483.5" posY="1448.3" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (96)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1484.5" posY="1448.3" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<!-- Row 13 -->
+	<fighter id="fighter (97)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1477.5" posY="1446.8" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (98)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1478.5" posY="1446.8" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (99)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1479.5" posY="1446.8" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (100)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1480.5" posY="1446.8" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (101)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1481.5" posY="1446.8" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (102)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1482.5" posY="1446.8" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (103)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1483.5" posY="1446.8" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (104)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1484.5" posY="1446.8" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<!-- Row 14 -->
+	<fighter id="fighter (105)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1477.5" posY="1445.3" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (106)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1478.5" posY="1445.3" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (107)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1479.5" posY="1445.3" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (108)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1480.5" posY="1445.3" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (109)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1481.5" posY="1445.3" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (110)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1482.5" posY="1445.3" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (111)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1483.5" posY="1445.3" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (112)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1484.5" posY="1445.3" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<!-- Row 15 -->
+	<fighter id="fighter (113)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1477.5" posY="1443.8" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (114)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1478.5" posY="1443.8" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (115)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1479.5" posY="1443.8" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (116)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1480.5" posY="1443.8" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (117)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1481.5" posY="1443.8" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (118)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1482.5" posY="1443.8" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (119)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1483.5" posY="1443.8" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (120)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1484.5" posY="1443.8" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<!-- Row 16 -->
+	<fighter id="fighter (121)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1477.5" posY="1442.3" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (122)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1478.5" posY="1442.3" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (123)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1479.5" posY="1442.3" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (124)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1480.5" posY="1442.3" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (125)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1481.5" posY="1442.3" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (126)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1482.5" posY="1442.3" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (127)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1483.5" posY="1442.3" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+	<fighter id="fighter (128)" interior="0" dimension="0" model="0" health="100" armor="0" collisions="true" alpha="255" posX="1484.5" posY="1442.3" posZ="10.8" rotX="0" rotY="0" rotZ="0" scale="1"></fighter>
+</map>
