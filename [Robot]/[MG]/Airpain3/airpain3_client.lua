@@ -4,7 +4,7 @@
 	-- outputChatBox(getElementModel(plane))
 -- end
 -- addEventHandler ( "onClientResourceStart", resourceRoot, setPlaneStreamable )
-DODOS = {}
+g_dodos = {}
 MARK = false
 TEXT = nil
 
@@ -55,7 +55,8 @@ function gainProgression()
 		spawnThirdDodos()
 	end
 	setElementData(localPlayer, "airpain3.dodosDestroyed", dodosDestroyed)
-	
+	checkStreakAchievement()
+
 	local vehicle = getPedOccupiedVehicle(localPlayer)
     local checkpoint = getElementData(localPlayer, "race.checkpoint")
     for i=checkpoint, dodosDestroyed do
@@ -84,30 +85,39 @@ function onClientVehicleCollision(theHitElement, force, bodyPart, collisionX, co
 end
 addEventHandler ( "onClientVehicleCollision", root, onClientVehicleCollision )
 
-function spawnFirstDodos()
+
+function spawnFirstDodos(dodos)
+	if g_dodos and #g_dodos > 0 then return end
+	g_dodos = dodos
+	setText("Destroy 30 Dodos parked around the airport!")
 	for i = 1, 10, 1 do
-		rotX = getElementData(DODOS[i], "rotX")
-		rotY = getElementData(DODOS[i], "rotY")
-		rotZ = getElementData(DODOS[i], "rotZ")
-		x, y, z = getElementPosition(DODOS[i])
+		rotX = getElementData(g_dodos[i], "rotX")
+		rotY = getElementData(g_dodos[i], "rotY")
+		rotZ = getElementData(g_dodos[i], "rotZ")
+		x, y, z = getElementPosition(g_dodos[i])
 		dodo = createVehicle(593, x,y,z, rotX, rotY, rotZ)
 		setElementData(dodo, "race.collideothers", 1, false)
 		setElementFrozen(dodo, true)
 	end
+end
+addEvent("spawnFirstDodos", true)
+addEventHandler("spawnFirstDodos", resourceRoot, spawnFirstDodos)
+
+function raceStateRunning()
 	setText("Destroy 30 Dodos parked around the airport!")
 	setTimer(function()
 		setText("Destroy 30 Dodos parked around the airport!")
 	end, 10000, 2)
 end
-addEvent("spawnFirstDodos", true)
-addEventHandler("spawnFirstDodos", resourceRoot, spawnFirstDodos)
+addEvent("raceStateRunning", true)
+addEventHandler("raceStateRunning", resourceRoot, raceStateRunning)
 
 function spawnSecondDodos()
 	for i = 11, 20, 1 do
-		rotX = getElementData(DODOS[i], "rotX")
-		rotY = getElementData(DODOS[i], "rotY")
-		rotZ = getElementData(DODOS[i], "rotZ")
-		x, y, z = getElementPosition(DODOS[i])
+		rotX = getElementData(g_dodos[i], "rotX")
+		rotY = getElementData(g_dodos[i], "rotY")
+		rotZ = getElementData(g_dodos[i], "rotZ")
+		x, y, z = getElementPosition(g_dodos[i])
 		dodo = createVehicle(593, x,y,z, rotX, rotY, rotZ)
 		setElementData(dodo, "race.collideothers", 1)
 		setElementFrozen(dodo, true)
@@ -122,10 +132,10 @@ addEventHandler("spawnSecondDodos", resourceRoot, spawnSecondDodos)
 
 function spawnThirdDodos()
 	for i = 21, 30, 1 do
-		rotX = getElementData(DODOS[i], "rotX")
-		rotY = getElementData(DODOS[i], "rotY")
-		rotZ = getElementData(DODOS[i], "rotZ")
-		x, y, z = getElementPosition(DODOS[i])
+		rotX = getElementData(g_dodos[i], "rotX")
+		rotY = getElementData(g_dodos[i], "rotY")
+		rotZ = getElementData(g_dodos[i], "rotZ")
+		x, y, z = getElementPosition(g_dodos[i])
 		dodo = createVehicle(593, x,y,z, rotX, rotY, rotZ)
 		setElementData(dodo, "race.collideothers", 1)
 		setElementFrozen(dodo, true)
@@ -151,15 +161,6 @@ function markDodosOnMap()
 end
 addEvent("markDodosOnMap", true)
 addEventHandler("markDodosOnMap", resourceRoot, markDodosOnMap)
-
-function receiveDodos(dodos)
-	DODOS = dodos
-	setText("Destroy 30 Dodos parked around the airport!")
-end
-addEvent("receiveDodos", true)
-addEventHandler("receiveDodos", resourceRoot, receiveDodos)
-
-
 
 
 function setText(text)
@@ -189,4 +190,19 @@ function drawBorderedText(text, borderSize, width, height, width2, height2, colo
 	dxDrawText(text2, width+borderSize, height-borderSize, width2+borderSize, height2-borderSize, tocolor(0, 0, 0, 255), size, font, horizAlign, vertiAlign, bool1, bool2, bool3, bool4)
 	dxDrawText(text2, width-borderSize, height+borderSize, width2-borderSize, height2+borderSize, tocolor(0, 0, 0, 255), size, font, horizAlign, vertiAlign, bool1, bool2, bool3, bool4)
 	dxDrawText(text, width, height, width2, height2, color, size, font, horizAlign, vertiAlign, bool1, bool2, bool3, bool4)
+end
+
+LAST_DODO_DESTROYED_TIMESTAMP = 0
+DODO_STREAK = 0
+
+function checkStreakAchievement()
+	local timestamp = getRealTime().timestamp
+	if (timestamp - LAST_DODO_DESTROYED_TIMESTAMP >= 6) then
+		DODO_STREAK = 0
+	end
+	DODO_STREAK = DODO_STREAK + 1
+	LAST_DODO_DESTROYED_TIMESTAMP = timestamp
+	if (DODO_STREAK >= 5) then
+		triggerServerEvent("achievement", localPlayer, "sssAirpain3FastKills")
+	end
 end

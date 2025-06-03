@@ -27,3 +27,32 @@ addEventHandler("onMapStarting", resourceRoot, function()
 	setTime(math.random(24), math.random(59))
 	setWeather(math.random(15))
 end )
+
+addEvent("activateCheat", true)
+addEventHandler("activateCheat", getRootElement(), function(cheat)
+	if cheat == 5 or cheat == 6 then 
+		setPedStat(source, 21, 999)
+	
+	-- Maximum muscle
+	elseif cheat == 7 or cheat == 8 then
+		setPedStat(source, 23, 999)
+		
+	-- Maximum sex appeal
+	elseif cheat == 9 or cheat == 10 then
+		setPedStat(source, 25, 999)
+		
+	-- Maximum sex appeal
+	elseif cheat == 11 or cheat == 12 then
+		setPedStat(source, 229, 999)
+		setPedStat(source, 230, 999)
+		setPedStat(source, 160, 999)
+		
+	-- Minimum fat and muscle
+	elseif cheat == 13 or cheat == 14 then
+		setPedStat(source, 21, 0)
+		setPedStat(source, 23, 0)
+	end
+	
+	if cheat % 2 == 0 then cheat = cheat - 1 end -- even cheat
+	exports.achievements:updateObjective(source, "everyCheatActivated", cheat)
+end )

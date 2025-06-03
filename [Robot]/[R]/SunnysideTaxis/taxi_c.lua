@@ -339,7 +339,7 @@ destinationCoords = {
 		{1694.187, 2200.377, 9.820}, -- Steakhouse
 		{1744.656, 2055.810, 9.730}, -- Fire Station
 		{1840.554, 2169.654, 9.801}, -- Hotel
-		{1928.357, 2434.310, 9.813}, -- Souvenier Shop
+		{1928.357, 2434.310, 9.813}, -- Souvenir Shop
 		{2424.122, 2315.745, 9.679}, -- Art Gallery
 		{2431.153, 2375.061, 9.679}, -- Bank
 		{2370.298, 2467.924, 9.679}, -- Courthouse
@@ -454,7 +454,7 @@ destinationTexts = {
 		"The Steakhouse",
 		"Redsands West fire station",
 		"Hotel",
-		"Souvenier Shop",
+		"Souvenir Shop",
 		"Art Gallery",
 		"Bank",
 		"The courthouse",
@@ -756,7 +756,7 @@ if screenAspect >= 1.7 then
 	-- GUI 
 	offsets = {0.8, 0.92} 
 	messageSize = 3
-	introTextSize = 1.2
+	introTextSize = 1.5
 	
 	-- Info for start a mission
 	b_offsets = {0.012, 0.163, 0.165, 0.07} -- X-left, Y-top, width, height for a box
@@ -766,8 +766,8 @@ if screenAspect >= 1.7 then
 else 
 	-- GUI
 	offsets = {0.72, 0.9}
-	messageSize = 2
-	introTextSize = 0.8
+	messageSize = 2.5
+	introTextSize = 1
 	
 	-- Info for start a mission
 	b_offsets = {0.020, 0.190, 0.23, 0.07} -- X-left, Y-top, width, height for a box
@@ -1127,11 +1127,10 @@ function updateStuff()
 		paynsprayBlips[3] = createBlip(487.210, -1740.9, 0, 63)
 		paynsprayBlips[4] = createBlip(-1904.5,   277.7, 0, 63)
 		paynsprayBlips[5] = createBlip(-2425.5,  1028.1, 0, 63)
-		paynsprayBlips[6] = createBlip(2393.80,  1483.4, 0, 63)
-		paynsprayBlips[7] = createBlip(1968.50,  2162.5, 0, 63)
+		paynsprayBlips[6] = createBlip(1968.50,  2162.5, 0, 63)
 		
-		for b = 1, 7 do
-			setBlipVisibleDistance(paynsprayBlips[b], 0.0)
+		for i, blip in pairs(paynsprayBlips) do
+			setBlipVisibleDistance(blip, 0.0)
 		end
 	end
 	
@@ -1156,14 +1155,14 @@ function updateStuff()
 				setBlipVisibleDistance(paynsprayBlips[5], 16000.0)
 			elseif CITY == 3 then
 				setBlipVisibleDistance(paynsprayBlips[6], 16000.0)
-				setBlipVisibleDistance(paynsprayBlips[7], 16000.0)
 			end
 		end
 	elseif getElementHealth(taxi) > 400.0 then
 		if textMode == 2 then -- car was trashed
-			textMode = 0 -- disable trashed text 
+			textMode = 0 -- disable trashed text
 			
 			if onMission then
+				triggerServerEvent("sunnysideFixed", localPlayer)
 				-- if Fare marker already hitted and its was a actual marker
 				if not isElement(currentFareMarker) and fareMarkerID ~= 0 then 
 					skipAfterCarIsFixed = true -- randomize new location
@@ -1171,8 +1170,8 @@ function updateStuff()
 			end
 		end 
 		
-		for b = 1, 7 do
-			setBlipVisibleDistance(paynsprayBlips[b], 0.0)
+		for i, blips in pairs(paynsprayBlips) do
+			setBlipVisibleDistance(blips, 0.0)
 		end
 	end
 	
@@ -1248,6 +1247,9 @@ function updateStuff()
 						end
 					end
 				end
+				
+				-- Achievements
+				if not COLLECT_ALL_FARES then triggerServerEvent("newFareCompleted", localPlayer, destinationTexts[CITY][fareMarkerID].. "" ..(CITY+fareMarkerID)) end
 				
 				-- CP manipulations
 				if FARES_FOR_FINISH == 25 then 
@@ -1778,8 +1780,8 @@ addEventHandler("onClientKey", root, function(button, press)
 					setElementData(localPlayer, "Destination", "Off duty", true)
 					
 					-- Disable repair blips
-					for b = 1, 7 do
-						setBlipVisibleDistance(paynsprayBlips[b], 0.0)
+					for i, blips in pairs(paynsprayBlips) do
+						setBlipVisibleDistance(blips, 0.0)
 					end
 				end
 				
@@ -1789,6 +1791,15 @@ addEventHandler("onClientKey", root, function(button, press)
 		
 		-- Vehicle Fire for buying cars
 		if button == "mouse2" then
+			local currentCarID
+			local currentModelID = getElementModel(getPedOccupiedVehicle(localPlayer))
+			
+			if currentModelID == 420 then currentCarID = 0     		-- Taxi
+			elseif currentModelID == 438 then currentCarID = 1 		-- Cabbie
+			elseif currentModelID == 474 then currentCarID = 2 		-- Zebra Cab
+			elseif currentModelID == 560 then currentCarID = 3 		-- Sultan Taxi Ed.
+			elseif currentModelID == 567 then currentCarID = 4 end 	-- Crazy Taxi
+			
 			if carUnlocked == 1 then -- Cabbie
 				setElementData(localPlayer, "Money", getElementData(localPlayer, "Money")-CABBIE_PRICE)
 				setElementData(localPlayer, "Car", "Cabbie")
@@ -1811,6 +1822,9 @@ addEventHandler("onClientKey", root, function(button, press)
 				local crazySound = playSound("music/crazy.mp3", false)
 				setSoundVolume(crazySound, 0.7) -- set the sound volume to 50%
 			end
+			
+			-- Achievement
+			if carUnlocked > 0 then triggerServerEvent("newTaxiPurchase", localPlayer, currentCarID, carUnlocked) end
 			
 			if carUnlocked == 1 or carUnlocked == 2 or carUnlocked == 3 or carUnlocked == 4 then
 				carUnlocked = 0

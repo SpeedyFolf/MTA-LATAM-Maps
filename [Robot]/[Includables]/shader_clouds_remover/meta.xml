@@ -1,0 +1,7 @@
+<meta>
+	<info name="Clouds Remover" author="[SKC]" version="1.0.0" type="misc" />
+
+	<script src="noclouds.lua" type="client" />
+
+	<file src="texreplace.fx" />
+</meta>

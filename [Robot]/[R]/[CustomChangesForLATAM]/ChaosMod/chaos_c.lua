@@ -1917,7 +1917,7 @@ addEventHandler("onClientRender", getRootElement(), function()
 	end
 	
 	if CPColor[1] ~= nil or CPType ~= nil then
-		for _, cps in ipairs(getElementsByType("marker"), getResourceDynamicElementRoot(getResourceFromName("race"))) do
+		for _, cps in ipairs(getElementsByType("marker", getResourceDynamicElementRoot(getResourceFromName("race")))) do
 			if CPColor[1] ~= nil then
 				local r, g, b, a = getMarkerColor(cps)
 				if r ~= CPColor[1] then setMarkerColor(cps, CPColor[1], CPColor[2], CPColor[3], 255) end

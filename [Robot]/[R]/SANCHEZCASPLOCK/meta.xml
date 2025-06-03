@@ -1,5 +1,5 @@
 <meta>
-
+    <include resource="skc-shark"></include>
     <info gamemodes="race" type="map" racetype="R" name="SANCHEZ-CASPLOCK" author="DOCKINOKE" version="1.0.0"></info>
     <map src="race-ACW-Ho-SiK-M2-SANCHEZ-CASPLOCK.map" dimension="0"></map>
     <settings>

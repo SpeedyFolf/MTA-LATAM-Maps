@@ -21,7 +21,6 @@
         <setting name="#locked_time" value="[ true ]"></setting>
         <setting name="#countdownduration" value="[ -1 ]"></setting>
         <setting name="#respawntime" value="[ 0 ]"></setting>
-        <setting name="#disableraceghosts" value="[ true ]"></setting>
     </settings>
     <script src="mapEditorScriptingExtension_s.lua" type="server"></script>
     <script src="mapEditorScriptingExtension_c.lua" type="client" validate="false"></script>

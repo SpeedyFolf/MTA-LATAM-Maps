@@ -1,0 +1,1 @@
+Changed all instances of setting FPS limit to 30 to 60

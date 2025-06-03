@@ -27,7 +27,7 @@ addEventHandler ( "onRaceStateChanging", getRootElement(), start )
 -- addEventHandler("killPed",root,killazombie)
 
 -- function died()
-    -- outputConsole("Your Ped is dead now!")
+	-- outputConsole("Your Ped is dead now!")
 -- end
 -- addEventHandler("onPedWasted", root, died) --Add the Event when ped1 dies
 

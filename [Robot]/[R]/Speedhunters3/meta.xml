@@ -1,0 +1,38 @@
+<meta>
+    <!-- Clean model unloader hook from botder -->
+    <script src="unloader.lua" type="client"/> 
+    <!-- Custom Objects -->
+    <include resource="objects-bollardlights" />
+    <script type="client" src="models.lua" />
+    <file src="texture.txd" />    
+    <!-- Arrow Shader -->
+    <script type="client" src="script.lua" />
+    <file type="client" src="shader.fx" />
+    <file type="client" src="images/image4.png" />
+    <file type="client" src="carshowwin_sfsx.dff" />
+    
+    <!-- Map scripts -->
+    <script type="client" src="client.lua" />
+    <script type="server" src="server.lua" />
+    <script type="client" src="poleremover.lua" />
+    <script src="weather.lua" type="server" />
+    
+    <info gamemodes="race" type="map" racetype="R" name="Speedhunters 3" author="[SKC]Sputs|uk [SKC]CsenaHUN" version="1.0" description="Race"></info>
+    <map src="race-speedhunters3.map" dimension="0"></map>
+    <settings>
+        <setting name="#skins" value='[ &quot;cj&quot; ]'></setting>
+        <setting name="#maxplayers" value="[ 128 ]"></setting>
+        <setting name="#gamespeed" value="[ 1 ]"></setting>
+        <setting name="#ghostmode" value='[ &quot;true&quot; ]'></setting>
+        <setting name="#time" value="22:0"></setting>
+        <setting name="#vehicleweapons" value='[ &quot;false&quot; ]'></setting>
+        <setting name="#minplayers" value="[ 0 ]"></setting>
+        <setting name="#weather" value="[ 18 ]"></setting>
+        <setting name="#gravity" value="[ 0.008000 ]"></setting>
+        <setting name="#waveheight" value="[ 0 ]"></setting>
+        <setting name="#respawntime" value="[ 1 ]"></setting>
+        <setting name="#locked_time" value="[ true ]"></setting>
+        <setting name="#duration" value="[ 600 ]"></setting>
+        <setting name="#respawn" value='[ &quot;timelimit&quot; ]'></setting>
+    </settings>
+</meta>

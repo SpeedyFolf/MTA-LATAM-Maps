@@ -1,4 +1,5 @@
 <meta>
+    <include resource="skc-shark"></include>
     <min_mta_version server="1.5.8-9.20957"></min_mta_version>
     <info gamemodes="race" type="map" racetype="R" name="Docki Buffalo - Escape From Bearville" author="Dockinoke + Unky (tester)" version="1.0.0"></info>
     <map src="race-Docki_ACW_HO-NKC_Buffalo-EscapeFromBearville.map" dimension="0"></map>

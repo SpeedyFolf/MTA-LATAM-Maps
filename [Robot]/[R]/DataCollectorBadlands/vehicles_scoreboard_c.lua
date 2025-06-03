@@ -9,7 +9,7 @@ statsInited = false
 statsAlpha = 0
 statsPage = 0
 displayedRecords = {}
-for i = 1, 128 do
+for i = 1, 163 do
 	displayedRecords[i] = {}
 	displayedRecords[i]["playername"] = ""
 	displayedRecords[i]["vehiclename"] = ""
@@ -47,7 +47,7 @@ if b > 1 then
 		helpText = helpText.. " #E7D9B0or #00FF00" ..string.upper(button[i])
 	end
 end
-outputChatBox("#E7D9B0You can get records for your vehicle by pressing #00FF00" ..helpText, 0, 0, 0, true)
+outputChatBox("#E7D9B0You can get records for vehicles by pressing #00FF00" ..helpText, 0, 0, 0, true)
 
 -- Function that draws stats on the screen
 function drawStats()
@@ -56,19 +56,28 @@ function drawStats()
 	-- Draw vehicle's name
 	dxDrawText("Badlands Records", screenX*(st_offsets[1]+0.005), screenY*(st_offsets[2]-0.01+0.003), screenX, screenY, tocolor(0, 0, 0, statsAlpha), (screenY/1080)*4.02, (screenY/1080)*4.15, "beckett")
 	dxDrawText("Badlands Records", screenX*st_offsets[1], screenY*(st_offsets[2]-0.01), screenX*st_offsets[1], screenY, tocolor(175, 202, 230, statsAlpha), (screenY/1080)*4, (screenY/1080)*4, "beckett")
-	
+
 	local box_height = screenY*s_offsets[4] * 0.9
 	local textSize = box_height / 75 / 13
-	local offset = box_height / 33
+	local offset = box_height / 34
 
 	-- Draw records
-	for i = 1, 32 do		
-		dxDrawText((i+statsPage*32).. ".", screenX*st_offsets[1], screenY*0.27 + offset, screenX*st_offsets[1]*1.105, screenY, tocolor(175, 202, 230, statsAlpha), textSize, textSize, "bankgothic", "right")
-		dxDrawText(tostring(displayedRecords[i+statsPage*32]["vehiclename"]), screenX*(st_offsets[1]*1.12), screenY*0.27 + offset, screenX*st_offsets[1], screenY, tocolor(175, 202, 230, statsAlpha), textSize, textSize, "bankgothic")
-		dxDrawText(tostring(displayedRecords[i+statsPage*32]["playername"]):gsub("#%x%x%x%x%x%x", ""), screenX*(st_offsets[1]*1.8), screenY*0.27 + offset, screenX*st_offsets[1], screenY, tocolor(175, 202, 230, statsAlpha), textSize, textSize, "bankgothic")
-		dxDrawText(convertToRaceTime(displayedRecords[i+statsPage*32]["time"]), screenX*(st_offsets[1]+0.04), screenY*0.27 + offset, screenX*(st_offsets[1]+st_offsets[3]), screenY, tocolor(175, 202, 230, statsAlpha), textSize, textSize, "bankgothic", "right")
+	for i = 1, 33 do
+		if statsPage < 4 then 
+			dxDrawText((i+statsPage*33).. ".", screenX*st_offsets[1], screenY*0.27 + offset, screenX*st_offsets[1]*1.105, screenY, tocolor(175, 202, 230, statsAlpha), textSize, textSize, "bankgothic", "right")
+			dxDrawText(tostring(displayedRecords[i+statsPage*33]["vehiclename"]), screenX*(st_offsets[1]*1.12), screenY*0.27 + offset, screenX*st_offsets[1], screenY, tocolor(175, 202, 230, statsAlpha), textSize, textSize, "bankgothic")
+			dxDrawText(tostring(displayedRecords[i+statsPage*33]["playername"]):gsub("#%x%x%x%x%x%x", ""), screenX*(st_offsets[1]*1.8), screenY*0.27 + offset, screenX*st_offsets[1], screenY, tocolor(175, 202, 230, statsAlpha), textSize, textSize, "bankgothic")
+			dxDrawText(convertToRaceTime(displayedRecords[i+statsPage*33]["time"]), screenX*(st_offsets[1]+0.04), screenY*0.27 + offset, screenX*(st_offsets[1]+st_offsets[3]), screenY, tocolor(175, 202, 230, statsAlpha), textSize, textSize, "bankgothic", "right")
+		else
+			if i < 33 and i+statsPage*33 ~= 164 then
+				dxDrawText((i+statsPage*33).. ".", screenX*st_offsets[1], screenY*0.27 + offset, screenX*st_offsets[1]*1.105, screenY, tocolor(175, 202, 230, statsAlpha), textSize, textSize, "bankgothic", "right")
+				dxDrawText(tostring(displayedRecords[i+statsPage*33]["vehiclename"]), screenX*(st_offsets[1]*1.12), screenY*0.27 + offset, screenX*st_offsets[1], screenY, tocolor(175, 202, 230, statsAlpha), textSize, textSize, "bankgothic")
+				dxDrawText(tostring(displayedRecords[i+statsPage*33]["playername"]):gsub("#%x%x%x%x%x%x", ""), screenX*(st_offsets[1]*1.8), screenY*0.27 + offset, screenX*st_offsets[1], screenY, tocolor(175, 202, 230, statsAlpha), textSize, textSize, "bankgothic")
+				dxDrawText(convertToRaceTime(displayedRecords[i+statsPage*33]["time"]), screenX*(st_offsets[1]+0.04), screenY*0.27 + offset, screenX*(st_offsets[1]+st_offsets[3]), screenY, tocolor(175, 202, 230, statsAlpha), textSize, textSize, "bankgothic", "right")
+			end
+		end
 		
-		offset = offset + box_height / 33
+		offset = offset + box_height / 34
 	end
 end
 
@@ -120,8 +129,8 @@ addEventHandler("receiveStats", getRootElement(), function(recordsStats)
 		displayedRecords[i]["time"] = recordsData["score"]
 	end
 	
-	if #recordsStats < 128 then
-		for i = #recordsStats + 1, 128 do
+	if #recordsStats < 163 then
+		for i = #recordsStats + 1, 163 do
 			displayedRecords[i]["playername"] = "-- EMPTY --"
 			displayedRecords[i]["vehiclename"] = "-- NIL --"
 			displayedRecords[i]["time"] = 0
@@ -137,10 +146,10 @@ addEventHandler("onClientKey", root, function(button, press)
 	
 	if press and displayStats then
 		if button == "arrow_r" then
-			if statsPage == 3 then statsPage = 0
+			if statsPage == 4 then statsPage = 0
 			else statsPage = statsPage + 1 end
 		elseif button == "arrow_l" then
-			if statsPage == 0 then statsPage = 3
+			if statsPage == 0 then statsPage = 4
 			else statsPage = statsPage - 1 end
 		end
 	end

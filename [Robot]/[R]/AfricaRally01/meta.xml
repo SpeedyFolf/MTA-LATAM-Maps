@@ -1,0 +1,52 @@
+<meta>
+	<include resource="map-africarally01"></include>
+	<include resource="vehicle-sultan03"></include>
+	<include resource="shader_clouds_remover"></include>
+
+	<script src="client.lua" type="client" validate="true"></script>
+
+	<file src="arrows/chicane.png"></file>
+	<file src="arrows/left.png"></file>
+	<file src="arrows/u_left.png"></file>
+	<file src="arrows/right.png"></file>
+	<file src="arrows/u_right.png"></file>
+
+	<min_mta_version server="1.5.8-9.20957" client="1.5.8-9.20957"></min_mta_version>
+	<info gamemodes="race" type="map" racetype="R" name="Africa Rally 01" author="[SKC]" version="1.1" description="Race"></info>
+	<map src="race-africarally01.map" dimension="0"></map>
+	<settings>
+		<setting name="#allowonfoot" value='[ &quot;false&quot; ]'></setting>
+		<setting name="#autopimp" value="[ &quot;true&quot; ]"></setting>
+		<setting name="#classicchangez" value='[ &quot;false&quot; ]'></setting>
+		<setting name="#countdownduration" value="[ -1 ]"></setting>
+		<setting name="#disableraceghosts" value="[ false ]"></setting>
+		<setting name="#duration" value="[ 600 ]"></setting>
+		<setting name="#falloffbike" value='[ &quot;false&quot; ]'></setting>
+		<setting name="#firewater" value='[ &quot;false&quot; ]'></setting>
+		<setting name="#fistfights" value='[ &quot;false&quot; ]'></setting>
+		<setting name="#gamespeed" value="[ 1.050000 ]"></setting>
+		<setting name="#ghostmode" value='[ &quot;true&quot; ]'></setting>
+		<setting name="#gravity" value="[ 0.0080000004 ]"></setting>
+		<setting name="#helibladecollisionsdisabled" value='[ &quot;false&quot; ]'></setting>
+		<setting name="#hunterminigun" value='[ &quot;false&quot; ]'></setting>
+		<setting name="#locked_time" value="[ false ]"></setting>
+		<setting name="#maxplayers" value="[ 128 ]"></setting>
+		<setting name="#minplayers" value="[ 0 ]"></setting>
+		<setting name="#movementglitches" value='[ &quot;false&quot; ]'></setting>
+		<setting name="#racetype" value="R"></setting>
+		<setting name="#randomclothes" value="[ false ]"></setting>
+		<setting name="#respawn" value='[ &quot;timelimit&quot; ]'></setting>
+		<setting name="#respawntime" value="[ 1 ]"></setting>
+		<setting name="#rustlermachinegun" value='[ &quot;true&quot; ]'></setting>
+		<setting name="#shufflespawns" value='[ &quot;true&quot; ]'></setting>
+		<setting name="#skins" value='[ &quot;cj&quot; ]'></setting>
+		<setting name="#spectatevehiclespersist" value='[ &quot;false&quot; ]'></setting>
+		<setting name="#time" value="20:0"></setting>
+		<setting name="#timeafterfirstfinish" value="[ -1 ]"></setting>
+		<setting name="#useLODs" value="[ false ]"></setting>
+		<setting name="#vehicleweapons" value='[ &quot;false&quot; ]'></setting>
+		<setting name="#waveheight" value="[ 0 ]"></setting>
+		<setting name="#weather" value="[ 6 ]"></setting>
+	</settings>
+	<script src="mapEditorScriptingExtension_s.lua" type="server" validate="false"></script>
+</meta>

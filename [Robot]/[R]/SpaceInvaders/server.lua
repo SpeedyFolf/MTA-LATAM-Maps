@@ -35,3 +35,9 @@ function checkpointcounter(checkpoint,time_)
 end
 addEvent("onPlayerReachCheckpoint")
 addEventHandler("onPlayerReachCheckpoint",root,checkpointcounter)
+
+-- Achievements
+addEvent("fiftyufosdestroyed", true)
+addEventHandler("fiftyufosdestroyed", getRootElement(), function()
+	exports.achievements:triggerAchievement(source, "SpaceInvaders50UFOs", nil)
+end )

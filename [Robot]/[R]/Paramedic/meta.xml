@@ -6,11 +6,14 @@
     <script src="constants.lua" type="shared" />
 
     <script src="paramedicinal_server_logic.lua" type="server"></script>
+    <script src="achievement.lua" type="server"></script>
 
     <script src="paramedicinal_client_logic.lua" type="client"></script>
     <script src="paramedicinal_client_ux.lua" type="client"></script>
     <oop>true</oop>
-    <info gamemodes="race" type="map" racetype="R" name="Paramedic" author="Dr. Ei Mu" version="1.2.1" edf:definition="paramedical.edf"></info>
+    <info gamemodes="race" type="map" racetype="R" name="Paramedic" author="Dr. Ei Mu" version="1.3" edf:definition="paramedical.edf"
+	    description="I hope I can give someone mouth to mouth">
+    </info>
     <map src="race-paramedic.map" dimension="0"></map>
     <settings>
         <setting name="#skins" value='[ 275 ]'></setting>

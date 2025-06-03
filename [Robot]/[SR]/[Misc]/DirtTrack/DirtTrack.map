@@ -1,0 +1,28 @@
+<map edf:definitions="editor_main,race">
+    <checkpoint id="checkpoint () (1)" extracolshapesize="4" type="checkpoint" color="#000000" blipsize="0" size="2.25" interior="4" nextid="checkpoint () (2)" posX="-2342.5699" posY="-588.62" posZ="1055.1899" rotX="0" rotY="0" rotZ="0"></checkpoint>
+    <checkpoint id="checkpoint () (2)" extracolshapesize="4" type="checkpoint" color="#000000" blipsize="0" size="2.25" alpha="255" interior="4" nextid="checkpoint () (3)" posX="-2342.5699" posY="-588.62" posZ="2055.1899" rotX="0" rotY="0" rotZ="0"></checkpoint>
+    <checkpoint id="checkpoint () (3)" extracolshapesize="4" type="checkpoint" color="#000000" blipsize="0" size="2.25" alpha="255" interior="4" nextid="checkpoint () (4)" posX="-2342.5699" posY="-588.62" posZ="3055.1899" rotX="0" rotY="0" rotZ="0"></checkpoint>
+    <checkpoint id="checkpoint () (4)" extracolshapesize="4" type="checkpoint" color="#000000" blipsize="0" size="2.25" alpha="255" interior="4" nextid="checkpoint () (5)" posX="-2342.5699" posY="-588.62" posZ="4055.1899" rotX="0" rotY="0" rotZ="0"></checkpoint>
+    <checkpoint id="checkpoint () (5)" extracolshapesize="4" type="checkpoint" color="#000000" blipsize="0" size="2.25" alpha="255" interior="4" nextid="checkpoint () (6)" posX="-2342.5699" posY="-588.62" posZ="5055.1899" rotX="0" rotY="0" rotZ="0"></checkpoint>
+    <checkpoint id="checkpoint () (6)" extracolshapesize="4" type="checkpoint" color="#000000" blipsize="0" size="2.25" alpha="255" interior="4" posX="-2342.5699" posY="-588.62" posZ="6055.1899" rotX="0" rotY="0" rotZ="0"></checkpoint>
+    <spawnpoint id="spawnpoint (Sanchez) (1)" vehicle="468" interior="4" posX="-1342.5699" posY="-588.62" posZ="1055.1899" rotX="0" rotY="0" rotZ="78"></spawnpoint>
+    <spawnpoint id="spawnpoint (Sanchez) (2)" vehicle="468" alpha="255" interior="4" posX="-1343.02" posY="-590.33002" posZ="1055.1899" rotX="0" rotY="0" rotZ="77.997"></spawnpoint>
+    <spawnpoint id="spawnpoint (Sanchez) (3)" vehicle="468" alpha="255" interior="4" posX="-1343.22" posY="-592.07001" posZ="1055.6899" rotX="0" rotY="0" rotZ="78"></spawnpoint>
+    <spawnpoint id="spawnpoint (Sanchez) (4)" vehicle="468" alpha="255" interior="4" posX="-1343.39" posY="-593.56" posZ="1055.75" rotX="0" rotY="0" rotZ="78"></spawnpoint>
+    <spawnpoint id="spawnpoint (Sanchez) (5)" vehicle="468" alpha="255" interior="4" posX="-1343.62" posY="-595.54999" posZ="1055.92" rotX="0" rotY="0" rotZ="77.997"></spawnpoint>
+    <spawnpoint id="spawnpoint (Sanchez) (6)" vehicle="468" alpha="255" interior="4" posX="-1346.6" posY="-595.20001" posZ="1055.92" rotX="0" rotY="0" rotZ="77.997"></spawnpoint>
+    <spawnpoint id="spawnpoint (Sanchez) (7)" vehicle="468" alpha="255" interior="4" posX="-1346.4" posY="-593.46002" posZ="1055.92" rotX="0" rotY="0" rotZ="77.997"></spawnpoint>
+    <spawnpoint id="spawnpoint (Sanchez) (8)" vehicle="468" alpha="255" interior="4" posX="-1346.2" posY="-591.71997" posZ="1055.92" rotX="0" rotY="0" rotZ="77.997"></spawnpoint>
+    <spawnpoint id="spawnpoint (Sanchez) (9)" vehicle="468" alpha="255" interior="4" posX="-1346" posY="-589.97998" posZ="1055.92" rotX="0" rotY="0" rotZ="77.997"></spawnpoint>
+    <spawnpoint id="spawnpoint (Sanchez) (10)" vehicle="468" alpha="255" interior="4" posX="-1345.8" posY="-588.23999" posZ="1055.92" rotX="0" rotY="0" rotZ="77.997"></spawnpoint>
+    <spawnpoint id="spawnpoint (Sanchez) (11)" vehicle="468" alpha="255" interior="4" posX="-1349.03" posY="-587.87" posZ="1055.92" rotX="0" rotY="0" rotZ="77.997"></spawnpoint>
+    <spawnpoint id="spawnpoint (Sanchez) (12)" vehicle="468" alpha="255" interior="4" posX="-1349.26" posY="-589.85999" posZ="1055.92" rotX="0" rotY="0" rotZ="77.997"></spawnpoint>
+    <spawnpoint id="spawnpoint (Sanchez) (13)" vehicle="468" alpha="255" interior="4" posX="-1349.4301" posY="-591.34998" posZ="1055.92" rotX="0" rotY="0" rotZ="77.997"></spawnpoint>
+    <spawnpoint id="spawnpoint (Sanchez) (14)" vehicle="468" alpha="255" interior="4" posX="-1349.63" posY="-593.09003" posZ="1055.92" rotX="0" rotY="0" rotZ="77.997"></spawnpoint>
+    <spawnpoint id="spawnpoint (Sanchez) (15)" vehicle="468" alpha="255" interior="4" posX="-1349.83" posY="-594.83002" posZ="1055.92" rotX="0" rotY="0" rotZ="77.997"></spawnpoint>
+    <spawnpoint id="spawnpoint (Sanchez) (16)" vehicle="468" alpha="255" interior="4" posX="-1353.8" posY="-594.37" posZ="1055.92" rotX="0" rotY="0" rotZ="77.997"></spawnpoint>
+    <spawnpoint id="spawnpoint (Sanchez) (17)" vehicle="468" alpha="255" interior="4" posX="-1353.63" posY="-592.88" posZ="1055.92" rotX="0" rotY="0" rotZ="77.997"></spawnpoint>
+    <spawnpoint id="spawnpoint (Sanchez) (18)" vehicle="468" alpha="255" interior="4" posX="-1353.4301" posY="-591.14001" posZ="1055.92" rotX="0" rotY="0" rotZ="77.997"></spawnpoint>
+    <spawnpoint id="spawnpoint (Sanchez) (19)" vehicle="468" alpha="255" interior="4" posX="-1353.23" posY="-589.40002" posZ="1055.92" rotX="0" rotY="0" rotZ="77.997"></spawnpoint>
+    <spawnpoint id="spawnpoint (Sanchez) (20)" vehicle="468" alpha="255" interior="4" posX="-1352.97" posY="-587.16998" posZ="1055.92" rotX="0" rotY="0" rotZ="77.997"></spawnpoint>
+</map>

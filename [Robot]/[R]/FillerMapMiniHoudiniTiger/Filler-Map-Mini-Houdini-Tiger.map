@@ -1,0 +1,18 @@
+<map edf:definitions="editor_main,race">
+    <checkpoint id="checkpoint () (1)" type="checkpoint" color="#E59F1948" size="20" interior="0" posX="372.5" posY="1836.6" posZ="27.5" rotX="0" rotY="0" rotZ="0"></checkpoint>
+    <spawnpoint id="spawnpoint (RC Tiger) (1)" vehicle="564" interior="0" posX="228.7" posY="1822.9" posZ="6.6" rotX="0" rotY="0" rotZ="-90"></spawnpoint>
+    <object id="object (arrow) (1)" breakable="false" interior="0" alpha="255" dimension="0" model="1318" scale="1" doublesided="false" collisions="true" posX="238.3" posY="1822.7" posZ="6.9" rotX="-90" rotY="180" rotZ="-180"></object>
+    <object id="object (arrow) (2)" breakable="false" interior="0" alpha="255" dimension="0" model="1318" scale="1" doublesided="false" collisions="true" posX="236.60001" posY="1801.1" posZ="7.1" rotX="-90" rotY="180" rotZ="-90"></object>
+    <object id="object (arrow) (3)" breakable="false" interior="0" alpha="255" dimension="0" model="1318" scale="2" doublesided="false" collisions="true" posX="249.39999" posY="1802.3" posZ="6.9" rotX="90" rotY="0" rotZ="0"></object>
+    <object id="object (arrow) (4)" breakable="false" interior="0" alpha="255" dimension="0" model="1318" scale="1" doublesided="false" collisions="true" posX="249" posY="1838.3" posZ="13" rotX="0" rotY="0" rotZ="90"></object>
+    <racepickup id="racepickup (NRG-500) (1)" type="nitro" vehicle="522" respawn="0" interior="0" posX="248.89999" posY="1866.9" posZ="8.8" rotX="0" rotY="0" rotZ="9.18"></racepickup>
+    <object id="object (arrow) (5)" breakable="false" interior="0" alpha="255" dimension="0" model="1318" scale="3" doublesided="false" collisions="true" posX="253.7" posY="1852.3" posZ="9.3" rotX="-90" rotY="180" rotZ="0"></object>
+    <object id="object (arrow) (6)" breakable="false" interior="0" alpha="255" dimension="0" model="1318" scale="3" doublesided="false" collisions="true" posX="253.7" posY="1880.9" posZ="12.7" rotX="90" rotY="0" rotZ="90"></object>
+    <object id="object (arrow) (7)" breakable="false" interior="0" alpha="255" dimension="0" model="1318" scale="2" doublesided="false" collisions="true" posX="238.60001" posY="1872.3" posZ="13.8" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (drydock1_SFSe) (1)" breakable="false" interior="0" alpha="255" dimension="0" model="10828" scale="1" doublesided="false" collisions="true" posX="213.10001" posY="1877.1" posZ="24.4" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (advert01_sfn) (1)" breakable="false" interior="0" alpha="255" dimension="0" model="9314" scale="1" doublesided="false" collisions="true" posX="213.89999" posY="1876.1" posZ="13.7" rotX="0" rotY="0" rotZ="-89.25"></object>
+    <object id="object (casket_law) (1)" breakable="false" interior="0" alpha="255" dimension="0" model="2896" scale="1" doublesided="false" collisions="true" posX="214" posY="1874.1" posZ="12.5" rotX="0" rotY="0" rotZ="0"></object>
+    <ped id="ped (1)" interior="0" rotZ="0.003" dimension="0" model="269" health="100" armor="0" collisions="true" alpha="255" frozen="true" posX="214.2002" posY="1873.7998" posZ="13.83384" rotX="0" rotY="0"></ped>
+    <object id="object (arrow) (8)" breakable="false" interior="0" alpha="255" dimension="0" model="1318" scale="1" doublesided="false" collisions="true" posX="226.3" posY="1872.4" posZ="15.5" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (arrow) (9)" breakable="false" interior="0" alpha="255" dimension="0" model="1318" scale="0.5" doublesided="false" collisions="true" posX="263.79999" posY="1819.5" posZ="0.6" rotX="0" rotY="0" rotZ="90"></object>
+</map>

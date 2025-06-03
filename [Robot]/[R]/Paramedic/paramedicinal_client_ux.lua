@@ -120,7 +120,7 @@ addEventHandler("onClientResourceStart", resourceRoot, function()
 		end
 
 		dxDrawBorderedText(2,"LEVEL", screenWidth * offsets[1], screenHeight * 0.25, screenWidth, screenHeight, tocolor(190, 222, 222, 255), 1, "bankgothic")
-		dxDrawBorderedText(2, level .. "/" .. g_NUM_LEVELS, screenWidth * offsets[2], screenHeight * 0.25, screenWidth, screenHeight, tocolor(190, 222, 222, 255), 1, "bankgothic")
+		dxDrawBorderedText(2, (level + g_LEVEL_OFFSET) .. "/" .. (g_NUM_LEVELS + g_LEVEL_OFFSET), screenWidth * offsets[2], screenHeight * 0.25, screenWidth, screenHeight, tocolor(190, 222, 222, 255), 1, "bankgothic")
 
 		dxDrawBorderedText(2,"PATIENTS", screenWidth * offsets[1], screenHeight * 0.28, screenWidth, screenHeight, tocolor(190, 222, 222, 255), 1, "bankgothic")
 		dxDrawBorderedText(2, "" .. patients, screenWidth * offsets[2], screenHeight * 0.28, screenWidth, screenHeight, tocolor(190, 222, 222, 255), 1, "bankgothic")
@@ -128,9 +128,9 @@ addEventHandler("onClientResourceStart", resourceRoot, function()
 		dxDrawBorderedText(2,"SEATS FREE", screenWidth * offsets[1], screenHeight * 0.33, screenWidth, screenHeight, tocolor(190, 222, 222, 255), 1, "bankgothic")
 		dxDrawBorderedText(2,"" .. g_OpenSeats, screenWidth * offsets[2], screenHeight * 0.33, screenWidth, screenHeight, tocolor(190, 222, 222, 255), 1, "bankgothic")
 
-		if g_SpeedCheckTimer then -- pickup timer visualisationicator
+		if isTimer(g_SpeedCheckTimer) then -- pickup timer visualisationicator
 			local timeLeft = getTimerDetails(g_SpeedCheckTimer)
-				if not timeLeft then return end
+			if not timeLeft then return end
 			local percent = (g_SPEED_CHECK_INTERVAL - timeLeft) / g_SPEED_CHECK_INTERVAL
 
 			local x, y, z = getElementVelocity(getPedOccupiedVehicle(localPlayer))

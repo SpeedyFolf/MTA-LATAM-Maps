@@ -122,9 +122,7 @@ addEventHandler(g_PED_GAME_READY_EVENT, resourceRoot, function()
 		end)
 
 		addEventHandler("onClientPedStep", ped, function(left)
-			if left then
-				triggerServerEvent(g_PED_MOVEMENT_EVENT, resourceRoot, playerPed, {getElementPosition(playerPed)}, {getElementRotation(playerPed)})
-			end
+			triggerServerEvent(g_PED_MOVEMENT_EVENT, resourceRoot, playerPed, {getElementPosition(playerPed)}, {getElementRotation(playerPed)})
 		end)
 
 		playerPed = ped
@@ -184,6 +182,16 @@ addEventHandler(g_PED_GAME_READY_EVENT, resourceRoot, function()
 			dxDrawBorderedText(0.5, "#C8C8C8Press " .. toggleKey .. " to spawn as a pedestrian.", screenWidth / 2, screenHeight - 130,  screenWidth, screenHeight, tocolor(160, 0, 210, 255), 1.9, "arial", center, top, false, false, false, true)
 		elseif playerPed then
 			if focusPed then
+
+				-- not ideal for < 1280x1024
+				dxDrawRectangle(screenWidth - 65 - 120, 64, 122, 23, tocolor(0, 0, 0), true)
+				dxDrawRectangle(screenWidth - 65 - 118, 67.5, 118 * getElementHealth(playerPed) / 60, 18, tocolor(255, 165, 00), true)
+
+				local vx, vy, vz = getElementVelocity(playerPed)
+				local vel = math.sqrt(vx * vx + vy * vy + vz * vz)
+				dxDrawRectangle(screenWidth - 65 - 120, 94, 122, 23, tocolor(0, 0, 0), true)
+				dxDrawRectangle(screenWidth - 65 - 118, 97.5, 118 * vel / 2, 18, tocolor(0, 165, 165), true)
+
 				dxDrawBorderedText(0.5, "Press " .. toggleKey .. " to return to spectator.", screenWidth / 2, screenHeight - 130,  screenWidth, screenHeight, tocolor(210, 210, 210, 255), 1.9, "arial", center, top, false, false, false, true)
 				if not isPedDead(playerPed) then
 					dxDrawBorderedText(0.5, "Your pedestrian will remain vulnerable!", screenWidth / 2, screenHeight - 110,  screenWidth, screenHeight, tocolor(210, 210, 210, 255), 1.2, "arial", center, top, false, false, false, true)

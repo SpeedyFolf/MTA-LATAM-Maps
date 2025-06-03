@@ -1,7 +1,7 @@
 <meta>
     <min_mta_version server="1.5.8-9.20957"></min_mta_version>
     <script src="newMapEditorScriptingExtension_s.lua" type="server"></script>
-    <info gamemodes="race" racetype="R" type="map" name="Crazy Projects Randomizer" author="Discoordination" description="I&apos;m sure everybody likes randomizers. Right?" version="1.0.0"></info>
+    <info gamemodes="race" type="map" racetype="R" name="Crazy Projects Randomizer" author="Discoordination" description="I&apos;m sure everybody likes randomizers. Right?" version="1.0.0"></info>
     <map src="CrazyProjectsRandomizer.map" dimension="0"></map>
 	<script src="models_c.lua" type="client" validate="true"></script>
 	<script src="models_s.lua" type="server"></script>

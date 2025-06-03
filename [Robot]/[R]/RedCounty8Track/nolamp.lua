@@ -894,14 +894,18 @@ function randomCar(player, dimension)
 			setElementPosition (boost5, 0,0,0)
 		end
 	end
-	if source == boost6 then
+	if isElement(boost6) and source == boost6 then
 		if getElementType(player) == "player" then
 			local veh = getPedOccupiedVehicle(player)
 			fixVehicle (veh)
 			kraken ()
 			triggerClientEvent ( player, "hitmarker3", getRootElement(),1)
 			triggerClientEvent ( root, "hitmarker4", getRootElement(),1)
-			setElementPosition (boost6, 0,0,0)
+			--setElementPosition (boost6, 0,0,0)
+			destroyElement(boost6)
+			
+			-- Achievements
+			exports.achievements:triggerAchievement(player, "krakenRedCounty", nil)
 		end
 	end
 end

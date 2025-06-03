@@ -1,9 +1,46 @@
 local width, height = guiGetScreenSize()
-ant = {}
-antAngle = {}
+local ant = {}
+local antAngle = {}
 
-addEventHandler("onClientResourceStart", resourceRoot, 
-function()
+local rotX, rotY, rotRadius = 0, -math.pi/2, 10
+local isCustomCamera = false 
+local cameraTarget = nil 
+local width, height = guiGetScreenSize() 
+  
+addEventHandler("onClientPreRender", root, function() 
+	if isCustomCamera and isElement(cameraTarget) then 
+		local x, y, z = getElementPosition(cameraTarget) 
+		 
+		local cx = x + rotRadius * math.sin(rotY) * math.cos(rotX) 
+		local cy = y - rotRadius * math.sin(rotY) * math.sin(rotX) 
+		local cz = z + rotRadius * math.cos(rotY) 
+
+		setCameraMatrix(cx, cy, cz, x, y, z) 
+	end 
+end ) 
+  
+addEventHandler("onClientCursorMove", root, function(cX, cY, aX, aY) 
+	if isCursorShowing() or isMTAWindowActive() then return end 
+			 
+	aX = aX - width / 2  
+	aY = aY - height / 2 
+
+	rotX = rotX - aX * 0.01745 * 0.1 
+	rotY = math.min(-0.02, math.max(rotY + aY * 0.01745 * 0.1, -3.11))   
+end ) 
+  
+function setCustomCameraTarget(element) 
+    if isElement(element) then 
+        cameraTarget = element 
+        isCustomCamera = true 
+        return true 
+    else 
+        cameraTarget = nil 
+        isCustomCamera = false 
+    end 
+end 
+
+addEventHandler("onClientResourceStart", resourceRoot, function()
 	engineImportTXD(engineLoadTXD("newsvan.txd"), 582)
 	engineReplaceModel(engineLoadDFF("newsvan.dff"), 582)
 	
@@ -18,6 +55,10 @@ end )
 addEventHandler("onClientHUDRender", getRootElement(), function()
 	dxUpdateScreenSource(screenSrc) 
     dxDrawImage(width, 0, -width, height, screenSrc) 
+end )
+
+addEventHandler("onClientVehicleEnter", getRootElement(), function(ped, seat)
+	if ped == localPlayer then setCustomCameraTarget(source) end
 end )
 
 addEventHandler("onClientKey", root, function(button, press) 

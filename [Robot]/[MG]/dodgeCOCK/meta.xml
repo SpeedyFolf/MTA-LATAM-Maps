@@ -1,0 +1,36 @@
+<meta>
+    <min_mta_version server="1.5.8-9.20957" client="1.5.8-9.20979" />
+    
+    <file src="cockadoodledoo.mp3" />
+    <file src="buckawk.mp3" />
+    <file src="cluck.mp3" />
+    <file src="chickendance.mp3" />
+    
+    <script src="client.lua" type="client" />
+    <script src="spec_c.lua" type="client" />
+    <script src="spec_s.lua" type="server" />
+    <script src="handling_s.lua" type="server" />
+    <script src="cocks_s.lua" type="server" />
+    
+    <info gamemodes="race" type="map" racetype="MG" name="dodgeCOCK" author="Mawfeen ft. rrrrrrr" version="1.1" description="The revolution against Cluckin&apos; Bell has begun, and it&apos;s gosh darn delicious."></info>
+    <map src="Dodgecock.map" dimension="0"></map>
+    <settings>
+        <setting name="#skins" value="[ 167 ]"></setting>
+        <setting name="#maxplayers" value="[ 128 ]"></setting>
+        <setting name="#useLODs" value="[ true ]"></setting>
+        <setting name="#gamespeed" value="[ 1 ]"></setting>
+        <setting name="#ghostmode" value='[ &quot;false&quot; ]'></setting>
+        <setting name="#disableraceghosts" value="[ true ]"></setting>
+        <setting name="#time" value="7:0"></setting>
+        <setting name="#vehicleweapons" value='[ &quot;false&quot; ]'></setting>
+        <setting name="#minplayers" value="[ 0 ]"></setting>
+        <setting name="#weather" value="[ 0 ]"></setting>
+        <setting name="#gravity" value="[ 0.0080000004 ]"></setting>
+        <setting name="#waveheight" value="[ 0 ]"></setting>
+        <setting name="#respawntime" value="[ 5 ]"></setting>
+        <setting name="#locked_time" value="[ true ]"></setting>
+        <setting name="#duration" value="[ 300 ]"></setting>
+        <setting name="#respawn" value='[ &quot;none&quot; ]'></setting>
+    </settings>
+    <script src="mapEditorScriptingExtension_s.lua" type="server" validate="false"></script>
+</meta>

@@ -51,19 +51,6 @@
     <checkpoint id="checkpoint () (49)" type="checkpoint" color="#00F9" blipsize="0" size="2.25" alpha="255" interior="0" nextid="checkpoint () (50)" posX="200" posY="5000" posZ="9990" rotX="0" rotY="0" rotZ="0"></checkpoint>
     <checkpoint id="checkpoint () (50)" type="checkpoint" color="#00F9" blipsize="0" size="2.25" alpha="255" interior="0" posX="300" posY="5000" posZ="9990" rotX="0" rotY="0" rotZ="0"></checkpoint>
 	
-	<!-- Removed doors of garages -->
-    <removeWorldObject id="removeWorldObject (lawnspraydoor1) (1)" radius="4.9156475" interior="-1" model="5856" lodModel="0" posX="1024.9844" posY="-1029.3516" posZ="33.19531" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
-    <removeWorldObject id="removeWorldObject (laespraydoor1) (1)" radius="4.9156308" interior="-1" model="5422" lodModel="0" posX="2071.4766" posY="-1831.4219" posZ="14.5625" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
-    <removeWorldObject id="removeWorldObject (spraydoor_LAw2) (1)" radius="5.2424793" interior="-1" model="6400" lodModel="0" posX="488.28125" posY="-1734.6953" posZ="12.39063" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
-	<removeWorldObject id="removeWorldObject (garagDoor1_LAwN) (1)" radius="5.0575686" interior="-1" model="5779" lodModel="0" posX="1041.3516" posY="-1025.9297" posZ="32.67188" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
-	<removeWorldObject id="removeWorldObject (modshopdoor_SFSe) (1)" radius="5.9890671" interior="-1" model="11313" lodModel="0" posX="-1935.8594" posY="239.53125" posZ="35.35156" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
-    <removeWorldObject id="removeWorldObject (sprayshpdr2_SFSe) (1)" radius="6.643784" interior="-1" model="11319" lodModel="0" posX="-1904.5312" posY="277.89844" posZ="42.95313" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
-    <removeWorldObject id="removeWorldObject (spdr_sfw) (1)" radius="6.726604" interior="-1" model="9625" lodModel="0" posX="-2425.7266" posY="1027.9922" posZ="52.28125" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
-	<removeWorldObject id="removeWorldObject (michdr) (1)" radius="5.6777983" interior="-1" model="10182" lodModel="0" posX="-1786.8125" posY="1209.4219" posZ="25.83594" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
-	<removeWorldObject id="removeWorldObject (cmdgrgdoor_lvs) (1)" radius="6.092649" interior="-1" model="9093" lodModel="0" posX="2386.6563" posY="1043.6016" posZ="11.59375" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
-    <removeWorldObject id="removeWorldObject (vgsEspdr01) (1)" radius="6.635283" interior="-1" model="8957" lodModel="0" posX="2393.7656" posY="1483.6875" posZ="12.71094" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
-    <removeWorldObject id="removeWorldObject (vgwspry1) (1)" radius="6.2777052" interior="-1" model="7891" lodModel="0" posX="1968.7422" posY="2162.4922" posZ="12.09375" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
-	
 	<!-- Pickups inside garages -->
 	<racepickup id="racepickup (1)" type="repair" vehicle="522" respawn="0" interior="0" posX="2064.3999" posY="-1831.6" posZ="14.1" rotX="0" rotY="0" rotZ="-166.5"></racepickup>
     <racepickup id="racepickup (2)" type="repair" vehicle="522" respawn="0" interior="0" posX="1024.9" posY="-1023.9" posZ="32.7" rotX="0" rotY="0" rotZ="3.24"></racepickup>

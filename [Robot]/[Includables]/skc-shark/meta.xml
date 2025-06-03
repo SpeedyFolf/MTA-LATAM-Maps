@@ -1,0 +1,6 @@
+<meta>
+	<info type="script" name="SKC - Shark" author="SKC"></info>
+	<file src="skcShark.txd"></file>
+	<file src="skcShark.dff"></file>
+	<script src="objectModelChanger_c.lua" type="client" validate="true"></script>
+</meta>

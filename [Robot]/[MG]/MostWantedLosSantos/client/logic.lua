@@ -113,7 +113,7 @@ addEventHandler(g_JOB_STATUS_UPDATE_EVENT, resourceRoot, function(id, type, data
 						destroyElement(gui)
 						organCount = organCount + 1
 						playSound("client/resources/snippy.mp3")
-						triggerServerEvent(g_FINISH_JOB_EVENT, resourceRoot, id)
+						triggerServerEvent(g_FINISH_JOB_EVENT, resourceRoot, id, organ)
 						if organCount == 6 then
 							showCursor(false, false)
 						end

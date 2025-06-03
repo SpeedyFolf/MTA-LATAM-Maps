@@ -1,0 +1,7 @@
+<meta>
+	<info type="script" name="Custom Car" author="SKC"></info>
+	<file src="texture.txd"></file>
+	<file src="model.dff"></file>
+	<script src="car.lua" type="client" validate="true"></script>
+	<script src="handling.lua" type="server" validate="true"></script>
+</meta>

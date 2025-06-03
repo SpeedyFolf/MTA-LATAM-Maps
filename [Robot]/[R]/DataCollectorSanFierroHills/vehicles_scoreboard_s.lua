@@ -32,8 +32,8 @@ addEventHandler("onPlayerFinish", getRootElement(), function(rank, time)
 				dbExec(DATABASE, "INSERT INTO SanFierroTable(playername, vehiclename, score) VALUES (?,?,?)", getPlayerName(source), getVehicleNameFromModel(currentVehicleModel), time)
 			end
 			
-			-- Sort first 128 Records 
-			sortQuery = dbQuery(DATABASE, "SELECT * FROM SanFierroTable ORDER BY score ASC LIMIT 128")		
+			-- Sort first 164 Records 
+			sortQuery = dbQuery(DATABASE, "SELECT * FROM SanFierroTable ORDER BY score ASC LIMIT 164")		
 			recordsResults = dbPoll(sortQuery, -1)
 		end
 	end
@@ -44,7 +44,7 @@ addEvent("getStats", true)
 addEventHandler("getStats", getRootElement(), function()
 	if DATABASE then
 		local data = {}
-		recordsQuery = dbQuery(DATABASE, "SELECT * FROM SanFierroTable ORDER BY score ASC LIMIT 128")
+		recordsQuery = dbQuery(DATABASE, "SELECT * FROM SanFierroTable ORDER BY score ASC LIMIT 164")
 		data = dbPoll(recordsQuery, -1)
 		triggerClientEvent(source, "receiveStats", source, data)
 	end

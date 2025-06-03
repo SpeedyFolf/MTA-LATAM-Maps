@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-16" ?>
 <meta>
     <info gamemodes="race" type="map" racetype="R" name="Smugglers Run" author="erorr404" version="0" description="Play as a smuggler on a mission to deliver the goods or as a Hunter pilot ordered to take them out by any means necessary. Hunters ignore checkpoints!&#x0D;&#x0A;&#x0D;&#x0A;- original verison"></info>
     <map src="R-SmugglersRun.map" dimension="0"></map>
@@ -21,5 +22,6 @@
         <setting name="#countdownduration" value="[ -1 ]"></setting>
         <setting name="#respawntime" value="[ 1 ]"></setting>
     </settings>
-    <script src="mapEditorScriptingExtension_s.lua" type="server" validate="false"></script>
+    <script src="mapEditorScriptingExtension_s.lua" type="server"></script>
+    <script src="mapEditorScriptingExtension_c.lua" type="client" validate="false"></script>
 </meta>

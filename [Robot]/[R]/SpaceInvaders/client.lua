@@ -178,6 +178,10 @@ function updateUFOcounter()
 	if (ufocounter == 40) then
 		destroyElement(barrier3)
 	end
+	
+	if ufocounter == 50 then
+		triggerServerEvent("fiftyufosdestroyed", localPlayer)
+	end
 end
 
 -- screenWidth, screenHeight = guiGetScreenSize ( )

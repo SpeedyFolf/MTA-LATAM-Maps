@@ -1,4 +1,6 @@
 <meta>
+    <include resource="vehicle-formula" />
+
     <!-- Clean model unloader hook from botder -->
     <script src="unloader.lua" type="client"></script>
     
@@ -7,12 +9,8 @@
     <info gamemodes="race" type="map" racetype="R" name="Spa-Francorchamps (Deluxe Edition)" author="[SKC]" version="1.7"></info>
     <map src="race-spa-francorchamps.map" dimension="0"></map>
 
-	<file src="vehicle-formula/model.dff" />
-    <file src="vehicle-formula/texture.txd" />
-    <script src="vehicle-formula/car.lua" type="client" />
-    <script src="vehicle-formula/handling.lua" type="client" />
-
     <settings>
+        <setting name="#autopimp" value="[ &quot;false&quot; ]"></setting>
         <setting name="#skins" value='[ &quot;cj&quot; ]'></setting>
         <setting name="#maxplayers" value="[ 128 ]"></setting>
         <setting name="#useLODs" value="[ false ]"></setting>

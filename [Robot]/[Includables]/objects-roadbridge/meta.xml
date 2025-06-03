@@ -1,0 +1,52 @@
+<meta>
+    <!-- Clean model unloader hook from botder -->
+    <script src="unloader.lua" type="client"/>
+
+	<info type="script" name="Custom Models" description="Custom models from SAMP" version="1.0" />
+	<script src="models.lua" type="client" />
+
+	<file src="textures.txd" />
+
+	<file src="islandbase1.col" />
+	<file src="islandbase1.dff" />
+	<file src="mbridge150m1.col" />
+	<file src="mbridge150m1.dff" />
+	<file src="mbridge150m2.col" />
+	<file src="mbridge150m2.dff" />
+	<file src="mbridge150m3.col" />
+	<file src="mbridge150m3.dff" />
+	<file src="mbridge150m4.col" />
+	<file src="mbridge150m4.dff" />
+	<file src="mbridgeramp1.col" />
+	<file src="mbridgeramp1.dff" />
+	<file src="mroad150m.col" />
+	<file src="mroad150m.dff" />
+	<file src="mroad40m.col" />
+	<file src="mroad40m.dff" />
+	<file src="mroadb45t15degl.col" />
+	<file src="mroadb45t15degl.dff" />
+	<file src="mroadb45t15degr.col" />
+	<file src="mroadb45t15degr.dff" />
+	<file src="mroadbend15deg1.col" />
+	<file src="mroadbend15deg1.dff" />
+	<file src="mroadbend15deg2.col" />
+	<file src="mroadbend15deg2.dff" />
+	<file src="mroadbend15deg3.col" />
+	<file src="mroadbend15deg3.dff" />
+	<file src="mroadbend15deg4.col" />
+	<file src="mroadbend15deg4.dff" />
+	<file src="mroadbend180deg1.col" />
+	<file src="mroadbend180deg1.dff" />
+	<file src="mroadbend45deg.col" />
+	<file src="mroadbend45deg.dff" />
+	<file src="mroadhelix1.col" />
+	<file src="mroadhelix1.dff" />
+	<file src="mroadloop1.col" />
+	<file src="mroadloop1.dff" />
+	<file src="mroadtwist15degl.col" />
+	<file src="mroadtwist15degl.dff" />
+	<file src="mroadtwist15degr.col" />
+	<file src="mroadtwist15degr.dff" />
+	<file src="volcano.col" />
+	<file src="volcano.dff" />
+</meta>

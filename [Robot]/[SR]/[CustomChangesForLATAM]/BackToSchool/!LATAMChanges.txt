@@ -1,0 +1,1 @@
+Sets FPS limit to 30 on resource start and back to 60 on resource stop, lessons are very hard otherwise

@@ -36,7 +36,7 @@
     <checkpoint id="checkpoint () (30)" type="checkpoint" color="#00F9" size="2.25" nextid="checkpoint () (31)" posX="-2755.6001" posY="2347.30005" posZ="72.5" rotX="0" rotY="0" rotZ="0"></checkpoint>
     <racepickup id="racepickup (NRG-500) (6)" type="nitro" vehicle="522" respawn="0" posX="-2763.69995" posY="2333.30005" posZ="72.9" rotX="0" rotY="0" rotZ="184.867"></racepickup>
     <checkpoint id="checkpoint () (31)" type="checkpoint" color="#00F9" size="2.25" nextid="checkpoint () (32)" posX="-2732.30005" posY="2263.1001" posZ="58.2" rotX="0" rotY="0" rotZ="0"></checkpoint>
-    <checkpoint id="checkpoint () (32)" type="checkpoint" color="#FF000099" vehicle="false" size="2.25" posX="-2689.19995" posY="2145.1001" posZ="54.5" rotX="0" rotY="0" rotZ="0"></checkpoint>
+    <checkpoint id="checkpoint () (32)" type="checkpoint" color="#FF000099" size="2.25" posX="-2689.19995" posY="2145.1001" posZ="54.5" rotX="0" rotY="0" rotZ="0"></checkpoint>
     <spawnpoint id="spawnpoint (Cheetah) (1)" vehicle="415" posX="-2676.80005" posY="2119.30005" posZ="55.1" rotX="0" rotY="0" rotZ="0"></spawnpoint>
     <spawnpoint id="spawnpoint (Cheetah) (2)" vehicle="415" alpha="255" interior="0" posX="-2671.19995" posY="2119.5" posZ="55.3" rotX="0" rotY="0" rotZ="0"></spawnpoint>
     <spawnpoint id="spawnpoint (Cheetah) (3)" vehicle="415" alpha="255" interior="0" posX="-2671" posY="2127" posZ="55.3" rotX="0" rotY="0" rotZ="0"></spawnpoint>

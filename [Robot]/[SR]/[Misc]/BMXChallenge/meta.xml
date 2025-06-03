@@ -7,7 +7,7 @@
     <script src="stuff_s.lua" type="server" />
 	<oop>true</oop>
     
-    <info gamemodes="race" racetype="SR" type="map" name="BMX Challenge" author="R*, Discoordination" version="1.0.0" description="Collect all checkpoints within the time limit."></info>
+    <info gamemodes="race" type="map" racetype="SR" name="BMX Challenge" author="R*, Discoordination" version="1.0.0" description="Collect all checkpoints within the time limit."></info>
     <map src="BMXChallenge.map" dimension="0"></map>
     <settings>
         <setting name="#skins" value='[ &quot;cj&quot; ]'></setting>

@@ -1,0 +1,41 @@
+<meta>
+	<info type="script" name="Africa Rally01" description="Custom models for Africa Rally Map map" />
+
+	<!-- Clean model unloader hook from botder -->
+	<script src="unloader.lua" type="client" />
+
+	<script src="models.lua" type="client" />
+
+	<file src="track.txd" />
+
+	<file src="11.dff" />
+	<file src="11.col" />
+	<file src="zebra.dff" />
+	<file src="zebra.col" />
+	<file src="05.dff" />
+	<file src="05.col" />
+	<file src="01.dff" />
+	<file src="01.col" />
+	<file src="02.dff" />
+	<file src="02.col" />
+	<file src="03.dff" />
+	<file src="03.col" />
+	<file src="04.dff" />
+	<file src="04.col" />
+	<file src="07.dff" />
+	<file src="07.col" />
+	<file src="06.dff" />
+	<file src="06.col" />
+	<file src="09.dff" />
+	<file src="09.col" />
+	<file src="08.dff" />
+	<file src="08.col" />
+	<file src="13.dff" />
+	<file src="13.col" />
+	<file src="12.dff" />
+	<file src="12.col" />
+	<file src="10.dff" />
+	<file src="10.col" />
+	<file src="14.dff" />
+	<file src="14.col" />
+</meta>

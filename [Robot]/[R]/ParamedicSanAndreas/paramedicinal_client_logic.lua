@@ -76,6 +76,7 @@ function initializeHospital(id)
 
 		triggerSpeedCheck(function()
 			triggerEvent(g_PATIENTS_DROPPED_OFF_EVENT, localPlayer, g_MAX_PATIENTS_IN_VEHICLE - g_OpenSeats)
+			triggerServerEvent(g_PATIENTS_DROPPED_OFF_EVENT, resourceRoot, g_MAX_PATIENTS_IN_VEHICLE - g_OpenSeats, getElementData(hospital, "id"))
 			pickedUpPatients = {}
 			lastHospitalDropOff = id
 			g_OpenSeats = g_MAX_PATIENTS_IN_VEHICLE

@@ -108,3 +108,8 @@ function randomCar(player, dimension)
 	end
 end
 addEventHandler('onMarkerHit', getRootElement(), randomCar)
+
+addEvent("weaponDrop", true)
+addEventHandler("weaponDrop", getRootElement(), function(pickup)
+	exports.achievements:updateObjective(source, "weaponDropAll", pickup)
+end )

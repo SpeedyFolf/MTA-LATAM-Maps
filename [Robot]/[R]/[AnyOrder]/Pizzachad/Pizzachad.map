@@ -1,0 +1,175 @@
+<map edf:definitions="editor_main,race,any_order_cp">
+	<!-- Spawnpoints -->
+	<spawnpoint id="spawnpoint (Pizzaboy) (1)" vehicle="448" alpha="255" interior="0" posX="-285.41992" posY="1515.6797" posZ="75.26" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (2)" vehicle="448" alpha="255" interior="0" posX="-270.76953" posY="1528.46" posZ="75.26" rotX="0" rotY="0" rotZ="84.902"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (3)" vehicle="448" alpha="255" interior="0" posX="-273.17999" posY="1528.08" posZ="75.26" rotX="0" rotY="0" rotZ="84.904"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (4)" vehicle="448" alpha="255" interior="0" posX="-272.66" posY="1526.96" posZ="75.26" rotX="0" rotY="0" rotZ="84.902"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (5)" vehicle="448" alpha="255" interior="0" posX="-272" posY="1525.83" posZ="75.26" rotX="0" rotY="0" rotZ="84.904"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (6)" vehicle="448" alpha="255" interior="0" posX="-274.45001" posY="1525.27" posZ="75.26" rotX="0" rotY="0" rotZ="84.902"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (7)" vehicle="448" alpha="255" interior="0" posX="-270.78" posY="1529.79" posZ="75.26" rotX="0" rotY="0" rotZ="84.902"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (8)" vehicle="448" alpha="255" interior="0" posX="-268.51999" posY="1528.9399" posZ="75.26" rotX="0" rotY="0" rotZ="84.902"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (9)" vehicle="448" alpha="255" interior="0" posX="-269.07999" posY="1530.26" posZ="75.26" rotX="0" rotY="0" rotZ="84.902"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (10)" vehicle="448" alpha="255" interior="0" posX="-269.07999" posY="1531.1899" posZ="75.26" rotX="0" rotY="0" rotZ="84.902"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (11)" vehicle="448" alpha="255" interior="0" posX="-266.82001" posY="1530.4399" posZ="75.26" rotX="0" rotY="0" rotZ="84.902"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (12)" vehicle="448" alpha="255" interior="0" posX="-265.97" posY="1531.38" posZ="75.26" rotX="0" rotY="0" rotZ="84.902"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (13)" vehicle="448" alpha="255" interior="0" posX="-268.04001" posY="1532.3199" posZ="75.26" rotX="0" rotY="0" rotZ="84.904"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (14)" vehicle="448" alpha="255" interior="0" posX="-266.06" posY="1532.79" posZ="75.26" rotX="0" rotY="0" rotZ="84.902"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (15)" vehicle="448" alpha="255" interior="0" posX="-266.53" posY="1534.39" posZ="75.26" rotX="0" rotY="0" rotZ="84.902"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (16)" vehicle="448" alpha="255" interior="0" posX="-263.79999" posY="1533.45" posZ="75.26" rotX="0" rotY="0" rotZ="84.902"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (17)" vehicle="448" alpha="255" interior="0" posX="-284.29001" posY="1516.62" posZ="75.26" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (18)" vehicle="448" alpha="255" interior="0" posX="-283.44" posY="1518.88" posZ="75.26" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (19)" vehicle="448" alpha="255" interior="0" posX="-282.31" posY="1517.1899" posZ="75.26" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (20)" vehicle="448" alpha="255" interior="0" posX="-283.16" posY="1515.5" posZ="75.26" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (21)" vehicle="448" alpha="255" interior="0" posX="-286.17001" posY="1513.24" posZ="75.26" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (22)" vehicle="448" alpha="255" interior="0" posX="-287.29999" posY="1515.03" posZ="75.26" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (23)" vehicle="448" alpha="255" interior="0" posX="-288.23999" posY="1513.8101" posZ="75.26" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (24)" vehicle="448" alpha="255" interior="0" posX="-290.03" posY="1513.15" posZ="75.26" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (25)" vehicle="448" alpha="255" interior="0" posX="-289.17999" posY="1511.55" posZ="75.26" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (26)" vehicle="448" alpha="255" interior="0" posX="-287.57999" posY="1511.46" posZ="75.26" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (27)" vehicle="448" alpha="255" interior="0" posX="-290.03" posY="1508.92" posZ="75.26" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (28)" vehicle="448" alpha="255" interior="0" posX="-290.97" posY="1511.08" posZ="75.26" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (29)" vehicle="448" alpha="255" interior="0" posX="-292.85001" posY="1510.7" posZ="75.26" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (30)" vehicle="448" alpha="255" interior="0" posX="-280.81" posY="1517.48" posZ="75.26" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (31)" vehicle="448" alpha="255" interior="0" posX="-263.23999" posY="1531.85" posZ="75.26" rotX="0" rotY="0" rotZ="84.902"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (32)" vehicle="448" alpha="255" interior="0" posX="-263.51999" posY="1534.86" posZ="75.26" rotX="0" rotY="0" rotZ="84.902"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (33)" vehicle="448" alpha="255" interior="0" posX="-264.17999" posY="1536.65" posZ="75.26" rotX="0" rotY="0" rotZ="84.902"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (34)" vehicle="448" alpha="255" interior="0" posX="-263.23999" posY="1538.0601" posZ="75.26" rotX="0" rotY="0" rotZ="84.902"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (35)" vehicle="448" alpha="255" interior="0" posX="-261.64001" posY="1539" posZ="75.26" rotX="0" rotY="0" rotZ="84.904"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (36)" vehicle="448" alpha="255" interior="0" posX="-258.35001" posY="1539.38" posZ="75.26" rotX="0" rotY="0" rotZ="84.902"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (37)" vehicle="448" alpha="255" interior="0" posX="-258.44" posY="1538.0601" posZ="75.26" rotX="0" rotY="0" rotZ="84.902"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (38)" vehicle="448" alpha="255" interior="0" posX="-260.23001" posY="1536.9301" posZ="75.26" rotX="0" rotY="0" rotZ="84.902"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (39)" vehicle="448" alpha="255" interior="0" posX="-260.42001" posY="1535.33" posZ="75.26" rotX="0" rotY="0" rotZ="84.902"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (40)" vehicle="448" alpha="255" interior="0" posX="-260.32999" posY="1533.54" posZ="75.26" rotX="0" rotY="0" rotZ="84.904"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (41)" vehicle="448" alpha="255" interior="0" posX="-256.47" posY="1535.14" posZ="75.26" rotX="0" rotY="0" rotZ="84.902"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (42)" vehicle="448" alpha="255" interior="0" posX="-256.38" posY="1533.0699" posZ="75.26" rotX="0" rotY="0" rotZ="84.904"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (43)" vehicle="448" alpha="255" interior="0" posX="-253.64999" posY="1534.5699" posZ="75.26" rotX="0" rotY="0" rotZ="84.904"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (44)" vehicle="448" alpha="255" interior="0" posX="-251.86" posY="1532.88" posZ="75.26" rotX="0" rotY="0" rotZ="135.818"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (45)" vehicle="448" alpha="255" interior="0" posX="-255.34" posY="1536.64" posZ="75.26" rotX="0" rotY="0" rotZ="84.902"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (46)" vehicle="448" alpha="255" interior="0" posX="-265.41" posY="1543.14" posZ="75.02" rotX="0" rotY="0" rotZ="133.089"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (47)" vehicle="448" alpha="255" interior="0" posX="-263.25" posY="1540.79" posZ="75.11" rotX="0" rotY="0" rotZ="133.089"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (48)" vehicle="448" alpha="255" interior="0" posX="-267.39001" posY="1545.3101" posZ="75.06" rotX="0" rotY="0" rotZ="133.088"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (49)" vehicle="448" alpha="255" interior="0" posX="-269.73999" posY="1547.85" posZ="75.06" rotX="0" rotY="0" rotZ="133.088"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (50)" vehicle="448" alpha="255" interior="0" posX="-272.19" posY="1550.39" posZ="75.06" rotX="0" rotY="0" rotZ="133.088"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (51)" vehicle="448" alpha="255" interior="0" posX="-274.64001" posY="1552.84" posZ="75.06" rotX="0" rotY="0" rotZ="133.088"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (52)" vehicle="448" alpha="255" interior="0" posX="-276.98999" posY="1555.38" posZ="75.06" rotX="0" rotY="0" rotZ="133.088"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (53)" vehicle="448" alpha="255" interior="0" posX="-279.62" posY="1558.11" posZ="75.06" rotX="0" rotY="0" rotZ="133.088"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (54)" vehicle="448" alpha="255" interior="0" posX="-281.97" posY="1560.37" posZ="75.06" rotX="0" rotY="0" rotZ="133.088"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (55)" vehicle="448" alpha="255" interior="0" posX="-284.23001" posY="1562.91" posZ="75.06" rotX="0" rotY="0" rotZ="133.088"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (56)" vehicle="448" alpha="255" interior="0" posX="-286.85999" posY="1565.26" posZ="75.06" rotX="0" rotY="0" rotZ="133.088"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (57)" vehicle="448" alpha="255" interior="0" posX="-289.01999" posY="1567.89" posZ="75.06" rotX="0" rotY="0" rotZ="133.088"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (58)" vehicle="448" alpha="255" interior="0" posX="-291.84" posY="1570.62" posZ="75.06" rotX="0" rotY="0" rotZ="133.088"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (59)" vehicle="448" alpha="255" interior="0" posX="-294.29001" posY="1572.97" posZ="75.06" rotX="0" rotY="0" rotZ="133.088"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (60)" vehicle="448" alpha="255" interior="0" posX="-296.64001" posY="1575.51" posZ="75.06" rotX="0" rotY="0" rotZ="133.088"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (61)" vehicle="448" alpha="255" interior="0" posX="-299.26999" posY="1577.67" posZ="75.06" rotX="0" rotY="0" rotZ="133.088"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (62)" vehicle="448" alpha="255" interior="0" posX="-301.62" posY="1580.3" posZ="75.06" rotX="0" rotY="0" rotZ="133.088"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (63)" vehicle="448" alpha="255" interior="0" posX="-304.07001" posY="1582.75" posZ="75.06" rotX="0" rotY="0" rotZ="133.088"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (64)" vehicle="448" alpha="255" interior="0" posX="-291.72" posY="1507.98" posZ="75.26" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (65)" vehicle="448" alpha="255" interior="0" posX="-293.88" posY="1509.49" posZ="75.26" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (66)" vehicle="448" alpha="255" interior="0" posX="-267.09" posY="1517.4301" posZ="83.92" rotX="0" rotY="0" rotZ="42.171"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (67)" vehicle="448" alpha="255" interior="0" posX="-270.48001" posY="1514.3199" posZ="83.92" rotX="0" rotY="0" rotZ="42.166"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (68)" vehicle="448" alpha="255" interior="0" posX="-273.59" posY="1511.6899" posZ="83.92" rotX="0" rotY="0" rotZ="42.166"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (69)" vehicle="448" alpha="255" interior="0" posX="-250.36" posY="1531.37" posZ="75.26" rotX="0" rotY="0" rotZ="135.813"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (70)" vehicle="448" alpha="255" interior="0" posX="-249.33" posY="1530.24" posZ="75.26" rotX="0" rotY="0" rotZ="135.813"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (71)" vehicle="448" alpha="255" interior="0" posX="-248.00999" posY="1529.21" posZ="75.26" rotX="0" rotY="0" rotZ="135.813"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (72)" vehicle="448" alpha="255" interior="0" posX="-246.60001" posY="1527.99" posZ="75.26" rotX="0" rotY="0" rotZ="135.813"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (73)" vehicle="448" alpha="255" interior="0" posX="-245.56" posY="1526.67" posZ="75.26" rotX="0" rotY="0" rotZ="135.813"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (74)" vehicle="448" alpha="255" interior="0" posX="-244.34" posY="1525.54" posZ="75.26" rotX="0" rotY="0" rotZ="135.813"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (75)" vehicle="448" alpha="255" interior="0" posX="-242.92999" posY="1523.9399" posZ="75.26" rotX="0" rotY="0" rotZ="135.818"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (76)" vehicle="448" alpha="255" interior="0" posX="-245.19" posY="1523.38" posZ="75.26" rotX="0" rotY="0" rotZ="135.813"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (77)" vehicle="448" alpha="255" interior="0" posX="-246.60001" posY="1524.7" posZ="75.26" rotX="0" rotY="0" rotZ="135.813"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (78)" vehicle="448" alpha="255" interior="0" posX="-248.2" posY="1525.74" posZ="75.26" rotX="0" rotY="0" rotZ="135.813"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (79)" vehicle="448" alpha="255" interior="0" posX="-248.95" posY="1527.25" posZ="75.26" rotX="0" rotY="0" rotZ="135.813"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (80)" vehicle="448" alpha="255" interior="0" posX="-250.55" posY="1527.53" posZ="75.26" rotX="0" rotY="0" rotZ="135.813"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (81)" vehicle="448" alpha="255" interior="0" posX="-252.06" posY="1528.28" posZ="75.26" rotX="0" rotY="0" rotZ="135.813"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (82)" vehicle="448" alpha="255" interior="0" posX="-252.44" posY="1530.63" posZ="75.26" rotX="0" rotY="0" rotZ="135.813"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (83)" vehicle="448" alpha="255" interior="0" posX="-254.60001" posY="1532.04" posZ="75.26" rotX="0" rotY="0" rotZ="135.813"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (84)" vehicle="448" alpha="255" interior="0" posX="-242.64999" posY="1522.0699" posZ="75.26" rotX="0" rotY="0" rotZ="135.813"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (85)" vehicle="448" alpha="255" interior="0" posX="-314.81" posY="1514.23" posZ="75.11" rotX="0" rotY="0" rotZ="3.656"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (86)" vehicle="448" alpha="255" interior="0" posX="-318.38" posY="1514.23" posZ="75.11" rotX="0" rotY="0" rotZ="3.653"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (87)" vehicle="448" alpha="255" interior="0" posX="-321.20001" posY="1514.23" posZ="75.11" rotX="0" rotY="0" rotZ="3.653"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (88)" vehicle="448" alpha="255" interior="0" posX="-324.29999" posY="1514.23" posZ="75.11" rotX="0" rotY="0" rotZ="3.653"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (89)" vehicle="448" alpha="255" interior="0" posX="-327.5" posY="1514.23" posZ="75.11" rotX="0" rotY="0" rotZ="3.653"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (90)" vehicle="448" alpha="255" interior="0" posX="-330.51001" posY="1514.23" posZ="75.11" rotX="0" rotY="0" rotZ="3.653"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (91)" vehicle="448" alpha="255" interior="0" posX="-333.60999" posY="1514.23" posZ="75.11" rotX="0" rotY="0" rotZ="3.653"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (92)" vehicle="448" alpha="255" interior="0" posX="-336.62" posY="1514.23" posZ="75.11" rotX="0" rotY="0" rotZ="3.653"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (93)" vehicle="448" alpha="255" interior="0" posX="-339.44" posY="1514.23" posZ="75.11" rotX="0" rotY="0" rotZ="3.653"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (94)" vehicle="448" alpha="255" interior="0" posX="-342.26001" posY="1514.23" posZ="75.11" rotX="0" rotY="0" rotZ="3.653"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (95)" vehicle="448" alpha="255" interior="0" posX="-345.45999" posY="1514.23" posZ="75.11" rotX="0" rotY="0" rotZ="3.653"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (96)" vehicle="448" alpha="255" interior="0" posX="-275.42001" posY="1491.76" posZ="75.26" rotX="0" rotY="0" rotZ="45.815"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (97)" vehicle="448" alpha="255" interior="0" posX="-260.26001" posY="1501.17" posZ="83.92" rotX="0" rotY="0" rotZ="-132.557"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (98)" vehicle="448" alpha="255" interior="0" posX="-253.87" posY="1503.37" posZ="75.23" rotX="0" rotY="0" rotZ="118.504"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (99)" vehicle="448" alpha="255" interior="0" posX="-290.66" posY="1532.96" posZ="75.03" rotX="0" rotY="0" rotZ="-159.836"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (100)" vehicle="448" alpha="255" interior="0" posX="-292.26001" posY="1532.6801" posZ="75.03" rotX="0" rotY="0" rotZ="-159.84"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (101)" vehicle="448" alpha="255" interior="0" posX="-293.67001" posY="1532.6801" posZ="75.03" rotX="0" rotY="0" rotZ="-159.84"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (102)" vehicle="448" alpha="255" interior="0" posX="-295.07999" posY="1532.6801" posZ="75.03" rotX="0" rotY="0" rotZ="-159.84"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (103)" vehicle="448" alpha="255" interior="0" posX="-296.76999" posY="1532.6801" posZ="75.03" rotX="0" rotY="0" rotZ="-159.84"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (104)" vehicle="448" alpha="255" interior="0" posX="-298.26999" posY="1532.6801" posZ="75.03" rotX="0" rotY="0" rotZ="-159.84"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (105)" vehicle="448" alpha="255" interior="0" posX="-299.87" posY="1532.6801" posZ="75.03" rotX="0" rotY="0" rotZ="-159.84"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (106)" vehicle="448" alpha="255" interior="0" posX="-301.38" posY="1532.6801" posZ="75.03" rotX="0" rotY="0" rotZ="-159.84"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (107)" vehicle="448" alpha="255" interior="0" posX="-302.98001" posY="1532.6801" posZ="75.03" rotX="0" rotY="0" rotZ="-159.84"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (108)" vehicle="448" alpha="255" interior="0" posX="-288.51999" posY="1509.1" posZ="75.26" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (109)" vehicle="448" alpha="255" interior="0" posX="-284.38" posY="1513.99" posZ="75.26" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (110)" vehicle="448" alpha="255" interior="0" posX="-286.26001" posY="1515.97" posZ="75.26" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (111)" vehicle="448" alpha="255" interior="0" posX="-291.72" posY="1511.74" posZ="75.26" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (112)" vehicle="448" alpha="255" interior="0" posX="-263.79999" posY="1535.71" posZ="75.26" rotX="0" rotY="0" rotZ="84.902"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (113)" vehicle="448" alpha="255" interior="0" posX="-258.63" posY="1534.3" posZ="75.26" rotX="0" rotY="0" rotZ="84.902"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (114)" vehicle="448" alpha="255" interior="0" posX="-257.88" posY="1536.1801" posZ="75.26" rotX="0" rotY="0" rotZ="84.902"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (115)" vehicle="448" alpha="255" interior="0" posX="-260.89001" posY="1539.9399" posZ="75.26" rotX="0" rotY="0" rotZ="84.902"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (116)" vehicle="448" alpha="255" interior="0" posX="-259.10001" posY="1540.6899" posZ="75.26" rotX="0" rotY="0" rotZ="84.902"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (117)" vehicle="448" alpha="255" interior="0" posX="-268.13" posY="1533.54" posZ="75.26" rotX="0" rotY="0" rotZ="84.902"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (118)" vehicle="448" alpha="255" interior="0" posX="-269.64001" posY="1527.71" posZ="75.26" rotX="0" rotY="0" rotZ="84.902"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (119)" vehicle="448" alpha="255" interior="0" posX="-270.64001" posY="1527.14" posZ="75.26" rotX="0" rotY="0" rotZ="84.902"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (120)" vehicle="448" alpha="255" interior="0" posX="-274.97" posY="1526.67" posZ="75.26" rotX="0" rotY="0" rotZ="84.902"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (121)" vehicle="448" alpha="255" interior="0" posX="-261.56" posY="1536.27" posZ="75.26" rotX="0" rotY="0" rotZ="84.904"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (122)" vehicle="448" alpha="255" interior="0" posX="-261.37" posY="1532.42" posZ="75.26" rotX="0" rotY="0" rotZ="84.902"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (123)" vehicle="448" alpha="255" interior="0" posX="-260.70999" posY="1537.87" posZ="75.26" rotX="0" rotY="0" rotZ="84.902"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (124)" vehicle="448" alpha="255" interior="0" posX="-288.72" posY="1538.6899" posZ="75.03" rotX="0" rotY="0" rotZ="-47.713"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (125)" vehicle="448" alpha="255" interior="0" posX="-289.57001" posY="1539.54" posZ="75.03" rotX="0" rotY="0" rotZ="-47.714"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (126)" vehicle="448" alpha="255" interior="0" posX="-290.51001" posY="1540.5699" posZ="75.03" rotX="0" rotY="0" rotZ="-47.714"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (127)" vehicle="448" alpha="255" interior="0" posX="-291.35999" posY="1541.51" posZ="75.03" rotX="0" rotY="0" rotZ="-47.714"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (128)" vehicle="448" alpha="255" interior="0" posX="-292.48999" posY="1542.45" posZ="75.03" rotX="0" rotY="0" rotZ="-47.714"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (129)" vehicle="448" alpha="255" interior="0" posX="-293.42999" posY="1543.49" posZ="75.03" rotX="0" rotY="0" rotZ="-47.714"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (130)" vehicle="448" alpha="255" interior="0" posX="-294.28" posY="1544.53" posZ="75.03" rotX="0" rotY="0" rotZ="-47.714"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (131)" vehicle="448" alpha="255" interior="0" posX="-295.32001" posY="1545.5699" posZ="75.03" rotX="0" rotY="0" rotZ="-47.714"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (132)" vehicle="448" alpha="255" interior="0" posX="-296.54001" posY="1546.7" posZ="75.03" rotX="0" rotY="0" rotZ="-47.714"></spawnpoint>
+	<spawnpoint id="spawnpoint (Pizzaboy) (133)" vehicle="448" alpha="255" interior="0" posX="-297.39001" posY="1547.74" posZ="75.03" rotX="0" rotY="0" rotZ="-47.714"></spawnpoint>
+	<!-- Real (any_order_cp) checkpoints -->
+	<checkpoint_any_order id="checkpoint_any_order (1)" type="checkpoint" blipcolor="#FDCB0099" color="#FDCB0099" extracolshapesize="4" blipsize="2.5" size="8" interior="0" posX="-1724.2402" posY="1360.0898" posZ="6.23" rotX="0" rotY="0" rotZ="0"></checkpoint_any_order>
+	<checkpoint_any_order id="checkpoint_any_order (2)" type="checkpoint" blipcolor="#FDCB0099" color="#FDCB0099" extracolshapesize="4" blipsize="2.5" size="8" alpha="255" interior="0" posX="-1806.5601" posY="943.98999" posZ="23.93" rotX="0" rotY="0" rotZ="0"></checkpoint_any_order>
+	<checkpoint_any_order id="checkpoint_any_order (3)" type="checkpoint" blipcolor="#FDCB0099" color="#FDCB0099" extracolshapesize="4" blipsize="2.5" size="8" alpha="255" interior="0" posX="207.66" posY="-205.78" posZ="0.58" rotX="0" rotY="0" rotZ="0"></checkpoint_any_order>
+	<checkpoint_any_order id="checkpoint_any_order (4)" type="checkpoint" blipcolor="#FDCB0099" color="#FDCB0099" extracolshapesize="4" blipsize="2.5" size="8" alpha="255" interior="0" posX="1362.0601" posY="250.67" posZ="18.57" rotX="0" rotY="0" rotZ="0"></checkpoint_any_order>
+	<checkpoint_any_order id="checkpoint_any_order (5)" type="checkpoint" blipcolor="#FDCB0099" color="#FDCB0099" extracolshapesize="4" blipsize="2.5" size="8" alpha="255" interior="0" posX="2335.6299" posY="75.55" posZ="25.52" rotX="0" rotY="0" rotZ="0"></checkpoint_any_order>
+	<checkpoint_any_order id="checkpoint_any_order (6)" type="checkpoint" blipcolor="#FDCB0099" color="#FDCB0099" extracolshapesize="4" blipsize="2.5" size="8" alpha="255" interior="0" posX="2082.5901" posY="2220.8301" posZ="9.86" rotX="0" rotY="0" rotZ="0"></checkpoint_any_order>
+	<checkpoint_any_order id="checkpoint_any_order (7)" type="checkpoint" blipcolor="#FDCB0099" color="#FDCB0099" extracolshapesize="4" blipsize="2.5" size="8" alpha="255" interior="0" posX="1748.76" posY="2193.73" posZ="9.86" rotX="0" rotY="0" rotZ="0"></checkpoint_any_order>
+	<checkpoint_any_order id="checkpoint_any_order (8)" type="checkpoint" blipcolor="#FDCB0099" color="#FDCB0099" extracolshapesize="4" blipsize="2.5" size="8" alpha="255" interior="0" posX="2633.5701" posY="1849.84" posZ="9.86" rotX="0" rotY="0" rotZ="0"></checkpoint_any_order>
+	<checkpoint_any_order id="checkpoint_any_order (9)" type="checkpoint" blipcolor="#FDCB0099" color="#FDCB0099" extracolshapesize="4" blipsize="2.5" size="8" alpha="255" interior="0" posX="2535.8799" posY="2149.5701" posZ="9.86" rotX="0" rotY="0" rotZ="0"></checkpoint_any_order>
+	<checkpoint_any_order id="checkpoint_any_order (10)" type="checkpoint" blipcolor="#FDCB0099" color="#FDCB0099" extracolshapesize="4" blipsize="2.5" size="8" alpha="255" interior="0" posX="2470.1299" posY="2129.6201" posZ="9.86" rotX="0" rotY="0" rotZ="0"></checkpoint_any_order>
+	<checkpoint_any_order id="checkpoint_any_order (11)" type="checkpoint" blipcolor="#FDCB0099" color="#FDCB0099" extracolshapesize="4" blipsize="2.5" size="8" alpha="255" interior="0" posX="2325.51" posY="2527.04" posZ="9.86" rotX="0" rotY="0" rotZ="0"></checkpoint_any_order>
+	<checkpoint_any_order id="checkpoint_any_order (12)" type="checkpoint" blipcolor="#FDCB0099" color="#FDCB0099" extracolshapesize="4" blipsize="2.5" size="8" alpha="255" interior="0" posX="2754.5601" posY="2474.76" posZ="10.06" rotX="0" rotY="0" rotZ="0"></checkpoint_any_order>
+	<checkpoint_any_order id="checkpoint_any_order (13)" type="checkpoint" blipcolor="#FDCB0099" color="#FDCB0099" extracolshapesize="4" blipsize="2.5" size="8" alpha="255" interior="0" posX="2098.1899" posY="-1806.63" posZ="12.59" rotX="0" rotY="0" rotZ="0"></checkpoint_any_order>
+	<!-- Dummy (race) checkpoints -->
+	<checkpoint id="checkpoint () (1)" extracolshapesize="0" type="ring" color="#FF00FFFF" blipsize="0" size="0" alpha="255" interior="0" nextid="checkpoint () (2)" posX="-346.67187" posY="1595.0781" posZ="166" rotX="0" rotY="0" rotZ="0"></checkpoint>
+	<checkpoint id="checkpoint () (2)" extracolshapesize="0" type="ring" color="#FF00FFFF" blipsize="0" size="0" alpha="255" interior="0" nextid="checkpoint () (3)" posX="-346.67187" posY="1595.0781" posZ="266" rotX="0" rotY="0" rotZ="0"></checkpoint>
+	<checkpoint id="checkpoint () (3)" extracolshapesize="0" type="ring" color="#FF00FFFF" blipsize="0" size="0" alpha="255" interior="0" nextid="checkpoint () (4)" posX="-346.67187" posY="1595.0781" posZ="366" rotX="0" rotY="0" rotZ="0"></checkpoint>
+	<checkpoint id="checkpoint () (4)" extracolshapesize="0" type="ring" color="#FF00FFFF" blipsize="0" size="0" alpha="255" interior="0" nextid="checkpoint () (5)" posX="-346.67187" posY="1595.0781" posZ="466" rotX="0" rotY="0" rotZ="0"></checkpoint>
+	<checkpoint id="checkpoint () (5)" extracolshapesize="0" type="ring" color="#FF00FFFF" blipsize="0" size="0" alpha="255" interior="0" nextid="checkpoint () (6)" posX="-346.67187" posY="1595.0781" posZ="566" rotX="0" rotY="0" rotZ="0"></checkpoint>
+	<checkpoint id="checkpoint () (6)" extracolshapesize="0" type="ring" color="#FF00FFFF" blipsize="0" size="0" alpha="255" interior="0" nextid="checkpoint () (7)" posX="-346.67187" posY="1595.0781" posZ="666" rotX="0" rotY="0" rotZ="0"></checkpoint>
+	<checkpoint id="checkpoint () (7)" extracolshapesize="0" type="ring" color="#FF00FFFF" blipsize="0" size="0" alpha="255" interior="0" nextid="checkpoint () (8)" posX="-346.67187" posY="1595.0781" posZ="766" rotX="0" rotY="0" rotZ="0"></checkpoint>
+	<checkpoint id="checkpoint () (8)" extracolshapesize="0" type="ring" color="#FF00FFFF" blipsize="0" size="0" alpha="255" interior="0" nextid="checkpoint () (9)" posX="-346.67187" posY="1595.0781" posZ="866" rotX="0" rotY="0" rotZ="0"></checkpoint>
+	<checkpoint id="checkpoint () (9)" extracolshapesize="0" type="ring" color="#FF00FFFF" blipsize="0" size="0" alpha="255" interior="0" nextid="checkpoint () (10)" posX="-346.67187" posY="1595.0781" posZ="966" rotX="0" rotY="0" rotZ="0"></checkpoint>
+	<checkpoint id="checkpoint () (10)" extracolshapesize="0" type="ring" color="#FF00FFFF" blipsize="0" size="0" alpha="255" interior="0" nextid="checkpoint () (11)" posX="-346.67187" posY="1595.0781" posZ="1066" rotX="0" rotY="0" rotZ="0"></checkpoint>
+	<checkpoint id="checkpoint () (11)" extracolshapesize="0" type="ring" color="#FF00FFFF" blipsize="0" size="0" alpha="255" interior="0" nextid="checkpoint () (12)" posX="-346.67187" posY="1595.0781" posZ="1166" rotX="0" rotY="0" rotZ="0"></checkpoint>
+	<checkpoint id="checkpoint () (12)" extracolshapesize="0" type="ring" color="#FF00FFFF" blipsize="0" size="0" alpha="255" interior="0" nextid="checkpoint () (13)" posX="-346.67187" posY="1595.0781" posZ="1266" rotX="0" rotY="0" rotZ="0"></checkpoint>
+	<checkpoint id="checkpoint () (13)" extracolshapesize="0" type="ring" color="#FF00FFFF" blipsize="0" size="0" alpha="255" interior="0" posX="-346.67187" posY="1595.0781" posZ="1366" rotX="0" rotY="0" rotZ="0"></checkpoint>
+	<!-- Objects -->
+	<object id="object (carpark_sfn01) (1)" breakable="false" interior="0" alpha="255" dimension="0" model="9254" scale="1" doublesided="false" collisions="true" frozen="false" posX="845.96002" posY="894.45001" posZ="13.16" rotX="-1.036" rotY="-0.161" rotZ="-154.345"></object>
+	<object id="object (CE_pizza1) (1)" breakable="false" interior="0" alpha="255" dimension="0" model="13361" scale="1" doublesided="false" collisions="true" frozen="false" posX="-266.20996" posY="1515.6904" posZ="81.45" rotX="0" rotY="0" rotZ="42.501"></object>
+	<object id="object (Gen_doorEXT05) (1)" breakable="false" interior="0" alpha="255" dimension="0" model="1500" scale="1" doublesided="false" collisions="true" frozen="false" posX="-270.57001" posY="1515.49" posZ="74.54" rotX="0" rotY="0" rotZ="-136.569"></object>
+	<object id="object (SFNvilla001_CM) (1)" breakable="false" interior="0" alpha="255" dimension="0" model="9339" scale="1" doublesided="false" collisions="true" frozen="false" posX="-249.59" posY="1533.63" posZ="75.2" rotX="0" rotY="0" rotZ="44.784"></object>
+	<object id="object (SFNvilla001_CM) (2)" breakable="false" interior="0" alpha="255" dimension="0" model="9339" scale="1" doublesided="false" collisions="true" frozen="false" posX="-246.8" posY="1530.83" posZ="75.2" rotX="0" rotY="0" rotZ="44.78"></object>
+	<object id="object (SFNvilla001_CM) (3)" breakable="false" interior="0" alpha="255" dimension="0" model="9339" scale="1" doublesided="false" collisions="true" frozen="false" posX="-247.25" posY="1512.88" posZ="75.2" rotX="0" rotY="0" rotZ="-47.624"></object>
+	<object id="object (DYN_DUMPSTER_1) (1)" breakable="false" interior="0" alpha="255" dimension="0" model="1439" scale="1" doublesided="false" collisions="true" frozen="false" posX="-274.81" posY="1494.74" posZ="74.59" rotX="0" rotY="0" rotZ="-42.732"></object>
+	<object id="object (DYN_DUMPSTER_1) (2)" breakable="false" interior="0" alpha="255" dimension="0" model="1439" scale="1" doublesided="false" collisions="true" frozen="false" posX="-273.54999" posY="1493.12" posZ="74.59" rotX="0" rotY="0" rotZ="-56.375"></object>
+	<object id="object (CJ_PIZZA_2) (1)" breakable="false" interior="0" alpha="255" dimension="0" model="2881" scale="1" doublesided="false" collisions="true" frozen="false" posX="-274.79999" posY="1494.3" posZ="75.35" rotX="-5.426" rotY="-80.531" rotZ="-29.553"></object>
+	<object id="object (newramp) (1)" breakable="false" interior="0" alpha="255" dimension="0" model="1245" scale="1" doublesided="false" collisions="true" posX="-248.24001" posY="1516.1801" posZ="75.31" rotX="-1.918" rotY="-9.077" rotZ="129.457"></object>
+</map>

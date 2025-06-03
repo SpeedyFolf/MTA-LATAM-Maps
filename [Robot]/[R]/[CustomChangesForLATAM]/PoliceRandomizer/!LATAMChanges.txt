@@ -1,0 +1,2 @@
+Removed setting FPS limit to 60 on resource start and 30 on resource stop
+Removed 60FPS from map name

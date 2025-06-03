@@ -1,4 +1,5 @@
 <map edf:definitions="editor_main,race">
+    <checkpoint id="checkpoint () (1)" type="corona" color="#FFFFFF" blipsize="0" size="2.25" interior="0" posX="-3000" posY="3000" posZ="-50" rotX="0" rotY="0" rotZ="0" scale="0"></checkpoint>
     <spawnpoint id="spawnpoint (NRG-500) (1)" vehicle="522" posX="-250" posY="-643.5" posZ="162" rotX="0" rotY="0" rotZ="0"></spawnpoint>
     <spawnpoint id="spawnpoint (NRG-500) (1)" vehicle="522" alpha="255" interior="0" posX="-250" posY="-640" posZ="162" rotX="0" rotY="0" rotZ="0"></spawnpoint>
     <spawnpoint id="spawnpoint (NRG-500) (1)" vehicle="522" alpha="255" interior="0" posX="-250" posY="-636.5" posZ="162" rotX="0" rotY="0" rotZ="0"></spawnpoint>

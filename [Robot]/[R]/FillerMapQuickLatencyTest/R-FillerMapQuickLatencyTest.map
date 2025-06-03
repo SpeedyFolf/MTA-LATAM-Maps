@@ -1,10 +1,19 @@
 <map edf:definitions="editor_main,race">
+    <spawnpoint id="spawnpoint (Mesa Super FleischBerg Autos)" vehicle="500" interior="0" posX="2351.7" posY="-651.20001" posZ="128.3" rotX="0" rotY="0" rotZ="-180"></spawnpoint>
+    <spawnpoint id="spawnpoint (A Range of Emotions)" vehicle="608" interior="0" posX="1964.9" posY="1915.9" posZ="131.5" rotX="0" rotY="0" rotZ="-146.008"></spawnpoint>
+    <spawnpoint id="spawnpoint (PCJ Playground: Las Venturas Edition)" vehicle="461" interior="0" posX="2201.5" posY="1285.3" posZ="23.2" rotX="0" rotY="0" rotZ="-90"></spawnpoint>
+    <spawnpoint id="spawnpoint (High-Octane Oddities 2)" vehicle="510" interior="0" posX="185.2" posY="1456.1" posZ="59.8" rotX="0" rotY="0" rotZ="-72"></spawnpoint>
+    <spawnpoint id="spawnpoint (Rest In Peace Movie Theatre Route)" vehicle="526" interior="0" posX="110.7" posY="1073.7" posZ="13.5" rotX="0" rotY="0" rotZ="-180"></spawnpoint>
+    <spawnpoint id="spawnpoint (Explosive Situation)" vehicle="406" interior="0" posX="684.158" posY="899.4011" posZ="-38" rotX="0" rotY="0" rotZ="50"></spawnpoint>
+    <spawnpoint id="spawnpoint (WooziesJizzyAttackFailure)" vehicle="401" interior="0" posX="-2178.8999" posY="714.20001" posZ="53.8" rotX="0" rotY="0" rotZ="179.995"></spawnpoint>
+    <spawnpoint id="spawnpoint (FleischBerg Flatbed)" vehicle="455" interior="0" posX="-535.7998" posY="-499.5" posZ="26.1" rotX="0" rotY="0" rotZ="90"></spawnpoint>
+    <spawnpoint id="spawnpoint (BeachDisaster)" vehicle="416" posX="-2201.6001" posY="-2314.7" posZ="30.9" rotX="0" rotY="0" rotZ="330"></spawnpoint>
+    <spawnpoint id="spawnpoint (AShipmentForTheVagos)" vehicle="403" interior="0" posX="2758.3" posY="-2372.8999" posZ="14.3" rotX="0" rotY="0" rotZ="180"></spawnpoint>
     <spawnpoint id="spawnpoint (Oceanic in the Ocean)" vehicle="467" posX="-3681.8999" posY="-291.5799" posZ="0.9" rotX="0" rotY="0" rotZ="270"></spawnpoint>
-    <spawnpoint id="spawnpoint (Quarry)" vehicle="581" posX="565.29999" posY="823.90002" posZ="-22.4" rotX="0" rotY="0" rotZ="282"></spawnpoint>
     <spawnpoint id="spawnpoint (CARWASH)" vehicle="421" posX="2454.5" posY="-1461.075" posZ="24" rotX="0" rotY="0" rotZ="270"></spawnpoint>
     <spawnpoint id="spawnpoint (Empty Property LS)" vehicle="486" posX="2519.8999" posY="-1537.1" posZ="23.8" rotX="0" rotY="0" rotZ="0"></spawnpoint>
     <spawnpoint id="spawnpoint (Tanker Trucking Area)" vehicle="514" posX="-71" posY="-1133.8" posZ="1.8" rotX="0" rotY="0" rotZ="66"></spawnpoint>
-    <spawnpoint id="spawnpoint (Black Project Jetpack but not a Jetpack)" vehicle="510" posX="268.5" posY="1883.95" posZ="-29.25" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (Black Project Jetpack but not a Jetpack)" vehicle="610" posX="268.5" posY="1883.9502" posZ="-29.25" rotX="0" rotY="0" rotZ="0"></spawnpoint>
     <spawnpoint id="spawnpoint (Area 51 Sam Site)" vehicle="564" posX="237.8" posY="1685.5" posZ="21.85" rotX="0" rotY="0" rotZ="0"></spawnpoint>
     <spawnpoint id="spawnpoint (Welcome To Fabulous Las Venturas)" vehicle="565" posX="946.09998" posY="2584.8" posZ="10.3" rotX="0" rotY="0" rotZ="240"></spawnpoint>
     <spawnpoint id="spawnpoint (Lil&apos; Probe&apos;Inn)" vehicle="478" posX="-66.1" posY="1387.48" posZ="9.71" rotX="0" rotY="0" rotZ="98"></spawnpoint>
@@ -12,7 +21,6 @@
     <spawnpoint id="spawnpoint (NO ENTRY UNSAFE BUILDING)" vehicle="558" posX="-1979.2" posY="475.89999" posZ="28.7" rotX="0" rotY="0" rotZ="180"></spawnpoint>
     <spawnpoint id="spawnpoint (Pay n&apos; Spray)" vehicle="600" posX="2063.1001" posY="-1831.4" posZ="13.2" rotX="0" rotY="0" rotZ="90"></spawnpoint>
     <spawnpoint id="spawnpoint (Unmarked Pay n&apos; Spray LV)" vehicle="527" posX="2393.8" posY="1491.4" posZ="10.6" rotX="0" rotY="0" rotZ="0"></spawnpoint>
-    <spawnpoint id="spawnpoint (Underwater Race but not an NRG)" vehicle="462" posX="-1723.6" posY="-688.59998" posZ="-20.8" rotX="0" rotY="0" rotZ="279.998"></spawnpoint>
     <spawnpoint id="spawnpoint (Shack near Angel Pine)" vehicle="471" posX="-1635.6" posY="-2251" posZ="31" rotX="0" rotY="0" rotZ="90"></spawnpoint>
     <spawnpoint id="spawnpoint (SF Airport Wireless Symbol Hole in 6)" vehicle="528" posX="-1489.6" posY="-373.89999" posZ="15.46" rotX="1.3" rotY="0" rotZ="315"></spawnpoint>
     <spawnpoint id="spawnpoint (Find Your Way: Go To Grove Street)" vehicle="602" interior="0" posX="-782.20001" posY="2768.6001" posZ="45.6" rotX="0" rotY="0" rotZ="-180"></spawnpoint>
@@ -27,11 +35,11 @@
     <spawnpoint id="spawnpoint (Dodo SF-Desert Bridge)" vehicle="593" posX="-1267" posY="966.19" posZ="103.2" rotX="0" rotY="0" rotZ="138"></spawnpoint>
     <spawnpoint id="spawnpoint (SF Park)" vehicle="464" posX="-2807.3999" posY="1162.5" posZ="25.9" rotX="0" rotY="0" rotZ="179"></spawnpoint>
     <spawnpoint id="spawnpoint (Los Santos Forum)" vehicle="494" posX="2737.8" posY="-1760.3" posZ="44" rotX="0" rotY="0" rotZ="40"></spawnpoint>
-    <spawnpoint id="spawnpoint (Blackfield Stadium)" vehicle="468" posX="1096.4" posY="1529.5" posZ="52.2" rotX="0" rotY="0" rotZ="338"></spawnpoint>
+    <spawnpoint id="spawnpoint (Blackfield Stadium)" vehicle="468" posX="1096.4004" posY="1529.5" posZ="52.2" rotX="0" rotY="0" rotZ="-22"></spawnpoint>
     <spawnpoint id="spawnpoint (LV Pyramid Turismo Jump)" vehicle="451" posX="2324.3999" posY="1395.8" posZ="42.5" rotX="0" rotY="0" rotZ="148"></spawnpoint>
     <spawnpoint id="spawnpoint (Stowaway Andromada)" vehicle="592" posX="353.70001" posY="2502.3999" posZ="17.6" rotX="0" rotY="0" rotZ="90"></spawnpoint>
     <spawnpoint id="spawnpoint (AT-400 LV Airport)" vehicle="577" posX="1584.5996" posY="1187.9004" posZ="10.9" rotX="0" rotY="0" rotZ="0"></spawnpoint>
-    <spawnpoint id="spawnpoint (Random Downtown Garage Fortune)" vehicle="526" posX="1518.9" posY="-1460.3" posZ="9.33" rotX="0" rotY="0" rotZ="180"></spawnpoint>
+    <spawnpoint id="spawnpoint (Random Downtown Garage)" vehicle="546" posX="1518.9004" posY="-1460.2998" posZ="9.33" rotX="0" rotY="0" rotZ="179.995"></spawnpoint>
     <spawnpoint id="spawnpoint (True 100%+ Hydra)" vehicle="520" posX="-1631.2" posY="655.70001" posZ="-4.6" rotX="0" rotY="0" rotZ="0"></spawnpoint>
     <spawnpoint id="spawnpoint (Battle Deluxe Seasparrow)" vehicle="447" posX="2107.3501" posY="-100.6" posZ="2" rotX="0" rotY="0" rotZ="78.12"></spawnpoint>
     <spawnpoint id="spawnpoint (Los Santos Observatory)" vehicle="458" posX="1095" posY="-2037.025" posZ="82.7" rotX="0" rotY="0" rotZ="270"></spawnpoint>
@@ -63,7 +71,7 @@
     <spawnpoint id="spawnpoint (Minigun Spawn SF Train Bridge)" vehicle="426" posX="-1497.0996" posY="589.90039" posZ="42" rotX="0" rotY="0" rotZ="305.997"></spawnpoint>
     <spawnpoint id="spawnpoint (Beware! Tornado ending jump)" vehicle="576" interior="0" posX="-284.79999" posY="2662.3999" posZ="62.4" rotX="0" rotY="0" rotZ="270"></spawnpoint>
     <spawnpoint id="spawnpoint (Lost everything but my Blade)" vehicle="536" posX="-2351.7002" posY="1487.4004" posZ="1" rotX="0" rotY="0" rotZ="0"></spawnpoint>
-    <spawnpoint id="spawnpoint (Desert Cock)" vehicle="461" alpha="255" interior="0" posX="-425.79999" posY="2504.5" posZ="125.2" rotX="0" rotY="0" rotZ="85.99"></spawnpoint>
+    <spawnpoint id="spawnpoint (Desert Cock)" vehicle="581" alpha="255" interior="0" posX="-425.7998" posY="2504.5" posZ="125.2" rotX="0" rotY="0" rotZ="85.99"></spawnpoint>
     <spawnpoint id="spawnpoint (Centre of the map)" vehicle="400" posX="0" posY="0" posZ="3.3" rotX="0" rotY="0" rotZ="0"></spawnpoint>
     <spawnpoint id="spawnpoint (Hunter Verdant Meadows)" vehicle="425" posX="365.39999" posY="2537" posZ="17.55" rotX="0" rotY="0" rotZ="179.995"></spawnpoint>
     <spawnpoint id="spawnpoint (Super FleischBergcopysr; Autos)" vehicle="411" alpha="255" interior="0" posX="-50.2" posY="-222.3" posZ="5.2" rotX="0" rotY="0" rotZ="90"></spawnpoint>

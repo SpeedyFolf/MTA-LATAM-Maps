@@ -1,20 +1,17 @@
 <meta>
+    <include resource="vehicle-formula" />
+
     <script src="race/race_unloader.lua" type="client"></script>
     <script src="race/peds.lua" type="client"></script>
     <script src="race/race_client.lua" type="client"></script>
     <script src="race/weather.lua" type="server"></script>
     <script src="map/models.lua" type="client"></script>
     <script src="map/clouds.lua" type="client"></script>
-    <info gamemodes="race" racetype="R" type="map" name="Nürburgring 24hr" author="[SKC]" version="1.4"></info>
+    <info gamemodes="race" type="map" racetype="R" name="Nürburgring 24hr" author="[SKC]" version="1.4"></info>
     <map src="race/race-nurburgring24hr.map" dimension="0"></map>
 
     <script src="shader_clouds_remover/noclouds.lua" type="client" />
-    <file src="shader_clouds_remover/texreplace.fx"/>
-
-    <file src="vehicle-formula/model.dff" />
-    <file src="vehicle-formula/texture.txd" />
-    <script src="vehicle-formula/car.lua" type="client" />
-    <script src="vehicle-formula/handling.lua" type="client" />
+    <file src="shader_clouds_remover/texreplace.fx" />
 
     <settings>
         <setting name="#autopimp" value="[ &quot;false&quot; ]"></setting>

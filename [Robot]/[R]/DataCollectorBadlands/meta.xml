@@ -1,6 +1,6 @@
 <meta>
     <min_mta_version server="1.5.8-9.20957"></min_mta_version>
-    <info gamemodes="race" type="map" racetype="R" name="Data Collector: Badlands" author="Discoordination" version="1.0.0" description="Every time you play this race you get a new vehicle! Only toptime is stored in custom leaderboards!"></info>
+    <info gamemodes="race" type="map" racetype="R" name="Data Collector: Badlands" author="Discoordination" version="1.0.0" description="Every time you play this race you get a new vehicle! You can view records for vehicles by pressing F5 and view more by using your left and right arrow keys. Only toptime is stored in custom leaderboards! In this edition you start in Las Colinas and make your way to Fern Ridge."></info>
     <map src="DataCollectorBadlands.map" dimension="0"></map>
     <settings>
         <setting name="#skins" value='[ 58 ]'></setting>

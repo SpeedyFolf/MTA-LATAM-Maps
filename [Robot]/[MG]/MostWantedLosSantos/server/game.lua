@@ -40,12 +40,16 @@ local function updateMoney()
 	})
 end
 
-local function finishJob(job)
+local function finishJob(job, other)
 	job:finish()
 
 	if job.type ~= g_HARVEST_JOB.type then
 		availableJobs = availableJobs - 1
+	else
+		-- track harvest job organ completion achievement
+		exports.achievements:updateObjective(client, "mw2", other)
 	end
+
 	totalMoneyProgress = totalMoneyProgress + job:money()
 
 	if gameState == g_ENDGAME_STATE then
@@ -64,6 +68,10 @@ local function unassignJob(job, player)
 end
 
 local function updateGameState(state)
+	gameState = state
+	triggerClientEvent(getRootElement(), g_GAME_STATE_UPDATE_EVENT, resourceRoot, state)
+	triggerEvent(g_GAME_STATE_UPDATE_EVENT, resourceRoot, state)
+
 	if state == g_COREGAME_STATE then
 		g_CopWeaponId = 29 -- mp5
 		-- remove blips?
@@ -96,11 +104,22 @@ local function updateGameState(state)
 		end
 	elseif state == g_NO_CRIMS_STATE then
 		-- no criminals, so guess its ogre?
-	end
 
-	gameState = state
-	triggerClientEvent(getRootElement(), g_GAME_STATE_UPDATE_EVENT, resourceRoot, state)
-	triggerEvent(g_GAME_STATE_UPDATE_EVENT, resourceRoot, state)
+		if getPlayerCount() < 4 then
+			return
+		end
+
+		for _, criminal in ipairs(getPlayersInTeam(g_CriminalTeam)) do
+			if getElementData(criminal, "state") ~= "dead" and getElementData(criminal, "state") ~= "spectating" then
+				return
+			end
+		end
+
+		for _, cop in ipairs(getPlayersInTeam(g_PoliceTeam)) do
+			-- finish game as cop and all crims dead/spectating (or moved to ped team)
+			exports.achievements:triggerAchievement(cop, "mw1", nil)
+		end
+	end
 end
 
 local function maybeUpdateGameState()
@@ -287,8 +306,8 @@ local function preGameSetup(callback)
 
 	-- start listening for client side completion of jobs (honk job, delivery job)
 	addEvent(g_FINISH_JOB_EVENT, true)
-	addEventHandler(g_FINISH_JOB_EVENT, getRootElement(), function(id)
-		finishJob(jobs[id])
+	addEventHandler(g_FINISH_JOB_EVENT, getRootElement(), function(id, other)
+		finishJob(jobs[id], other)
 	end)
 
 	-- set up player objects, this will give them a chance to select cop preference
@@ -298,6 +317,9 @@ local function preGameSetup(callback)
 
 		-- should toggle internal boolean to hide race nametags
 		triggerClientEvent(player, "onClientScreenFadedOut", resourceRoot)
+
+		-- reset money since it seems to persist on replays
+		setPlayerMoney(player, 0, true)
 	end
 end
 
@@ -356,6 +378,16 @@ local function playerSetup()
 	addEventHandler("onPlayerWasted", getRootElement(), function()
 		spawnHarvestJob(source)
 		triggerClientEvent(source, "onClientScreenFadedIn", resourceRoot)
+
+		if getPlayerTeam(source) == g_PoliceTeam and gameState == g_ENDENDGAME_STATE then
+			-- give all alive criminals achi for killing police if police dies in secret ending
+			for _, criminal in ipairs(getPlayersInTeam(g_CriminalTeam)) do
+				if getElementData(criminal, "state") == "alive" then
+					exports.achievements:triggerAchievement(criminal, "mw3", nil)
+				end
+			end
+		end
+
 	end)
 end
 

@@ -1,0 +1,14 @@
+<meta>
+	<info name="SKC Map Logo" author="[SKC]CsenaHUN" version="1.0.0" type="misc" />
+	
+	<script src="cinema.lua" type="client" />
+	<file src="texturereplace_clamp.fx" type="client" />
+	<file src="skcmap/skcmap1.png" type="client" />
+	<file src="skcmap/skcmap2.png" type="client" />
+	<file src="skcmap/skcmap3.png" type="client" />
+	<file src="skcmap/skcmap4.png" type="client" />
+	<file src="skcmap/skcmap5.png" type="client" />
+	<file src="skcmap/skcmap6.png" type="client" />
+	<file src="skcmap/skcmap7.png" type="client" />
+	<file src="skcmap/skcmap8.png" type="client" />
+</meta>

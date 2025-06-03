@@ -1,0 +1,14 @@
+-- TODO:
+-- Runway indicators on map
+-- Hide boat icon if not in boat
+-- Move transparency code client side
+-- None of this crap about it into a LEFT PLAYERS table, just index with player serials everywhere
+-- Crane one really likes to make 350 degree turns, but doesn't affect the actual deliveries. Only visual.
+-- Add options for no planes, boats, etc
+-- you could inform the client of the required_cp_count and do the collectCP *before* communicating with the server
+-- nth: Output to text
+
+-- Test: Heli blade collisions (others and yours)
+-- Flying a plane kamikaze into the marker can trigger a succesful delivery. Don't
+
+

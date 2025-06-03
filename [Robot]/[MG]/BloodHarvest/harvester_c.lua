@@ -1,20 +1,20 @@
 local bodyparts = {2908, 2907, 2906, 2906, 2905, 2905} -- Element IDs of body parts that come out of the combine
 
 function collectCheckpoints(target)
-    local checkpoint = getElementData(localPlayer, "race.checkpoint")
-    if (checkpoint > target) then return end
+	local checkpoint = getElementData(localPlayer, "race.checkpoint")
+	if (checkpoint > target) then return end
 	local vehicle = getPedOccupiedVehicle(localPlayer)
 	if (isElementFrozen(vehicle)) then return end
-    for i=checkpoint, target do
+	for i=checkpoint, target do
 		local raceresource = getResourceFromName("race")
-    	local racedynamics = getResourceDynamicElementRoot(raceresource)
+		local racedynamics = getResourceDynamicElementRoot(raceresource)
 		local colshapes = getElementsByType("colshape", racedynamics)
 		if (#colshapes == 0) then
 			break
 		end
 		triggerEvent("onClientColShapeHit", colshapes[#colshapes], vehicle)
-		--iprint(checkpoint, target, #colshapes, result )
-    end
+		--iprint("[Blood Harvest]", checkpoint, target, #colshapes, result)
+	end
 end
 
 setElementData (localPlayer,"Zkills",0,true)
@@ -85,7 +85,7 @@ function getPositionFromElementOffset(element,offX,offY,offZ)
 	local x = offX * m[1][1] + offY * m[2][1] + offZ * m[3][1] + m[4][1]  -- Apply transform
 	local y = offX * m[1][2] + offY * m[2][2] + offZ * m[3][2] + m[4][2]
 	local z = offX * m[1][3] + offY * m[2][3] + offZ * m[3][3] + m[4][3]
-	return x, y, z                               -- Return the transformed point
+	return x, y, z							   -- Return the transformed point
 end
 
 function comp(a,b)
@@ -116,17 +116,10 @@ end
 -- 				-- else
 -- 					-- r,g,b = 255,255,255
 -- 				-- end
--- 				dxDrawText(i .. ". " .. getPlayerName(player) .. "#FFFFFF     ",screenx*2/3,screeny/4+i*30,screenx*2/3,screeny/4+i*30,tocolor(255,255,255,255),1,"pricedown","left","center",false,false,false,true)
+-- 				dxDrawText(i .. ". " .. getPlayerName(player) .. "#FFFFFF	 ",screenx*2/3,screeny/4+i*30,screenx*2/3,screeny/4+i*30,tocolor(255,255,255,255),1,"pricedown","left","center",false,false,false,true)
 -- 				dxDrawText(score,screenx*2/3+350,screeny/4+i*30,screenx*2/3+350,screeny/4+i*30,tocolor(255,0,0,255),1,"pricedown","center","center",false,false,false,true)
 -- 			end
 -- 		end
 -- 	end
 -- end 
 -- addEventHandler ("onClientRender",root,displayWinners)
- 
- 
- 
- 
- 
- 
- 

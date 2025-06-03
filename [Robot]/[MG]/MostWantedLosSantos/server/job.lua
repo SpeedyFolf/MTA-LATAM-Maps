@@ -95,8 +95,11 @@ function Job:finish()
 		if math.random() > g_CRIME_REPORT_CHANCE then
 			reportedPlayers[#reportedPlayers + 1] = player
 		end
+		
+		-- Achievements
+		exports.achievements:updateObjective(player, "general30", g_JOBS_BY_TYPE[self.type].type)
 	end
-
+	
 	triggerClientEvent(players, g_FINISH_JOB_EVENT, resourceRoot, self.id, self.type, reportedPlayers)
 	triggerClientEvent(getPlayersInTeam(g_PoliceTeam), g_FINISH_JOB_EVENT, resourceRoot, self.id, self.type, reportedPlayers)
 
@@ -192,6 +195,9 @@ function DeliveryJob:finish()
 		if math.random() > g_CRIME_REPORT_CHANCE then
 			reportedPlayers[#reportedPlayers + 1] = player
 		end
+		
+		-- Achievements
+		exports.achievements:updateObjective(player, "general30", g_JOBS_BY_TYPE[self.type].type)
 	end
 
 	triggerClientEvent(players, g_FINISH_JOB_EVENT, resourceRoot, self.id, self.type, reportedPlayers)
@@ -265,6 +271,9 @@ function HarvestJob:finish()
 		if math.random() > g_CRIME_REPORT_CHANCE then
 			reportedPlayers[#reportedPlayers + 1] = player
 		end
+		
+		-- Achievements
+		exports.achievements:updateObjective(player, "general30", g_JOBS_BY_TYPE[self.type].type)
 	end
 
 	self.deliverer:heal(g_JOBS_BY_TYPE[self.type].healRate)
@@ -304,7 +313,7 @@ function GroupJob:tick()
 	local advance = g_JOBS_BY_TYPE[self.type].progressRate  * g_SERVER_TICK_DELAY / 1000
 	self.progress = math.min(self.progress + math.max(advance * (#players + 1 - g_JOBS_BY_TYPE[self.type].minPlayers), 0), 1)
 	triggerClientEvent(players, g_JOB_STATUS_UPDATE_EVENT, resourceRoot, self.id, self.type, { progress = self.progress, playerCount = #players })
-
+	
 	return self.progress == 1
 end
 

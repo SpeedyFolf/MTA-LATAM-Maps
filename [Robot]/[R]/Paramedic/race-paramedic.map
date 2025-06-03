@@ -63,9 +63,7 @@
     <patient id="patient (63)" posX="-2093.0146" posY="-2318.0632" posZ="29.50715" rotX="0" rotY="0" rotZ="0"></patient>
     <checkpoint id="checkpoint () (1)" type="checkpoint" color="#00F9" size="2.25" nextid="checkpoint () (2)" posX="-8191111111112" posY="-2244.3203" posZ="29.50715" rotX="0" rotY="0" rotZ="0"></checkpoint>
     <checkpoint id="checkpoint () (2)" type="checkpoint" color="#00F9" size="2.25" nextid="checkpoint () (3)" posX="-8191111111112" posY="-2244.3203" posZ="29.50715" rotX="0" rotY="0" rotZ="0"></checkpoint>
-    <checkpoint id="checkpoint () (3)" type="checkpoint" color="#00F9" size="2.25" nextid="checkpoint () (4)" posX="-8191111111112" posY="-2244.3203" posZ="29.50715" rotX="0" rotY="0" rotZ="0"></checkpoint>
-    <checkpoint id="checkpoint () (4)" type="checkpoint" color="#00F9" size="2.25" nextid="checkpoint () (5)" posX="-8191111111112" posY="-2244.3203" posZ="29.50715" rotX="0" rotY="0" rotZ="0"></checkpoint>
-    <checkpoint id="checkpoint () (5)" type="checkpoint" color="#00F9" size="2.25" posX="-8191111111112" posY="-2244.3203" posZ="29.50715" rotX="0" rotY="0" rotZ="0"></checkpoint>
+    <checkpoint id="checkpoint () (3)" type="checkpoint" color="#00F9" size="2.25" posX="-8191111111112" posY="-2244.3203" posZ="29.50715" rotX="0" rotY="0" rotZ="0"></checkpoint>
     <object id="object (petrolpumpnew) (1)" breakable="false" interior="0" alpha="255" dimension="0" model="1686" scale="1" doublesided="false" collisions="true" frozen="false" posX="-2246.6775" posY="-2559.7275" posZ="31.07031" rotX="0" rotY="0" rotZ="331.496"></object>
     <removeWorldObject id="removeWorldObject (petrolpumpnew) (1)" radius="3.5507746" interior="-1" model="1686" lodModel="0" posX="-2246.7031" posY="-2559.7109" posZ="31.0625" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
     <object id="object (petrolpumpnew) (2)" breakable="false" interior="0" alpha="255" dimension="0" model="1686" scale="1" doublesided="false" collisions="true" frozen="false" posX="-2241.7725" posY="-2562.2451" posZ="31.07031" rotX="0" rotY="0" rotZ="331.496"></object>

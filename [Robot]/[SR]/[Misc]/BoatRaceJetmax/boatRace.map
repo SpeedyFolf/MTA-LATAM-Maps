@@ -1,0 +1,17 @@
+<map edf:definitions="editor_main,race">
+	<checkpoint id="checkpoint () (1)" extracolshapesize="4" type="checkpoint" color="#F90000" blipsize="2" size="10" interior="4" nextid="checkpoint () (2)" posX="2121.7205" posY="-156.0080" posZ="0.0"></checkpoint>
+	<checkpoint id="checkpoint () (2)" extracolshapesize="4" type="checkpoint" color="#F90000" blipsize="2" size="10" interior="4" nextid="checkpoint () (3)" posX="1843.6671" posY="-43.0750" posZ="0.0"></checkpoint>
+	<checkpoint id="checkpoint () (3)" extracolshapesize="4" type="checkpoint" color="#F90000" blipsize="2" size="10" interior="4" nextid="checkpoint () (4)" posX="1571.8040" posY="-170.2337" posZ="0.0"></checkpoint>
+	<checkpoint id="checkpoint () (4)" extracolshapesize="4" type="checkpoint" color="#F90000" blipsize="2" size="10" interior="4" nextid="checkpoint () (5)" posX="1272.0471" posY="-187.2620" posZ="0.0"></checkpoint>
+	<checkpoint id="checkpoint () (5)" extracolshapesize="4" type="checkpoint" color="#F90000" blipsize="2" size="10" interior="4" nextid="checkpoint () (6)" posX="980.5278" posY="-115.9946" posZ="0.0"></checkpoint>
+	<checkpoint id="checkpoint () (6)" extracolshapesize="4" type="checkpoint" color="#F90000" blipsize="2" size="10" interior="4" nextid="checkpoint () (7)" posX="698.4188" posY="-218.8346" posZ="0.0"></checkpoint>
+	<checkpoint id="checkpoint () (7)" extracolshapesize="4" type="checkpoint" color="#F90000" blipsize="2" size="10" interior="4" nextid="checkpoint () (8)" posX="404.4511" posY="-279.1968" posZ="0.0"></checkpoint>
+	<checkpoint id="checkpoint () (8)" extracolshapesize="4" type="checkpoint" color="#F90000" blipsize="2" size="10" interior="4" nextid="checkpoint () (9)" posX="142.0295" posY="-424.9876" posZ="0.0"></checkpoint>
+	<checkpoint id="checkpoint () (9)" extracolshapesize="4" type="checkpoint" color="#F90000" blipsize="2" size="10" interior="4" nextid="checkpoint () (10)" posX="-79.2922" posY="-627.6002" posZ="0.0"></checkpoint>
+	<checkpoint id="checkpoint () (10)" extracolshapesize="4" type="checkpoint" color="#F90000" blipsize="2" size="10" interior="4" nextid="checkpoint () (11)" posX="25.2075" posY="-908.8446" posZ="0.0"></checkpoint>
+	<checkpoint id="checkpoint () (11)" extracolshapesize="4" type="checkpoint" color="#F90000" blipsize="2" size="10" interior="4" nextid="checkpoint () (12)" posX="73.3687" posY="-1205.0173" posZ="0.0"></checkpoint>
+	<checkpoint id="checkpoint () (12)" extracolshapesize="4" type="checkpoint" color="#F90000" blipsize="2" size="10" interior="4" nextid="checkpoint () (13)" posX="53.1958" posY="-1504.3722" posZ="0.0"></checkpoint>
+	<checkpoint id="checkpoint () (13)" extracolshapesize="4" type="checkpoint" color="#F90000" blipsize="2" size="10" interior="4" nextid="checkpoint () (14)" posX="111.5816" posY="-1798.8573" posZ="0.0"></checkpoint>
+	<checkpoint id="checkpoint () (14)" extracolshapesize="4" type="checkpoint" color="#F90000" blipsize="2" size="10" interior="4" posX="249.2093" posY="-1998.9181" posZ="0.0"></checkpoint>
+    <spawnpoint id="spawnpoint (Jetmax) (1)" vehicle="493" posX="2185.7205" posY="-170.0080" posZ="0" rotX="0" rotY="0" rotZ="78"></spawnpoint>
+</map>

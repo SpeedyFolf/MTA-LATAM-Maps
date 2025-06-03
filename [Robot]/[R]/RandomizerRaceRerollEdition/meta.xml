@@ -2,7 +2,7 @@
     <script src="randomcar.lua" type="server"></script>
     <script src="clientScript.lua" type="client"></script>
     <min_mta_version server="1.5.8-9.20957"></min_mta_version>
-    <info gamemodes="race" type="map" racetype="R" name="Randomizer Race, Reroll Edition" author="WordofWind" version="1.0.0" description="Press right-click to reroll your vehicle up to 3 times per race!"></info>
+    <info gamemodes="race" type="map" racetype="R" name="Randomizer Race, Reroll Edition" author="WordofWind" version="1.0.0" description="Press sub_mission key to reroll your vehicle up to 3 times per race!"></info>
     <map src="randoracereroll.map" dimension="0"></map>
     <settings>
         <setting name="#skins" value='[ &quot;cj&quot; ]'></setting>
