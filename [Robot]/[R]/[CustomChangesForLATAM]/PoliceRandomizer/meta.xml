@@ -1,6 +1,11 @@
 <meta>
     <min_mta_version server="1.5.8-9.20957"></min_mta_version>
-    <info gamemodes="race" type="map" racetype="R" name="Police Randomizer" author="Discoordination" version="1.69" description="Enjoy this totally random police chase!"></info>
+    <file src="sirens.txd"></file>
+    <file src="sirens.dff"></file>
+    <script src="script_c.lua" type="client" validate="true"></script>
+    <script src="script_s.lua" type="server"></script>
+
+    <info gamemodes="race" type="map" racetype="R" name="Police Randomizer" author="Discoordination" version="1.69" description="Enjoy this totally random police chase in 60 FPS!"></info>
     <map src="R-PoliceRandomizer.map" dimension="0"></map>
     <settings>
         <setting name="#skins" value='[ &quot;cj&quot; ]'></setting>
@@ -22,9 +27,6 @@
         <setting name="#countdownduration" value="[ -1 ]"></setting>
         <setting name="#respawntime" value="[ 1 ]"></setting>
     </settings>
-    <script src="mapEditorScriptingExtension_s.lua" type="server" validate="false"></script>
-    <script src="script_s.lua" type="server" validate="false"></script>
-    <script src="script_c.lua" type="client" validate="true"></script>
-    <file src="sirens.txd"></file>
-    <file src="sirens.dff"></file>
+    <script src="mapEditorScriptingExtension_s.lua" type="server"></script>
+    <script src="mapEditorScriptingExtension_c.lua" type="client" validate="false"></script>
 </meta>

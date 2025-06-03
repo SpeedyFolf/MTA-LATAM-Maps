@@ -1,6 +1,8 @@
 <meta>
     <script src="rando.lua" type="server"></script>
     <script src="text.lua" type="client"></script>
+    <script src="achievement_c.lua" type="client"></script>
+    <script src="achievement_s.lua" type="server"></script>
     <min_mta_version server="1.5.8-9.20957"></min_mta_version>
     <info gamemodes="race" type="map" racetype="R" name="Hold W Randomiser" author="Mawfeen" version="2.025" description="Optimised for the ultimate finger-clenching experience! -4 checkpoints"></info>
     <map src="R-HoldWRandomiser.map" dimension="0"></map>

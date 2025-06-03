@@ -29,6 +29,17 @@ addEventHandler("onRaceStateChanging", getRootElement(), function(newState, oldS
 	end
 end )
 
+addEvent("onPlayerFinish", true)
+addEventHandler("onPlayerFinish", getRootElement(), function(rank, time)
+	if getElementData(source, "timesDerailed") == 0 then
+		exports.achievements:triggerAchievement(source, "disco5", nil)
+	end
+	
+	if laps == 2 then
+		exports.achievements:triggerAchievement(source, "disco4", nil)
+	end
+end )
+
 addEvent("isRaceStarted", true)
 addEventHandler("isRaceStarted", getRootElement(), function()
 	if raceStarted == 0 then return end

@@ -327,12 +327,15 @@ addEventHandler("onClientResourceStart", resourceRoot, function()
 			local timeLeft, _, totalTime = getTimerDetails(endEndGameScrollTimer)
 			if timeLeft then
 				if role == g_CRIMINAL_ROLE then
-					local offset = (screenWidth + 1500) * (totalTime - timeLeft) / totalTime
+					local vehicleSecondaryFireKey = next(getBoundKeys("vehicle_secondary_fire")) or "vehicle_secondary_fire"
+					dxDrawBorderedText(0.5, "Pull out an AK with #A000D2" .. vehicleSecondaryFireKey, screenWidth / 2, screenHeight * 0.95 - 40,  screenWidth, screenHeight, tocolor(210, 210, 210, 255), 2.5, "sans", center, top, false, false, false, true)
+
+					local offset = (screenWidth + 1500) * math.floor((totalTime - timeLeft) / totalTime * 55) / 55
 					dxDrawText("WOULD YOU LOOK AT THAT......YOU HAVE FARMED LOS SANTOS THOROUGHLY WELL......GO SLAUGHTER SOME PIGS!!!  -BIG PIG", screenWidth - offset, screenHeight * 0.95,  screenWidth, screenHeight, tocolor(40, 255, 10, 250), 2, "default", center, top, false, false, false, true)
 					dxDrawText("WOULD YOU LOOK AT THAT......YOU HAVE FARMED LOS SANTOS THOROUGHLY WELL......GO SLAUGHTER SOME PIGS!!!  -BIG PIG", screenWidth + 2 - offset, screenHeight * 0.95 + 2,  screenWidth, screenHeight, tocolor(200, 255, 200, 100), 2, "default", center, top, false, false, false, true)
 					dxDrawText("WOULD YOU LOOK AT THAT......YOU HAVE FARMED LOS SANTOS THOROUGHLY WELL......GO SLAUGHTER SOME PIGS!!!  -BIG PIG", screenWidth - 2 - offset, screenHeight * 0.95 + 2,  screenWidth, screenHeight, tocolor(200, 255, 200, 100), 2, "default", center, top, false, false, false, true)
 				elseif role == g_POLICE_ROLE then
-					local offset = (screenWidth + 1200) * (totalTime - timeLeft) / totalTime
+					local offset = (screenWidth + 1200) * math.floor((totalTime - timeLeft) / totalTime * 48) / 48
 					dxDrawText("HAHAHAHAHA.......STUPID GREASY PIGS......YOU ARE ABOUT TO BE TURNED INTO BACON BITS!!!  -BIG PIG", screenWidth - offset, screenHeight * 0.95,  screenWidth, screenHeight, tocolor(40, 255, 10, 250), 2, "default", center, top, false, false, false, true)
 					dxDrawText("HAHAHAHAHA.......STUPID GREASY PIGS......YOU ARE ABOUT TO BE TURNED INTO BACON BITS!!!  -BIG PIG", screenWidth + 2 - offset, screenHeight * 0.95 + 2,  screenWidth, screenHeight, tocolor(200, 255, 200, 100), 2, "default", center, top, false, false, false, true)
 					dxDrawText("HAHAHAHAHA.......STUPID GREASY PIGS......YOU ARE ABOUT TO BE TURNED INTO BACON BITS!!!  -BIG PIG", screenWidth - 2 - offset, screenHeight * 0.95 + 2,  screenWidth, screenHeight, tocolor(200, 255, 200, 100), 2, "default", center, top, false, false, false, true)
@@ -404,7 +407,7 @@ addEventHandler("onClientResourceStart", resourceRoot, function()
 				dxDrawBorderedText(0.5, "Criminals are planning to go on a crime spree.", screenWidth / 2, screenHeight * 0.35,  screenWidth, screenHeight, tocolor(210, 210, 210, 255), 2.5, "sans", center, top, false, false, false, true)
 				dxDrawBorderedText(0.5, "Once they've stolen enough, they will attempt to skip town.", screenWidth / 2, screenHeight * 0.35 + 50,  screenWidth, screenHeight, tocolor(210, 210, 210, 255), 2.5, "sans", center, top, false, false, false, true)
 				local vehicleSecondaryFireKey = next(getBoundKeys("vehicle_secondary_fire")) or "vehicle_secondary_fire"
-				dxDrawBorderedText(0.5, "Deploy your firearm by pressing " .. vehicleSecondaryFireKey, screenWidth / 2, screenHeight * 0.35 + 140,  screenWidth, screenHeight, tocolor(210, 210, 210, 255), 2.5, "sans", center, top, false, false, false, true)
+				dxDrawBorderedText(0.5, "Deploy your firearm by pressing #33A5FF" .. vehicleSecondaryFireKey, screenWidth / 2, screenHeight * 0.35 + 140,  screenWidth, screenHeight, tocolor(210, 210, 210, 255), 2.5, "sans", center, top, false, false, false, true)
 				dxDrawBorderedText(0.5, "Use any force necessary to eliminate them!", screenWidth / 2, screenHeight * 0.35 + 190,  screenWidth, screenHeight, tocolor(210, 210, 210, 255), 2.5, "sans", center, top, false, false, false, true)
 			end
 			return

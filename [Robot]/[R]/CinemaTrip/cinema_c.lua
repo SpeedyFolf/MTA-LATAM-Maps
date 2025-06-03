@@ -63,7 +63,12 @@ addEventHandler("onClientRender", root, function()
 		-- Create cinema timer
 		if tonumber(getElementData(localPlayer, "race.checkpoint")) == 21 and not isTimer(cinemaSkipTimer) then 
 			local time = 62000
-			if fuelSkip == 2 then time = 69000 end
+			setElementData(localPlayer, "cinema_fuelSkip", 1)
+			
+			if fuelSkip == 2 then 
+				time = 69000 
+				setElementData(localPlayer, "cinema_fuelSkip", 0)
+			end
 			if getElementModel(getPedOccupiedVehicle(localPlayer)) == 447 then time = 47000 end
 			
 			cinemaSkipTimer = setTimer(function()
@@ -74,12 +79,14 @@ addEventHandler("onClientRender", root, function()
 				
 				homeMessage = true
 				setTimer(function() homeMessage = false end, 4000, 1)
+				
+				triggerServerEvent("cinemaMovieWatched", localPlayer)
 			end, time, 1)
 			
 			outputChatBox("Press M to mute the movie")
 		end
 		
-		-- Fuel message
+		-- Fuel message (triggers by fuelskip == 1 and car)
 		if tonumber(getElementData(localPlayer, "race.checkpoint")) == 9 and not isTimer(fuelTimer) and not (fuelSkip == 2 or getElementModel(getPedOccupiedVehicle(localPlayer)) == 447) then
 			fuelMessage = true
 			fuelTimer = setTimer(function() fuelMessage = false end, 6000, 1)

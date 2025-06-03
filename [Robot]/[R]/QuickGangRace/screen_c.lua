@@ -32,6 +32,7 @@ addEventHandler("onClientRender", root, function()
 			webBrowser = createBrowser(1920, 1080, false, false)
 			setBrowserVolume(0)
 			outputChatBox("Press M to mute the video")
+			setTimer(function() triggerServerEvent("watchedDYOM", localPlayer) end, 3600000, 1)
 		end
 	end
 	

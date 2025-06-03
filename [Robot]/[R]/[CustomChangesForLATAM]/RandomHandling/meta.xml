@@ -1,6 +1,8 @@
 <meta>
+    <script src="main.lua" type="client"></script>
+    <script src="main_s.lua" type="server"></script>
     <info gamemodes="race" type="map" racetype="R" name="Random Handling" author="TonyTheLemur" version="1.2.0"></info>
-    <map src="R-RandomHandling.map" dimension="0"></map>
+    <map src="race-random-handling.map" dimension="0"></map>
     <settings>
         <setting name="#skins" value='[ &quot;random&quot; ]'></setting>
         <setting name="#maxplayers" value="[ 128 ]"></setting>
@@ -18,7 +20,6 @@
         <setting name="#duration" value="[ 900 ]"></setting>
         <setting name="#respawn" value='[ &quot;timelimit&quot; ]'></setting>
     </settings>
-    <script src="mapEditorScriptingExtension_s.lua" type="server" validate="false"></script>
-    <script src="main_s.lua" type="server" validate="false"></script>
-    <script src="main_c.lua" type="client" validate="true"></script>
+    <script src="mapEditorScriptingExtension_s.lua" type="server"></script>
+    <script src="mapEditorScriptingExtension_c.lua" type="client" validate="false"></script>
 </meta>

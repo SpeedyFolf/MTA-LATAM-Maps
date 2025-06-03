@@ -1,4 +1,5 @@
 local randomLocation
+local randomLocationIndex -- Achs
 local x
 local y
 local z
@@ -53,7 +54,7 @@ local dollarLocation45 = {976, -942, 40.5}
 
 local dollarLocations = { }
 
-function changeState(newstate,oldstate)
+function changeState(newstate, oldstate)
 	
 	--outputChatBox(oldstate .. " -> " .. newstate) --uncomment this to see the race states in the chat box
 	
@@ -81,7 +82,7 @@ function CreateDollar ( thePlayer, commandName )
    if ( thePlayer ) then
    	  triggerClientEvent(root, "hideBlips", root, theDollar)
       if (randomLocation == nil) then
-      	randomLocation = table.random(dollarLocations)
+      	randomLocation, randomLocationIndex = table.random(dollarLocations)
       end
       x = randomLocation[1]
       y = randomLocation[2]
@@ -96,7 +97,8 @@ function CreateDollar ( thePlayer, commandName )
 end
 
 function table.random ( theTable )
-    return theTable[math.random ( #theTable )]
+	local randomN = math.random ( #theTable )
+    return theTable[randomN], randomN
 end
 
 function player_Spawn ( posX, posY, posZ, spawnRotation, theTeam, theSkin, theInterior, theDimension )
@@ -157,3 +159,8 @@ function loadMapObjects()
 	
 end
 addEventHandler("onResourceStart", resourceRoot, loadMapObjects)
+
+addEvent("onPlayerFinish", true)
+addEventHandler("onPlayerFinish", getRootElement(), function()
+	exports.achievements:updateObjective(source, "detectiveDollar", randomLocationIndex)
+end )

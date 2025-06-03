@@ -1,7 +1,7 @@
 <meta>
     <min_mta_version server="1.5.8-9.20957"></min_mta_version>
     <script src="fireback_c.lua" type="client" validate="true"></script>
-    <info gamemodes="race" racetype="R" type="map" name="A Day in the Army" author="Discoordination" description="Shoot back" version="1.0.0"></info>
+    <info gamemodes="race" type="map" racetype="R" name="A Day in the Army" author="Discoordination" description="Shoot back" version="1.0.0"></info>
     <map src="ArmyDay.map" dimension="0"></map>
     <settings>
         <setting name="#skins" value='[ 287 ]'></setting>

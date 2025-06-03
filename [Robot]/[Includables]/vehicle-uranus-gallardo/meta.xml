@@ -1,0 +1,7 @@
+<meta>
+	<info type="script" name="Vehicle - Uranus Gallardo" author="SKC"></info>
+	<file src="gallardo.txd"></file>
+	<file src="gallardo.dff"></file>
+	<script src="_common.lua" type="client" validate="true"></script>
+	<script src="client.lua" type="client" validate="true"></script>
+</meta>

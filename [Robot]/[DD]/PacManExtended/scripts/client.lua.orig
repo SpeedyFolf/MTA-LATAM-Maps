@@ -1,0 +1,245 @@
+-----------------------------------------------
+-----------------------------------------------
+----                                       ----
+---- Made by [SKC]CsenaHUN & [SKC]MCvarial ----
+----                                       ----
+-----------------------------------------------
+-----------------------------------------------
+local screenWidth,screenHeight = guiGetScreenSize()
+local startTick = getTickCount()
+local hunting = false
+local ghosts = {}
+local kills = 0
+local pills = 0
+
+-------------
+--Rendering--
+-------------
+addEventHandler("onClientRender",root,
+	function ()
+		if (getTickCount()-startTick) < 20000 then
+			dxDrawText("All spawnpoint objects will be removed soon!",0,0,screenWidth,screenHeight*0.2,tocolor(0,162,232,255),1.5,"default-bold","center","bottom",false,false,false)
+			dxDrawText("Collect 80 pills to start hunting",0,0,screenWidth,screenHeight*0.225,tocolor(255,0,0,255),1.5,"default-bold","center","bottom",false,false,false)
+			dxDrawText("You get 20% extra health per ghost kill",0,0,screenWidth,screenHeight*0.25,tocolor(255,127,39,255),1.5,"default-bold","center","bottom",false,false,false)
+			dxDrawText("If you can kill 4 ghosts you become one!",0,0,screenWidth,screenHeight*0.275,tocolor(255,128,255,255),1.5,"default-bold","center","bottom",false,false,false)
+		end
+		if hunting then
+			dxDrawText("You have "..string.sub(tostring(20-(getTickCount()-startHunt)/1000),1,4).." seconds remaining to hunt the ghosts!",0,0.03*screenHeight,screenWidth,20,tocolor(0,0,255,255),1.5,"pricedown","center","top",false,false,true)
+			if (getTickCount()-startHunt) > 20000 then
+				stopHunting()
+			end
+		else
+			dxDrawText("Pills: "..tostring(pills),0,0.03*screenHeight,screenWidth,20,tocolor(255,255,255,255),1.5,"pricedown","center","top",false,false,true)
+		end
+	end
+)
+
+		
+--------------
+--Teleports--
+--------------
+local teleports = {
+	{
+	start={x=-2257,y=1992,z=30.55,size=5},
+	destination={x=-2401,y=1992,z=31.55},
+	delay=30000
+	},
+
+	{
+	start={x=-2419,y=1992,z=30.55,size=5},
+	destination={x=-2275,y=1992,z=31.55},
+	delay=30000
+	}
+}
+
+addEventHandler("onClientResourceStart",resourceRoot,
+	function ()
+		for i,teleport in pairs (teleports) do
+			teleport.marker = createMarker(teleport.start.x,teleport.start.y,teleport.start.z,"corona",teleport.start.size,255,0,0,255)
+			local colshape = createColSphere(teleport.start.x,teleport.start.y,teleport.start.z,teleport.start.size)
+			teleport.lastused = -math.huge
+			teleports[colshape] = teleport
+			teleports[i] = nil
+			addEventHandler("onClientColShapeHit",colshape,doTeleport)
+		end
+	end
+)
+
+function doTeleport (hitElement,match)
+	if not match then return end
+	if hunting then return end
+	if hitElement ~= localPlayer then return end
+	local vehicle = getPedOccupiedVehicle(hitElement)
+	if not vehicle then return end
+	local teleport = teleports[source]
+	if not teleport then return end
+	if (getTickCount()-teleport.lastused) < teleport.delay then return end
+
+	local x,y,z = getElementVelocity(vehicle)
+	setElementPosition(vehicle,teleport.destination.x,teleport.destination.y,teleport.destination.z)
+	setElementVelocity(vehicle,x,y,1)
+	setElementAlpha(teleport.marker,0)
+	setTimer(function () setElementAlpha(teleport.marker,255) end,teleport.delay,1)
+	teleport.lastused = getTickCount()
+end
+
+
+----------------
+--Pacman start--
+----------------
+addEvent("onClientMapStart",true)
+addEventHandler("onClientMapStart",root,
+	function ()
+		setSoundVolume(playSound("sounds/pacmanstart.mp3",false),0.5)
+
+		for i,object in pairs (getElementsByType("object")) do
+			if models[getElementModel(object)] then
+				local sound = playSound3D("sounds/pacmanwaka.mp3",0,0,0,true)
+				setSoundMaxDistance(sound,100)
+				attachElements(sound,object)
+				table.insert(ghosts,object)
+			end
+		end
+	end
+)
+
+
+----------------------
+--When player wasted--
+----------------------
+addEventHandler("onClientPlayerWasted",localPlayer,
+	function ()
+		setSoundVolume(playSound("sounds/pacmanwasted.mp3",false),0.5)
+	end
+)
+
+
+-----------
+--Shaders--
+-----------
+rainbow = dxCreateShader("effects/rainbow.fx")
+engineApplyShaderToWorldTexture(rainbow,"particleskid")
+engineApplyShaderToWorldTexture(rainbow,"vehiclelightson128")
+engineApplyShaderToWorldTexture(rainbow,"vehiclelights128")
+
+yellow = dxCreateShader("effects/yellow.fx")
+engineApplyShaderToWorldTexture(yellow,"vehicletyres128")
+engineApplyShaderToWorldTexture(yellow,"vehiclegrunge256")
+
+black = dxCreateShader("effects/black.fx")
+engineApplyShaderToWorldTexture(black,"vehiclegeneric256")
+
+addEventHandler("onClientResourceStop",resourceRoot,
+	function ()
+		engineRemoveShaderFromWorldTexture(rainbow,"particleskid")
+		engineRemoveShaderFromWorldTexture(rainbow,"vehiclelightson128")
+		engineRemoveShaderFromWorldTexture(rainbow,"vehiclelights128")
+		engineRemoveShaderFromWorldTexture(yellow,"vehicletyres128")
+		engineRemoveShaderFromWorldTexture(yellow,"vehiclegrunge256")
+		engineRemoveShaderFromWorldTexture(black,"vehiclegeneric256")		
+		destroyElement(black)
+		destroyElement(yellow)
+		destroyElement(rainbow)
+		
+		if blue then destroyElement(blue) end
+	end
+)
+
+
+---------------
+--detect hits--
+---------------
+checktimer = setTimer(function ()
+	local vehicle = getPedOccupiedVehicle(localPlayer)
+	if not vehicle then return end
+	for i,ghost in pairs (ghosts) do
+		local gx,gy,gz = getElementPosition(ghost)
+		local vx,vy,vz = getElementPosition(vehicle)
+		if getDistanceBetweenPoints3D(gx,gy,gz,vx,vy,vz) < 5 then
+			if hunting then
+				kills = kills+1
+				if kills == 4 then
+					triggerServerEvent("onPlayerBecomeGhost",localPlayer,ghost)
+					killTimer(checktimer)
+					setElementAlpha(ghost,1)
+					setCameraViewMode(3)
+				else
+					triggerServerEvent("onGhostKill",localPlayer,ghost)
+					setElementAlpha(ghost,0)
+				end
+
+				setSoundVolume(playSound("sounds/pacmanghost.mp3"),0.5)
+			else
+				setElementVelocity(vehicle,0,0,1)
+			end
+		end
+	end
+end,200,0)
+
+
+---------
+--Pills--
+---------
+addEventHandler("onClientResourceStart",resourceRoot,
+	function ()
+		for i,o in pairs (getElementsByType("object")) do
+			if getElementModel(o) == 3095 then
+				local x,y,z = getElementPosition(o)
+				local marker = createMarker(x,y,z,"corona",0.5,255,200,15,255)
+				local sphere = createColSphere(x,y,z+1,2)
+				setElementParent(marker,sphere)
+				addEventHandler("onClientColShapeHit",sphere,removePill)
+			end
+		end
+	end
+)
+
+function startHunting ()
+	setSoundVolume(playSound("sounds/pacmanstart.mp3",false),0.5)
+	blue = dxCreateShader("effects/blue.fx")
+	for i=1,6 do
+		engineApplyShaderToWorldTexture(blue,"colour_"..tostring(i))
+	end
+	for i,marker in pairs (getElementsByType("marker")) do
+		setElementAlpha(marker,0)
+	end
+	startHunt = getTickCount()
+end
+
+function stopHunting ()
+	local vehicle = getPedOccupiedVehicle(localPlayer)
+	if vehicle then
+		local health = getElementHealth(vehicle)+(kills*200)
+		if health > 1000 then health = 1000 end
+		fixVehicle(vehicle)
+		setElementHealth(vehicle,health)
+	end
+	kills = 0
+	hunting = false
+	for i,marker in pairs (getElementsByType("marker")) do
+		setElementAlpha(marker,255)
+	end
+	for i=1,6 do
+		engineRemoveShaderFromWorldTexture(blue,"colour_"..tostring(i))
+	end
+	destroyElement(blue)
+	blue = false
+	for i,ghost in pairs (ghosts) do
+		if getElementAlpha(ghost) == 0 then
+			setElementAlpha(ghost,255)
+		end
+	end
+end
+
+function removePill (element,dimension)
+	if element == getPedOccupiedVehicle(localPlayer) and not hunting then
+		pills = pills+1
+		destroyElement(source)
+		setSoundVolume(playSound("sounds/pacmanpill.mp3",false),0.5)
+		if pills == 80 then
+			pills = 0
+			hunting = true
+			startHunting()
+		end
+	end
+end

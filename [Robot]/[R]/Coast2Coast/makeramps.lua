@@ -508,6 +508,7 @@ function checkpointcounter(checkpoint,time_)
 				outputChatBox(getPlayerName(source) .. " #ff0000got caught cheating by skipping part of the track in reverse!",root,255,255,255, true)
 			else
 				triggerClientEvent (source, "coastFinish", source)
+				exports.achievements:triggerAchievement(source, "general34", nil)
 			end
 		end
 	end

@@ -1403,3 +1403,10 @@ function onPlayerResourceStart(startedResource)
 	triggerClientEvent(source, "updateClientTable", resourceRoot, v)
 end
 addEventHandler("onPlayerResourceStart", root, onPlayerResourceStart)
+
+addEvent("achievement", true)
+addEventHandler("achievement", root, function(achievementID)
+	if exports["achievements"] then
+		exports.achievements:triggerAchievement(client, achievementID, nil)
+	end
+end )

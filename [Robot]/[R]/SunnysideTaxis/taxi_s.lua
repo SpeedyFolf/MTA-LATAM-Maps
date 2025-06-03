@@ -23,44 +23,15 @@ tramPos = {
 
 -- Fares Amount 
 faresAmount = {34, 27, 45}
--- Objects and collshapes
-paynsprayDoors = {}
-paynsprayColls = {}
-paynsprayDoorState = {}
-garageTimeout = {}
+-- Garages
+local paynsprayColls -- triggers for every garages
+local garageTimeout = {}
 
-MAX_GARAGES = 11
--- Closed doors of garages (pX, pY, pZ, rX, rY, rZ) 
-c_doorPos = {
-	{1024.9844, -1029.3516, 33.19531, 0.0, -90.0, 0.0}, -- North Pay'N'Spray in LS
-	{2071.4766, -1831.4219, 14.56250, 0.0, -90.0, 0.0}, -- laespraydoor1
-	{488.28125, -1734.6953, 12.39063, 0.0,  90.0, 0.0}, -- spraydoor_LAw2
-	{1041.4004, -1026.0000, 32.70001, 0.0, -90.0, 0.0},  -- transfenderLS
-	{-1935.900,  239.39999, 35.35001, 0.0, -90.0, 0.0},  -- modshopdoor_SFSe
-	{-1904.500,  277.79980, 43.10001, 0.0, -90.0, 0.0},  -- sprayshpdr2_SFSe
-	{-2425.599,  1028.0996, 52.29999, 0.0, -90.0, 0.0},  -- spdr_sfw
-	{-1786.799,  1209.4004, 25.80000, 0.0, -90.0, 0.0},  -- michdr
-	{2386.7002,  1043.4004, 11.60000, 0.0, -90.0, 0.0},  -- cmdgrgdoor_lvs
-	{2393.7998,  1483.4004, 12.70000, 0.0,  90.0, 0.0},  -- vgsEspdr01
-	{1968.5000,  2162.5000, 12.10000, 0.0, -90.0, 0.0}   -- vgwspry1
-};
--- Opened doors of garages (pX, pY, pZ, rX, rY, rZ) 
-o_doorPos = {
-	{1025.0000, -1028.5000, 34.90000, 0.0, 90.00, 0.0},
-	{2070.5000, -1831.4000, 16.40000, 0.0, 90.00, 0.0},
-	{488.29999, -1734.6953, 14.70000, 0.0, -90.0, 0.0},
-	{1041.4000, -1025.2000, 34.10000, 0.0, 90.00, 0.0},
-	{-1935.900,  239.80000, 37.20000, 0.0, 90.00, 0.0},
-	{-1904.500,  279.79999, 45.70000, 0.0, 90.00, 0.0},
-	{-2425.600,  1026.4000, 54.70000, 0.0, 90.00, 0.0},
-	{-1786.800,  1210.3000, 27.30000, 0.0, 90.00, 0.0},
-	{2386.7000,  1044.5000, 13.20000, 0.0, 90.00, 0.0},
-	{2393.8000,  1485.4000, 15.20000, 0.0, -90.0, 0.0},
-	{1969.6000,  2162.5000, 13.80000, 0.0, 90.00, 0.0}
-};
+local garages = {
+	11, 8, 12, 10, 18, 19, 27, 24, 33, 36
+}
 
-addEvent("onMapStarting", true)
-addEventHandler("onMapStarting", resourceRoot, function()
+addEventHandler("onResourceStart", resourceRoot, function()
 	-- Random time at the start of a race
 	math.randomseed(getTickCount())
 	local h = math.random(23)
@@ -79,31 +50,19 @@ addEventHandler("onMapStarting", resourceRoot, function()
 	-- Special World Property
 	setWorldSpecialPropertyEnabled("extraairresistance", false)
 	
-	-- PNS doors objects
-	paynsprayDoors[1]  = createObject(5856,  1024.98440, -1029.3516, 33.19531, 0.0, 0.0,   90.0)
-	paynsprayDoors[2]  = createObject(5422,  2071.47660, -1831.4219, 14.56250, 0.0, 0.0,  180.0) -- laespraydoor1
-	paynsprayDoors[3]  = createObject(6400,  488.281250, -1734.6953, 12.39063, 0.0, 0.0,   80.0) -- spraydoor_LAw2
-	paynsprayDoors[4]  = createObject(5779,  1041.40040, -1026.0000, 32.70001, 0.0, 0.0,   90.0) -- transfenderLS
-	paynsprayDoors[5]  = createObject(11313, -1935.9000,  239.39999, 35.35001, 0.0, 0.0,   90.0) -- modshopdoor_SFSe
-	paynsprayDoors[6]  = createObject(11319, -1904.5000,  277.79980, 43.10001, 0.0, 0.0,   90.0) -- sprayshpdr2_SFSe
-	paynsprayDoors[7]  = createObject(9625,  -2425.5996,  1028.0996, 52.29999, 0.0, 0.0,  -90.0) -- spdr_sfw
-	paynsprayDoors[8]  = createObject(10182, -1786.7998,  1209.4004, 25.80000, 0.0, 0.0,   90.0) -- michdr
-	paynsprayDoors[9]  = createObject(9093,   2386.7002,  1043.4004, 11.60000, 0.0, 0.0,   90.0) -- cmdgrgdoor_lvs
-	paynsprayDoors[10] = createObject(8957,   2393.7998,  1483.4004, 12.70000, 0.0, 0.0,  -90.0) -- vgsEspdr01
-	paynsprayDoors[11] = createObject(7891,   1968.5000,  2162.5000, 12.10000, 0.0, 0.0,   00.0) -- vgwspry1
-	
-	paynsprayColls[1]  = createColSphere(1024.9844, -1029.3516, 33.19531, 15.0)
-	paynsprayColls[2]  = createColSphere(2071.4766, -1831.4219, 14.56250, 15.0) 
-	paynsprayColls[3]  = createColSphere(488.28125, -1734.6953, 12.39063, 15.0) 
-	paynsprayColls[4]  = createColSphere(1041.4004, -1026.0000, 32.70001, 15.0) 
-	paynsprayColls[5]  = createColSphere(-1935.900,  239.39999, 35.35001, 15.0) 
-	paynsprayColls[6]  = createColSphere(-1904.500,  277.79980, 43.10001, 15.0) 
-	paynsprayColls[7]  = createColSphere(-2425.5996, 1028.0996, 52.29999, 15.0) 
-	paynsprayColls[8]  = createColSphere(-1786.7998, 1209.4004, 25.80000, 15.0) 
-	paynsprayColls[9]  = createColSphere(2386.7002,  1043.4004, 11.60000, 15.0) 
-	paynsprayColls[10] = createColSphere(2393.7998,  1483.4004, 12.70000, 15.0) 
-	paynsprayColls[11] = createColSphere(1968.5000,  2162.5000, 12.10000, 15.0) 
-end)
+	paynsprayColls = {
+		createColSphere(1024.9844, -1029.3516, 33.19531, 15.0),
+		createColSphere(2071.4766, -1831.4219, 14.56250, 15.0),
+		createColSphere(488.28125, -1734.6953, 12.39063, 15.0),
+		createColSphere(1041.4004, -1026.0000, 32.70001, 15.0),
+		createColSphere(-1935.900,  239.39999, 35.35001, 15.0),
+		createColSphere(-1904.500,  277.79980, 43.10001, 15.0),
+		createColSphere(-2425.5996, 1028.0996, 52.29999, 15.0),
+		createColSphere(-1786.7998, 1209.4004, 25.80000, 15.0),
+		createColSphere(2386.7002,  1043.4004, 11.60000, 15.0),
+		createColSphere(1968.5000,  2162.5000, 12.10000, 15.0)
+	}
+end )
 
 addEvent("onRaceStateChanging", true)
 addEventHandler("onRaceStateChanging", getRootElement(), function(newState, oldState)
@@ -185,6 +144,12 @@ addEventHandler("pollFinished", resourceRoot, function(pollResult)
 		setTimer(randWeather, 240000, 0) -- in about 4 minutes
 	end
 	
+	-- Achievement
+	if pollResult < 7 then 
+		setElementData(resourceRoot, "currentTaxiMode", pollResult)
+	end
+		
+	
 	-- Custom Modes 
 	if pollResult == 7 then -- All Fares%
 		-- Select city and fares amount
@@ -198,12 +163,18 @@ addEventHandler("pollFinished", resourceRoot, function(pollResult)
 		elseif city == 2 then customMapName = customMapName.. " in San Fierro (All Fares)"
 		elseif city == 3 then customMapName = customMapName.. " in Las Venturas (All Fares)" end
 		
+		-- Achievement
+		setElementData(resourceRoot, "currentTaxiMode", pollResult + (city - 1))
+		
 		-- Launch weather timer
 		setTimer(randWeather, 240000, 0) 
 	elseif pollResult == 8 then -- 1000 Fares
 		-- Select city and fares amount
 		city = 0
 		fares = 1000
+		
+		-- Achievement
+		setElementData(resourceRoot, "currentTaxiMode", 10)
 		
 		-- Select map name
 		customMapName = customMapName.. " in San Andreas (1000 Fares)"
@@ -216,7 +187,7 @@ addEventHandler("pollFinished", resourceRoot, function(pollResult)
 	-- The default top times manager does not respond to the above. So send it an event so it does
 	-- It appears that the leguaan server has their own thing for this, idk what. Strip this out for them
 	local timesManager = getResourceRootElement(getResourceFromName("race_toptimes"))
-	if not timesManager then
+	if not (timesManager) then
 		timesManager = getResourceRootElement(getResourceFromName("race_toptimes2"))
 	end
 	local raceResRoot = getResourceRootElement(getResourceFromName("race"))
@@ -385,6 +356,11 @@ addEventHandler("onPlayerPickUpRacePickup", getRootElement(), function(pickupID,
 	
 	if pickupType == "repair" then
 		setElementData(source, "Money", getElementData(source, "Money")-100)
+		
+		if isElementWithinColShape(taxi, paynsprayColls[8]) then
+			setElementData(source, "Money", getElementData(source, "Money")+100)
+			exports.achievements:triggerAchievement(source, "sunnysideSecretGarage", nil)
+		end
 	elseif pickupType == "nitro" then
 		if getElementData(source, "Money") < 500 then 
 			outputChatBox("You don't have enough money to buy that nitro! ($500)", source)
@@ -393,92 +369,53 @@ addEventHandler("onPlayerPickUpRacePickup", getRootElement(), function(pickupID,
 	end
 end )
 
+-- Opens the garage
 addEventHandler("onColShapeHit", root, function(theElement, matchingDimension)
-	if getElementType(theElement) ~= "player" then return end
+	if getElementType(theElement) ~= "player" and paynsprayColls ~= nil then return end
 	
-	for c_index = 1, MAX_GARAGES do
-		if source == paynsprayColls[c_index] then 
-			if not paynsprayDoorState[c_index] then
-				-- Kill timeout timer
-				if isTimer(garageTimeout[c_index]) then killTimer(garageTimeout[c_index]) end
-				
-				-- Open the door
-				moveObject(paynsprayDoors[c_index], 750.0, o_doorPos[c_index][1], o_doorPos[c_index][2], o_doorPos[c_index][3], o_doorPos[c_index][4], o_doorPos[c_index][5], o_doorPos[c_index][6]) 
-				
-				-- Play the sound
-				triggerClientEvent(theElement, "playClientSFX", theElement, "genrl", 44, 2, false)
-				triggerClientEvent(theElement, "playClientSFX", theElement, "genrl", 44, 0, true)
-				
-				-- Stop sounds and change state
-				setTimer(function() 
-					paynsprayDoorState[c_index] = true
-					triggerClientEvent(theElement, "playClientSFX", theElement, "genrl", 44, 2, false)
-					
-					if isTimer(garageTimeout[c_index]) then killTimer(garageTimeout[c_index]) end
-					garageTimeout[c_index] = setTimer(function() closeGarageByTimeout(c_index) end, 5000, 1)
-				end, 750, 1)
-				
-				break
-			end
+	for i, garage in pairs(paynsprayColls) do
+		if source == garage then
+			-- Kill timeout timer
+			if isTimer(garageTimeout[i]) then killTimer(garageTimeout[i]) end
+			
+			-- Open the door
+			setGarageOpen(garages[i], true)
+			
+			if isTimer(garageTimeout[i]) then killTimer(garageTimeout[i]) end
+			garageTimeout[i] = setTimer(function() closeGarageByTimeout(i) end, 5000, 1)
+			
+			break
 		end
 	end
 end )
 
 addEventHandler("onColShapeLeave", root, function(theElement, matchingDimension)
-	if getElementType(theElement) ~= "player" then return end
+	if getElementType(theElement) ~= "player" and paynsprayColls ~= nil then return end
 	
-	for c_index = 1, MAX_GARAGES do 
-		if source == paynsprayColls[c_index] then 
-			if paynsprayDoorState[c_index] then
-				-- check if nobody near garage
-				for _, players in ipairs(getElementsByType("player")) do
-					if isElementWithinColShape(players, paynsprayColls[c_index]) then
-						return
-					end
-				end
+	for i, garage in pairs(paynsprayColls) do
+		if source == garage then
+			-- Check for nearby players 
+			for _, players in ipairs(getElementsByType("player")) do
+				if isElementWithinColShape(players, garage) then return end
+			end		
+			
+			-- Close the door
+			setGarageOpen(garages[i], false)
 				
-				-- Close the door
-				moveObject(paynsprayDoors[c_index], 750.0, c_doorPos[c_index][1], c_doorPos[c_index][2], c_doorPos[c_index][3], c_doorPos[c_index][4], c_doorPos[c_index][5], c_doorPos[c_index][6]) 
+			if isTimer(garageTimeout[i]) then killTimer(garageTimeout[i]) end
+			garageTimeout[i] = setTimer(function() closeGarageByTimeout(i) end, 5000, 1)	
 				
-				-- Play the sound
-				triggerClientEvent(theElement, "playClientSFX", theElement, "genrl", 44, 2, false)
-				triggerClientEvent(theElement, "playClientSFX", theElement, "genrl", 44, 0, true)
-				
-				-- Stop sounds and change state
-				setTimer(function() 
-					paynsprayDoorState[c_index] = false
-					triggerClientEvent(theElement, "playClientSFX", theElement, "genrl", 44, 2, false)
-					
-					if isTimer(garageTimeout[c_index]) then killTimer(garageTimeout[c_index]) end
-				end, 750, 1)
-				
-				break
-			end
+			break
 		end
 	end
-end )
+end )	
 
 function closeGarageByTimeout(c_index)
 	-- Check for players near garage door
 	for _, players in ipairs(getElementsByType("player")) do
-		if isElementWithinColShape(players, paynsprayColls[c_index]) then
-			return
-		end
+		if isElementWithinColShape(players, paynsprayColls[c_index]) then return end
 	end
 	
-	-- Close the garage door
-	--local x, y, z = getElementPosition(paynsprayDoors[c_index])
-	--local rx, ry, rz = getElementRotation(paynsprayDoors[c_index])
-	
-	--if x == c_doorPos[c_index][1] and y == paynsprayDoors[c_index][2] and z == paynsprayDoors[c_index][3] then
-	--	if rx == 
-	--end
-	
-	if paynsprayDoorState[c_index] then
-		--getElement
-		-- Close the door
-		moveObject(paynsprayDoors[c_index], 750.0, c_doorPos[c_index][1], c_doorPos[c_index][2], c_doorPos[c_index][3], c_doorPos[c_index][4], c_doorPos[c_index][5], c_doorPos[c_index][6]) 
-		-- Stop sounds and change state
-		setTimer(function() paynsprayDoorState[c_index] = false end, 750, 1)
-	end
+	-- Close the door
+	setGarageOpen(garages[c_index], false)
 end

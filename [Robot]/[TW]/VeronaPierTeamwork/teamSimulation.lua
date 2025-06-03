@@ -1,0 +1,88 @@
+-- simulatedTeams = {}
+-- tc = -1
+
+-- function simulate_assignTeams(playerCount)
+-- 	-- determine how many teams to create based on player count and some degree of randomness
+-- 	local randomInt = math.random(1000)
+-- 	if tc == -1 then
+-- 		tc = determineTeamCount(playerCount)
+-- 	end
+
+-- 	-- create teams using the list we just shuffled to determine which themes to create
+-- 	for i = 1, tc, 1 do
+-- 		-- g_teams[i] = createTeam(POSSIBLE_TEAMS[i].name,POSSIBLE_TEAMS[i].r,POSSIBLE_TEAMS[i].g,POSSIBLE_TEAMS[i].b)
+-- 		simulatedTeams[i] = 0
+-- 	end
+		
+-- 	for i = playerCount, 1, -1 do
+-- 		simulatedTeams[i % tc + 1] = simulatedTeams[i % tc + 1]+1
+-- 	end
+	
+-- 	simulate_determineMaxHelpersAllowed()
+-- end
+
+-- function simulate_determineMaxHelpersAllowed()
+-- 	local smallestTeamSize = 999
+-- 	for i,team in pairs(simulatedTeams) do
+-- 		smallestTeamSize = math.min(smallestTeamSize, team)
+-- 	end
+-- 	if smallestTeamSize <= 1 then
+-- 		-- we have a team of 1 players, move the player to a different team, or check if the player is the only player
+-- 		if (#getElementsByType("player") > 1) then
+-- 			outputChatBox("ERROR: A team was generated with 1 player in it. This shouldn't happen.", playerSource, 255, 127, 0)
+-- 		end
+-- 		return 0, 1
+-- 	end
+-- 	smallestTeamSize = smallestTeamSize - 1
+-- 	-- generate three random numbers, and pick whichever is closest to 55% of players.
+-- 	local proposedHelperNum = 999
+-- 	local proposedHelperNumDistanceFromCenter = 999
+-- 	local p55Mark = smallestTeamSize * 0.55
+-- 	for i = 1,2,1 do -- The 2 is some weird randomization thing
+-- 		local generatedHelperNum = math.random(1, smallestTeamSize)
+-- 		local generatedHelperNumDistanceFromCenter = math.abs(generatedHelperNum - p55Mark)
+-- 		if generatedHelperNumDistanceFromCenter < proposedHelperNumDistanceFromCenter then
+-- 			proposedHelperNum = generatedHelperNum
+-- 			proposedHelperNumDistanceFromCenter = generatedHelperNumDistanceFromCenter
+-- 		end
+-- 	end
+
+-- 	local obligatoryRiders = 1
+-- 	local optionalRiders = (smallestTeamSize - proposedHelperNum)
+-- 	local moreRiders = math.random(0, optionalRiders)
+-- 	obligatoryRiders = obligatoryRiders + moreRiders
+-- 	optionalRiders = optionalRiders - moreRiders
+
+-- 	iprint(simulatedTeams, smallestTeamSize, "H", proposedHelperNum, "R", obligatoryRiders)
+-- 	-- return proposedHelperNum, obligatoryRiders
+-- end
+
+-- simulate_assignTeams(50)
+-- simulate_assignTeams(50)
+-- simulate_assignTeams(50)
+-- simulate_assignTeams(50)
+-- simulate_assignTeams(50)
+-- simulate_assignTeams(50)
+-- simulate_assignTeams(50)
+-- simulate_assignTeams(50)
+-- simulate_assignTeams(50)
+-- simulate_assignTeams(50)
+-- simulate_assignTeams(50)
+-- simulate_assignTeams(50)
+-- simulate_assignTeams(50)
+-- simulate_assignTeams(50)
+-- simulate_assignTeams(50)
+-- simulate_assignTeams(50)
+-- simulate_assignTeams(50)
+-- simulate_assignTeams(50)
+-- simulate_assignTeams(50)
+-- simulate_assignTeams(50)
+-- simulate_assignTeams(50)
+-- simulate_assignTeams(50)
+-- simulate_assignTeams(50)
+-- simulate_assignTeams(50)
+-- simulate_assignTeams(50)
+-- simulate_assignTeams(50)
+-- simulate_assignTeams(50)
+-- simulate_assignTeams(50)
+-- simulate_assignTeams(50)

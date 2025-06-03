@@ -5,7 +5,7 @@
 -- Grand Olympic Jump Rally: KEEP or ROLL
 -- Grand Olympic Jump Festive Reroll Edition
 
-setDevelopmentMode(true)
+--setDevelopmentMode(true)
 setCloudsEnabled (false)
 local white = dxCreateTexture("white.png")
 local keep = dxCreateTexture("keep.png")

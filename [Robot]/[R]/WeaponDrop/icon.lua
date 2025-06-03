@@ -81,6 +81,7 @@ function jumpy()
 	local veh = getPedOccupiedVehicle(getLocalPlayer())
 	if (veh) then
 		if uses == 1 then
+			triggerServerEvent("weaponDrop", localPlayer, pickup)
 			if pickup ==1 then -- *** Barrel Drop ************
 				if dropvar <= 5 then
 					local x,y,z = getElementPosition(veh)

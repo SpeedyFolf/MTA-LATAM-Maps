@@ -95,6 +95,7 @@ local function startPickupListener()
 			if getElementType(hitElement) == "ped" then
 				giveWeapon(hitElement, 10, 1, true)
 				setElementPosition(hitElement, 1248, -1337, 15)
+				exports.achievements:triggerAchievement(getElementSyncer(hitElement), "general29", nil)
 			end
 		end)
 	end

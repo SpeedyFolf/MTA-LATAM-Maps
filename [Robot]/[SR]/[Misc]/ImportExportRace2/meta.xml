@@ -1,11 +1,31 @@
 <meta>
-    <script src="crane_client.lua" type="client"></script>
-    <script src="importexport_client.lua" type="client"></script>
-    <script src="importexport_server.lua" type="server"></script>
+	<!-- Ensure mapVars is at the top as it contains vars used by all the other stuff -->
+    <script src="ieInstance/mapVars_shared.lua" type="shared" validate="true"></script>
+
+	<script src="ieGeneric/deliveryCheck_client.lua" type="client" validate="true"></script>
+    <script src="ieGeneric/griefprotection_client.lua" type="client" validate="true"></script>
+    <script src="ieGeneric/ie_client.lua" type="client" validate="true"></script>
+    <script src="ieGeneric/ie_server.lua" type="server"></script>
+    <script src="ieGeneric/racegamemodehandler_client.lua" type="client" validate="true"></script>
+    <script src="ieGeneric/savegame_server.lua" type="server"></script>
+    <script src="ieGeneric/ui_client.lua" type="client" validate="true"></script>
+    <script src="ieGeneric/util_shared.lua" type="shared" validate="true"></script>
+    <script src="ieGeneric/util_client.lua" type="client" validate="true"></script>
+    <script src="ieGeneric/util_server.lua" type="server"></script>
+    <script src="ieGeneric/vehicleData_shared.lua" type="shared" validate="true"></script>
+    <script src="ieGeneric/vehicleScoreboard_c.lua" type="client" validate="true"></script>
+    <script src="ieGeneric/vehicleScoreboard_s.lua" type="server"></script>
+
+    <script src="ieInstance/poll_server.lua" type="server"></script>
+	
+	
+    <script src="achievements_server.lua" type="server"></script>
+	<script src="anticopystrike_client.lua" type="client"></script>
+	<script src="crane_client.lua" type="client" validate="true"></script>
+	<script src="ierace_client.lua" type="client" validate="true"></script>
+    <script src="ierace_server.lua" type="server"></script>
+
     <info gamemodes="race" type="map" version="1.0.0" racetype="SR" name="Import/Export Race 2" author="S."></info>
-    <script src="racegamemodehandler_client.lua" type="client"></script>
-    <script src="ui_client.lua" type="client"></script>
-    <script src="vehicle_names.lua" type="client" validate="true"></script>
     <min_mta_version client="1.5.6-9.16404"></min_mta_version>
     <map src="SR-ImportExportRace2.map" dimension="0"></map>
     <settings>

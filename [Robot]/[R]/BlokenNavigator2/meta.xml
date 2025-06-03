@@ -20,5 +20,4 @@
         <setting name="#respawn" value='[ &quot;timelimit&quot; ]'></setting>
     </settings>
     <script src="mapEditorScriptingExtension_s.lua" type="server"></script>
-    <script src="mapEditorScriptingExtension_c.lua" type="client" validate="false"></script>
 </meta>

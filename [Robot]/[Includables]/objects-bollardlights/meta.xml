@@ -1,0 +1,17 @@
+<meta>
+    <!-- Clean model unloader hook from botder -->
+    <script src="unloader.lua" type="client"/>
+
+	<info type="script" name="Quarterpipe" description="Custom model from SAMP" version="1.0" />
+	<script src="models.lua" type="client" />
+
+	<file src="textures.txd" />
+	<file src="bollardlight.col" />
+	<file src="bollardlight1.dff" />
+	<file src="bollardlight2.dff" />
+	<file src="bollardlight3.dff" />
+	<file src="bollardlight4.dff" />
+	<file src="bollardlight5.dff" />
+	<file src="bollardlight6.dff" />
+	<file src="bollardlight7.dff" />
+</meta>

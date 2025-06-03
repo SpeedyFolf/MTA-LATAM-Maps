@@ -19,8 +19,11 @@ g_SUCCEED_SPEEDCHECK_EVENT = "succeedSpeedcheck"
 g_FAIL_SPEEDCHECK_EVENT = "failSpeedcheck"
 g_EXIT_SPEEDCHECK_EVENT = "exitSpeedcheck"
 g_CLIENT_SPECTATORED_EVENT = "exploiters be like"
+g_SEED_EVENT = "seed"
+
+g_LEVEL_OFFSET = 5
 
 function g_PATIENTS_FOR_LEVEL(level)
 	if g_NUM_LEVELS == 1 then return 12 end
-	return level
+	return level + g_LEVEL_OFFSET
 end

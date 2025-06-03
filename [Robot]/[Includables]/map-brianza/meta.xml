@@ -1,0 +1,64 @@
+<meta>
+	<info type="script" name="Brianza" description="Custom models for Brianza map" version="1.1" />
+	<script src="models.lua" type="client" />
+	<script src="clouds.lua" type="client" />
+	
+    <!-- Clean model unloader hook from botder -->
+    <script src="unloader.lua" type="client"/>
+
+	<file src="brianza.txd" />
+	<file src="brianza_27.dff" />
+	<file src="brianza_27.col" />
+	<file src="brianza_04.dff" />
+	<file src="brianza_04.col" />
+	<file src="brianza_05.dff" />
+	<file src="brianza_05.col" />
+	<file src="brianza_10.dff" />
+	<file src="brianza_10.col" />
+	<file src="brianza_12.dff" />
+	<file src="brianza_12.col" />
+	<file src="brianza_13.dff" />
+	<file src="brianza_13.col" />
+	<file src="brianza_17.dff" />
+	<file src="brianza_17.col" />
+	<file src="brianza_20.dff" />
+	<file src="brianza_20.col" />
+	<file src="brianza_24.dff" />
+	<file src="brianza_24.col" />
+	<file src="brianza_01.dff" />
+	<file src="brianza_01.col" />
+	<file src="brianza_02.dff" />
+	<file src="brianza_02.col" />
+	<file src="brianza_03.dff" />
+	<file src="brianza_03.col" />
+	<file src="brianza_06.dff" />
+	<file src="brianza_06.col" />
+	<file src="brianza_07.dff" />
+	<file src="brianza_07.col" />
+	<file src="brianza_08.dff" />
+	<file src="brianza_08.col" />
+	<file src="brianza_09.dff" />
+	<file src="brianza_09.col" />
+	<file src="brianza_11.dff" />
+	<file src="brianza_11.col" />
+	<file src="brianza_14.dff" />
+	<file src="brianza_14.col" />
+	<file src="brianza_15.dff" />
+	<file src="brianza_15.col" />
+	<file src="brianza_16.dff" />
+	<file src="brianza_16.col" />
+	<file src="brianza_18.dff" />
+	<file src="brianza_18.col" />
+	<file src="brianza_19.dff" />
+	<file src="brianza_19.col" />
+	<file src="brianza_21.dff" />
+	<file src="brianza_21.col" />
+	<file src="brianza_22.dff" />
+	<file src="brianza_22.col" />
+	<file src="brianza_23.dff" />
+	<file src="brianza_23.col" />
+	<file src="brianza_25.dff" />
+	<file src="brianza_25.col" />
+	<file src="brianza_26.dff" />
+	<file src="brianza_26.col" />
+</meta>

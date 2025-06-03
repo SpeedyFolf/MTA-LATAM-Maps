@@ -30,6 +30,7 @@ addEventHandler("onePercentWin", getRootElement(), function()
 				end
 			else
 				dbExec(DATABASE, "INSERT INTO ChaosPercentWinners(playername, score, timestamp) VALUES (?,?,?)", getPlayerName(source), time, os.time())
+				exports.achievements:triggerAchievement(source, "disco17", nil)
 			end
 			
 			-- Sort first 128 Records 

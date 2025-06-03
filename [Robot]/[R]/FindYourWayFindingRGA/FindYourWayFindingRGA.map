@@ -1,0 +1,7 @@
+<map edf:definitions="editor_main,race">
+    <spawnpoint id="spawnpoint (Jester) (1)" vehicle="559" interior="0" posX="-931.79999" posY="-238.39999" posZ="38.2" rotX="2" rotY="-1" rotZ="76"></spawnpoint>
+    <checkpoint id="checkpoint 1" extracolshapesize="4" type="checkpoint" color="#FF00FFFF" blipsize="6" size="5" interior="0" posX="1961.7" posY="-2189.8" posZ="12.6" rotX="0" rotY="0" rotZ="0"></checkpoint>
+    <vehicle id="vehicle (Sandking) (1)" sirens="false" landingGearDown="false" plate="I86R EYY" paintjob="3" dimension="0" interior="0" health="1000" alpha="255" model="495" collisions="true" posX="1968.3" posY="-2197.8" posZ="14.1" rotX="0" rotY="0" rotZ="36" color="105,88,83,91,93,94,0,0,0,0,0,0"></vehicle>
+    <vehicle id="vehicle (Hydra) (1)" sirens="false" landingGearDown="true" plate="PVY6 34I" paintjob="3" dimension="0" interior="0" health="1000" alpha="255" model="520" collisions="true" posX="1953.85" posY="-2184.6001" posZ="17.9" rotX="0" rotY="0" rotZ="0" color="0,0,0,0,0,0,0,0,0,0,0,0"></vehicle>
+    <ped id="ped (1)" interior="0" rotZ="0.003" dimension="0" model="99" health="100" armor="0" collisions="true" alpha="255" posX="1961.7" posY="-2196.1001" posZ="13.5" rotX="0" rotY="0"></ped>
+</map>

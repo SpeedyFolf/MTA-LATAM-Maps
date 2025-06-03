@@ -4,7 +4,6 @@
     <info gamemodes="race" type="map" racetype="DD" name="Towers 2" author="driver2 (based on Fivetowers by Soner)" version="1.0.0" description="Improved Fivetowers map with random checkpoints and a hunter pickup"></info>
     <map src="race-fivetowers2.map" dimension="0"></map>
 	<script src="mapEditorScriptingExtension_s.lua" type="server"></script>
-    <script src="mapEditorScriptingExtension_c.lua" type="client" validate="false"></script>
     <settings>
         <setting name="#skins" value='[ &quot;cj&quot; ]'></setting>
         <setting name="#maxplayers" value="[ 128 ]"></setting>
@@ -18,6 +17,8 @@
         <setting name="#waveheight" value="[ 0 ]"></setting>
         <setting name="#respawntime" value="[ 5 ]"></setting>
         <setting name="#locked_time" value="[ false ]"></setting>
+        <setting name="#shufflespawns" value="[ true ]"></setting>
+        <setting name="#useLODs" value="[ true ]"></setting>
         <setting name="#duration" value="[ 1800 ]"></setting>
         <setting name="#respawn" value='[ &quot;none&quot; ]'></setting>
     </settings>

@@ -99,8 +99,8 @@ cheatsList = {
 	"xjvsnaj",
 	"ofviac",
 	"dontbringonthenight",
-	"alnsfmzo",
-	"dulldullday",
+	"alnsfmzo", -- 69 
+	"dulldullday", -- 70
 	"speeditup",
 	"ppgwjht",
 	"slowitdown",
@@ -111,8 +111,6 @@ cheatsList = {
 	"cpktnwt",
 	"cfvfgmj",
 	"cantseewhereimgoing",
-	"alnsfmzo",
-	"dulldullday",
 	"cwjxuoc",
 	"sandinmyears",
 	"auifrvqs",
@@ -135,29 +133,6 @@ function activateCheat(cheat)
 	-- Commit suicide	
 	elseif cheat == 3 or cheat == 4 then
 		setElementHealth(localPlayer, 0)
-	
-	-- Maximum fat
-	elseif cheat == 5 or cheat == 6 then 
-		setPedStat(localPlayer, 21, 999)
-	
-	-- Maximum muscle
-	elseif cheat == 7 or cheat == 8 then
-		setPedStat(localPlayer, 23, 999)
-		
-	-- Maximum sex appeal
-	elseif cheat == 9 or cheat == 10 then
-		setPedStat(localPlayer, 25, 999)
-		
-	-- Maximum sex appeal
-	elseif cheat == 11 or cheat == 12 then
-		setPedStat(localPlayer, 229, 999)
-		setPedStat(localPlayer, 230, 999)
-		setPedStat(localPlayer, 160, 999)
-		
-	-- Minimum fat and muscle
-	elseif cheat == 13 or cheat == 14 then
-		setPedStat(localPlayer, 21, 0)
-		setPedStat(localPlayer, 23, 0)
 		
 	-- Unlimited health
 	elseif cheat == 15 or cheat == 16 then
@@ -306,34 +281,32 @@ function activateCheat(cheat)
 	elseif cheat == 79 or cheat == 80 then
 		setWeather(9)
 		
-	-- Overcast weather
-	elseif cheat == 81 or cheat == 82 then
-		setWeather(15)
-		
 	-- Sandstorm
-	elseif cheat == 83 or cheat == 84 then
+	elseif cheat == 81 or cheat == 82 then
 		setWeather(19)
 		
 	-- Rainy weather
-	elseif cheat == 85 or cheat == 86 then
+	elseif cheat == 83 or cheat == 84 then
 		setWeather(8)
 		
 	-- Stormy weather
-	elseif cheat == 87 or cheat == 88 then
+	elseif cheat == 85 or cheat == 86 then
 		setWeather(16)
 		
 	-- Sunny weather
-	elseif cheat == 89 or cheat == 90 then
+	elseif cheat == 87 or cheat == 88 then
 		setWeather(18)
 		
 	-- Very sunny weather
-	elseif cheat == 91 or cheat == 92 then
+	elseif cheat == 89 or cheat == 90 then
 		setWeather(17)
 		
 	-- Allow spectate
-	elseif cheat == 93 then
+	elseif cheat == 91 then
 		wantSpectate = true
 	end
+	
+	if cheat ~= 91 then triggerServerEvent("activateCheat", localPlayer, cheat) end
 end 
 
 -- Function checks if player is spectating

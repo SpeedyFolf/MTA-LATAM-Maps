@@ -1,7 +1,7 @@
 <meta>
     <min_mta_version server="1.5.8-9.20957"></min_mta_version>
     <script src="newMapEditorScriptingExtension_s.lua" type="server"></script>
-    <info gamemodes="race" type="map" name="Crazy Projects Derby" author="Discoordination" version="1.0.0" racetype="DD"></info>
+    <info gamemodes="race" type="map" racetype="DD" name="Crazy Projects Derby" author="Discoordination" version="1.0.0"></info>
     <map src="CrazyProjectsDerby.map" dimension="0"></map>
 	
 	<file src="models/virgo.txd"></file>

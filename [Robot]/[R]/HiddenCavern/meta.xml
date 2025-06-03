@@ -1,4 +1,5 @@
 <meta>
+    <include resource="skc-shark"></include>
     <info gamemodes="race" type="map" racetype="R" name="Hidden Cavern" description="AFEcup2021-Sandking-HiddenCavern" author="Dockinoke" version="1.0.0"></info>
     <map src="race-AFEcup2021-Sandking-HiddenCavern.map" dimension="0"></map>
     <settings>

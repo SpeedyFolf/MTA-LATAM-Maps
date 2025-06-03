@@ -68,7 +68,7 @@ function drawStats()
 		dxDrawText((i).. ".", screenX*st_offsets[1], screenY*0.27 + offset, screenX*st_offsets[1]*1.105, screenY, tocolor(175, 202, 230, statsAlpha), textSize, textSize, "bankgothic", "right")
 		dxDrawText(tostring(displayedRecords[i]["playername"]), screenX*(st_offsets[1]*1.12), screenY*0.27 + offset, screenX*st_offsets[1], screenY, tocolor(175, 202, 230, statsAlpha), textSize, textSize, "bankgothic")
 		dxDrawText(convertToRaceTime(displayedRecords[i]["score"]), screenX*(st_offsets[1]*1.8), screenY*0.27 + offset, screenX*st_offsets[1], screenY, tocolor(175, 202, 230, statsAlpha), textSize, textSize, "bankgothic")
-		dxDrawText(os.date(_, tostring(displayedRecords[i]["timestamp"]):sub(1, 10)), screenX*(st_offsets[1]+0.04), screenY*0.27 + offset, screenX*(st_offsets[1]+st_offsets[3]), screenY, tocolor(175, 202, 230, statsAlpha), textSize, textSize, "bankgothic", "right")
+		dxDrawText(os.date("%d.%m.%Y", tostring(displayedRecords[i]["timestamp"]):sub(1, 10)), screenX*(st_offsets[1]+0.04), screenY*0.27 + offset, screenX*(st_offsets[1]+st_offsets[3]), screenY, tocolor(175, 202, 230, statsAlpha), textSize, textSize, "bankgothic", "right")
 		
 		offset = offset + box_height / (show + 1)
 	end

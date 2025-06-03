@@ -2,6 +2,7 @@ CRANE_STATE = "unavailable"
 TANKER_DETECTOR = createColCuboid(-1740, -29, 0, 284, 238, 12)
 ENDCAR_DETECTOR	= createColCuboid(-1644, -17, 16, 200, 200, 20)
 LAST_CAR = false
+MARKER_TANKER = getElementByID("_MARKER_EXPORT_TANKER")
 
 SPAWNCARS = {
 	[438] = true, -- cabbie
@@ -13,6 +14,22 @@ SPAWNCARS = {
 	[504] = true, -- bloodring
 	[586] = true  -- wayfarer
 }
+
+function checkCraneTruckMarker()
+	if not checkHaltTimer() then return end
+	if not checkPlayerInPlay() then return end
+	local vehicle = getPedOccupiedVehicle(localPlayer)
+	if not checkVehicleExistence(vehicle) then return end
+	if not checkFreedomOfMovement(vehicle) then return end
+	if not checkVehicleStopped(vehicle) then return end
+	if (getElementModel(vehicle) ~= 514) then return end
+	if (isElementWithinMarker(vehicle, MARKER_TANKER)) then
+		-- We are a tanker in the tanker marker
+ 		moveCrane()
+	end
+end
+addEventHandler("onClientPreRender", root, checkCraneTruckMarker)
+
 
 function makeMarkerVisible(visible)
 	if (visible) then
@@ -230,3 +247,11 @@ function teleportToCraneForFinish()
 	aa,bb,cc,dd,ee,ff = getElementBoundingBox(magnet)
 	setElementPosition(vehicle, x, y, z - f + aa + 1)
 end
+
+function repairVehicleOnCrane()
+	local veh = getPedOccupiedVehicle(localPlayer)
+	if (veh and getElementAttachedTo(veh) ~= false and getElementHealth(veh) < 250) then
+		setElementHealth(veh, 251)
+	end
+end
+setTimer(repairVehicleOnCrane, 100, 0)

@@ -18,7 +18,6 @@
         <setting name="#locked_time" value="[ true ]"></setting>
         <setting name="#duration" value="[ 3600 ]"></setting>
         <setting name="#respawn" value='[ &quot;timelimit&quot; ]'></setting>
-        <setting name="#disableraceghosts" value="[ false ]"></setting>
     </settings>
     <script src="mapEditorScriptingExtension_s.lua" type="server" validate="false"></script>
 </meta>

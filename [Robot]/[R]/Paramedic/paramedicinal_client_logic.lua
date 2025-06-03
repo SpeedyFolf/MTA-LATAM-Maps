@@ -71,6 +71,7 @@ function initializeHospital(id)
 
 		triggerSpeedCheck(function()
 			triggerEvent(g_PATIENTS_DROPPED_OFF_EVENT, localPlayer, g_MAX_PATIENTS_IN_VEHICLE - g_OpenSeats)
+			triggerServerEvent(g_PATIENTS_DROPPED_OFF_EVENT, resourceRoot, g_MAX_PATIENTS_IN_VEHICLE - g_OpenSeats)
 			g_OpenSeats = g_MAX_PATIENTS_IN_VEHICLE
 
 			for id, p in pairs(g_PatientStates) do
@@ -135,7 +136,10 @@ end
 addEvent(g_CLIENT_SPECTATORED_EVENT, true)
 addEventHandler(g_CLIENT_SPECTATORED_EVENT, localPlayer, resetPickups)
 
-addEventHandler("onClientResourceStart", resourceRoot, function()
+addEvent(g_SEED_EVENT, true)
+addEventHandler(g_SEED_EVENT, resourceRoot, function(seed)
+	math.randomseed(seed)
+
 	for id = 1, #g_HOSPITAL_POSITIONS do
 		initializeHospital(id)
 	end

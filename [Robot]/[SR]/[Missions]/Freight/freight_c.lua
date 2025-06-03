@@ -216,6 +216,7 @@ function playerStoppedInMarker()
 		textMode = 3 -- level one completed
 		
 		if laps == 1 then -- Finish if vote 1
+			setElementData(localPlayer, "timesDerailed", timesDerailed)
 			killTimer(playerStoppedInMarkerTimer)
 			
 			for i = 1, 28 do checkpointTrigger() end
@@ -231,6 +232,7 @@ function playerStoppedInMarker()
 			stationBlip = createBlip(2866.1, 1266.1, 9.9, 0, 2, 224, 191, 100)
 		end
 	elseif stationNumber == 10 then -- finish if Vote 2
+		setElementData(localPlayer, "timesDerailed", timesDerailed)
 		killTimer(playerStoppedInMarkerTimer)
 		
 		checkpointTrigger()

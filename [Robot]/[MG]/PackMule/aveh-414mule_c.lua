@@ -132,6 +132,10 @@ function scorePoints()
 		multiplier = multiplier + 2
 	end
 
+	if (multiplier == 1 + 5 + 4 + 2) then
+		triggerServerEvent("achievement", localPlayer, "sssPackMuleMaxBonus")
+	end
+
 	reward = reward * multiplier
 	LATEST_REWARD = reward
 	MULTIPLIER = multiplier

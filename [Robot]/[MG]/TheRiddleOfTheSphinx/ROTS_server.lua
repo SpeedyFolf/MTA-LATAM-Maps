@@ -274,13 +274,20 @@ function reveal(safeZone) -- reveal which cone was correct and kill all the play
 	end
 	
 	for index,thePlayer in ipairs (getAlivePlayers()) do -- if the player is not in the correct area, kill them
-			local x,y,z = getElementPosition(thePlayer)
-			if not(isElementWithinColShape(thePlayer,colShape)) or (z<33) then
-				setTimer(function()
-					blowVehicle(getPedOccupiedVehicle(thePlayer))
-				end,2000,1)
-				triggerClientEvent(thePlayer,"laugh",thePlayer)
+		local x,y,z = getElementPosition(thePlayer)
+		if not(isElementWithinColShape(thePlayer,colShape)) or (z<33) then
+			setTimer(function()
+				blowVehicle(getPedOccupiedVehicle(thePlayer))
+			end,2000,1)
+			triggerClientEvent(thePlayer,"laugh",thePlayer)
+		else -- Answer was correct
+			-- Achievements 
+			setElementData(thePlayer, "correctAnswers", getElementData(thePlayer, "correctAnswers") + 1)
+			
+			if getElementData(thePlayer, "correctAnswers") == 5 then
+				exports.achievements:triggerAchievement(thePlayer, "general12", nil)
 			end
+		end
 	end
 	
 	setTimer(function()

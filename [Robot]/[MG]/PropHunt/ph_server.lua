@@ -147,6 +147,11 @@ function onServerSendMessage(collected, x, y, z)
         collected_props[collected] = true
         outputChatBox ( getPlayerName(client) .. "#FFFFFF was first to find " .. descriptions[collected] .. " in #00FF00" .. getZoneName(x, y, z) .. " - " .. getZoneName(x, y, z, true) .. "!", root, 0, 255, 0, true )
     end
+
+	if exports["achievements"] then
+		exports.achievements:updateObjective(client, "prophuntProps10", collected)
+		exports.achievements:updateObjective(client, "prophuntProps25", collected)
+	end
 end
 addEvent("onServerSendMessage", true) -- 2nd argument should be set to true, in order to be triggered from counter side (in this case client-side)
 addEventHandler("onServerSendMessage", root, onServerSendMessage)

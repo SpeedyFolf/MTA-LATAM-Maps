@@ -1,14 +1,15 @@
 -- on player finish
 
 BIG_CARS = { [514] = true, [406] = true, [431] = true, [532] = true, [476] = true, [495] = true,[486] = true, [515] = true, [444] = true }
-DODOS = {}
 CHECKPOINTS = getElementsByType("checkpoint")
-DRIVERS = {}
+TIME_UNTIL_BLIPS = 210000
+
+g_dodos = {}
+g_drivers = {}
 
 function onRaceStateChanging(newState, oldState)
-	iprint(newState, oldState)
 	if (newState == "GridCountdown") then
-		triggerClientEvent(root, "receiveDodos", resourceRoot, DODOS)
+		triggerClientEvent(root, "spawnFirstDodos", resourceRoot, g_dodos)
 		at400 = getElementByID("AT400")
 		at400p = getElementByID("AT400Parent")
 		attachElements(at400, at400p)
@@ -82,21 +83,16 @@ function onRaceStateChanging(newState, oldState)
 			--setElementVelocity(v, 0.3, 0.9, 0.6)		
 		end
 	elseif (newState == "Running" and oldState == "GridCountdown") then
-		triggerClientEvent(root, "spawnFirstDodos", resourceRoot)
+		triggerClientEvent(root, "raceStateRunning", resourceRoot)
 		handling = getModelHandling(429)
 		for i, v in pairs(getElementsByType("vehicle")) do
 			if (getVehicleOccupant(v)) then
-				setVehicleDamageProof(v, true)			
-				--setVehicleHandling(v, "mass", handling.mass)
-				setVehicleHandling(v, "dragCoeff", handling.dragCoeff)
-				setVehicleHandling(v, "engineAcceleration", handling.engineAcceleration)
-				setVehicleHandling(v, "engineInertia", handling.engineInertia)
-				setVehicleHandling(v, "maxVelocity", handling.maxVelocity)
+				setVehicleProperties(nil, v)
 			end
 		end
 		revealTimer = setTimer(function()
 			triggerClientEvent(root, "markDodosOnMap", resourceRoot)
-		end, 210000, 1)
+		end, TIME_UNTIL_BLIPS, 1)
 		--triggerClientEvent(root, "setOpponentCollisions", resourceRoot)
 	elseif (newState == "SomeoneWon") then
 		if isTimer(revealTimer) then killTimer(revealTimer) end
@@ -110,43 +106,23 @@ function onMapStarting()
 	dodos = getElementsByType("dodo")
 	for i = #dodos, 1, -1 do
 		newI = math.random(1, i)
-		table.insert(DODOS, dodos[newI])
+		table.insert(g_dodos, dodos[newI])
 		table.remove(dodos, newI)
 	end
 
 	drivers = getElementsByType("driver")
 	for i = #drivers, 1, -1 do
 		newI = math.random(1, i)
-		table.insert(DRIVERS, drivers[newI])
+		table.insert(g_drivers, drivers[newI])
 		table.remove(drivers, newI)
 	end
 	players = getElementsByType("player")
-	if (#players <= #DRIVERS) then
-		for i = 1, #players, 1 do
-			setElementData(players[i], "airpain3.driver", DRIVERS[i])
-		end
-	else
-		for i = 1, #players, 1 do
-			if (i > #DRIVERS) then
-				setElementData(players[i], "airpain3.driver", DRIVERS[i - #DRIVERS])
-			else
-				setElementData(players[i], "airpain3.driver", DRIVERS[i])
-			end
-		end
+	for i = 1, #players, 1 do
+		setElementData(players[i], "airpain3.driver", g_drivers[(i % #g_drivers) + 1])
 	end
-
-	handling = getModelHandling(415)
 	for i, v in pairs(getElementsByType("vehicle")) do
 		if (getVehicleOccupant) then
-			setVehicleDamageProof(v, true)			
-			--setVehicleHandling(v, "mass", handling.mass)
-			setVehicleHandling(v, "dragCoeff", handling.dragCoeff)
-			setVehicleHandling(v, "engineAcceleration", handling.engineAcceleration)
-			setVehicleHandling(v, "engineInertia", handling.engineInertia)
-			setVehicleHandling(v, "maxVelocity", handling.maxVelocity)
-			setVehicleHandling(v, "tractionMultiplier", handling.tractionMultiplier)
-			-- setVehicleHandling(v, "tractionLoss", handling.tractionLoss)
-			-- setVehicleHandling(v, "tractionBias", handling.tractionBias)
+			setVehicleProperties(nil, v)
 		end
 	end
 end
@@ -156,34 +132,73 @@ function onVehicleEnter(thePlayer, seat, jacked)
 	if (not getElementType(thePlayer) == "player") then
 		return
 	end
+	setVehicleProperties(thePlayer)
 	setTimer(function()
-		driver = getElementData(thePlayer, "airpain3.driver")
-		vehicle = getPedOccupiedVehicle(thePlayer)
-		model = getElementData(driver, "model")
-		paintjob = getElementData(driver, "paintjob")
-		color = getElementData(driver, "color")
-		colors = {}
-		for col in string.gmatch(color, '([^,]+)') do
-			table.insert(colors, col)
-		end
-		setElementModel(vehicle, model)
-		setVehiclePaintjob(vehicle, paintjob)
-		setVehicleColor(vehicle, colors[1], colors[2], colors[3], colors[4], colors[5], colors[6], colors[7], colors[8], colors[9], colors[10], colors[11], colors[12])
-		
-		setVehicleDamageProof(vehicle, true)			
-		--setVehicleHandling(vehicle, "mass", handling.mass)
-		setVehicleHandling(vehicle, "dragCoeff", handling.dragCoeff)
-		setVehicleHandling(vehicle, "engineAcceleration", handling.engineAcceleration)
-		setVehicleHandling(vehicle, "engineInertia", handling.engineInertia)
-		setVehicleHandling(vehicle, "maxVelocity", handling.maxVelocity)
-	end, 2000, 1)
+		setVehicleProperties(thePlayer)
+	end, 2000, 0)
 end
 addEventHandler("onVehicleEnter", root, onVehicleEnter)
 
-function onPlayerJoin()
-	setElementData(source, "airpain3.driver", DRIVERS[math.random(#DRIVERS)])
-	triggerClientEvent(source, "receiveDodos", resourceRoot, DODOS)
-	triggerClientEvent(source, "spawnFirstDodos", resourceRoot)
+function onPlayerResourceStart()
+	setElementData(source, "airpain3.driver", g_drivers[math.random(#g_drivers)])
+	setVehicleProperties(source)
+	triggerClientEvent(source, "spawnFirstDodos", resourceRoot, g_dodos)
 	joinedPlayer = source
 end
-addEventHandler("onPlayerJoin", root, onPlayerJoin)
+addEventHandler("onPlayerResourceStart", root, onPlayerResourceStart)
+
+function setVehicleProperties(thePlayer, vehicle)
+	if not vehicle and not thePlayer then return end
+	if not vehicle then 
+		if not isElement(thePlayer) then return end
+		vehicle = getPedOccupiedVehicle(thePlayer)
+	end
+	if not thePlayer then
+		thePlayer = getVehicleOccupant(vehicle)
+	end
+	if not vehicle or not thePlayer then return end
+	driver = getElementData(thePlayer, "airpain3.driver")
+	vehicle = getPedOccupiedVehicle(thePlayer)
+	handling = getModelHandling(415)
+	model = getElementData(driver, "model")
+	paintjob = getElementData(driver, "paintjob")
+	color = getElementData(driver, "color")
+	plateText = getElementData(driver, "plate")
+	colors = {}
+	for col in string.gmatch(color, '([^,]+)') do
+		table.insert(colors, col)
+	end
+	setElementModel(vehicle, model)
+	setVehiclePaintjob(vehicle, paintjob)
+	setVehicleColor(vehicle, colors[1], colors[2], colors[3], colors[4], colors[5], colors[6], colors[7], colors[8], colors[9], colors[10], colors[11], colors[12])
+	setVehiclePlateText(vehicle, plateText)
+	setVehicleDamageProof(vehicle, true)			
+	--setVehicleHandling(vehicle, "mass", handling.mass)
+	setVehicleHandling(vehicle, "dragCoeff", handling.dragCoeff)
+	setVehicleHandling(vehicle, "engineAcceleration", handling.engineAcceleration)
+	setVehicleHandling(vehicle, "engineInertia", handling.engineInertia)
+	setVehicleHandling(vehicle, "maxVelocity", handling.maxVelocity)
+	setVehicleHandling(vehicle, "tractionMultiplier", handling.tractionMultiplier)
+	-- setVehicleHandling(vehicle, "tractionLoss", handling.tractionLoss)
+	-- setVehicleHandling(vehicle, "tractionBias", handling.tractionBias)
+end
+
+function checkFinishAchievements(rank, time)
+	if exports["achievements"] then
+		local driver = getElementData(source,"airpain3.driver")
+		local model = getElementData(driver,"model")
+		exports.achievements:updateObjective(source, "sssAirpain3Drivers", model)
+		if rank == 1 and time < 210000 then
+			exports.achievements:triggerAchievement(source, "sssAirpain3NoBlips", nil)
+		end
+	end
+end
+addEvent("onPlayerFinish", true)
+addEventHandler("onPlayerFinish", root, checkFinishAchievements)
+
+addEvent("achievement", true)
+addEventHandler("achievement", root, function(achievementID)
+	if exports["achievements"] then
+		exports.achievements:triggerAchievement(client, achievementID, nil)
+	end
+end )

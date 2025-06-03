@@ -6,6 +6,7 @@
     <script src="drawdist_explode.lua" type="client" />
     <script src="constants.lua" type="shared" />
     <script src="paramedicinal_server_logic.lua" type="server"></script>
+    <script src="achievement.lua" type="server"></script>
     <script src="paramedicinal_client_logic.lua" type="client"></script>
     <script src="paramedicinal_client_ux.lua" type="client"></script>
     <oop>true</oop>

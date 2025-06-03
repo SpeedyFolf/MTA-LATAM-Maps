@@ -1,0 +1,17 @@
+<meta>
+    <!-- Clean model unloader hook from botder -->
+    <script src="unloader.lua" type="client"/>
+
+	<info type="script" name="Custom Ramps" description="Custom models from SAMP" version="1.0" />
+	<script src="models.lua" type="client" />
+
+	<file src="textures.txd" />
+	<file src="funboxramp1.col" />
+	<file src="funboxramp1.dff" />
+	<file src="funboxramp2.col" />
+	<file src="funboxramp2.dff" />
+	<file src="funboxramp3.col" />
+	<file src="funboxramp3.dff" />
+	<file src="funboxtop.col" />
+	<file src="funboxtop.dff" />
+</meta>

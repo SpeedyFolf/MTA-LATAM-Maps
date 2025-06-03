@@ -6,6 +6,9 @@ firstSpawn = true
 displayAlpha = 255
 displayOffset = 0
 taxiLight = {}
+arrow = createObject(1318, 0, 0, 0, 0, 70, 90)
+setObjectScale(arrow, 2)
+arrowX, arrowY, arrowZ = 0, 0, 0
 
 -- music
 songStarted = false
@@ -45,6 +48,11 @@ addEventHandler("onClientPlayerVehicleEnter", localPlayer, function(vehicle)
 	end
 end )
 
+function findRotation(x1, y1, x2, y2) 
+    local t = -math.deg(math.atan2(x2 - x1, y2 - y1))
+    return t < 0 and t + 360 or t
+end
+
 addEventHandler("onClientRender", getRootElement(), function()
 	if isLocalPlayerSpectating() then return end -- Spectate check
 	
@@ -61,6 +69,25 @@ addEventHandler("onClientRender", getRootElement(), function()
 		displayOffset = displayOffset + 3
 	end
 	if airTime ~= 0 then dxDrawBorderedText(1, "+"..airTime, 0, 0, screenX*1.05, screenY*0.95-displayOffset, tocolor (240, 240, 240, displayAlpha), 3, "pricedown", "center", "center", true, false) end
+	
+	-- Set arrow position
+	arrowX, arrowY, arrowZ = getWorldFromScreenPosition(screenX / 2, screenY / 10, 5)
+end )
+
+addEventHandler("onClientPreRender", root, function()
+	setElementPosition(arrow, arrowX, arrowY, arrowZ)
+	
+	if getPedOccupiedVehicle(localPlayer) then
+		local x, y, z = getElementPosition(getPedOccupiedVehicle(localPlayer))
+		local rx, ry, rz = getElementRotation(getPedOccupiedVehicle(localPlayer))
+		
+		local markers = getElementsByType("marker", getResourceDynamicElementRoot(getResourceFromName("race")))
+		for i, marker in ipairs(markers) do
+			local mx, my, mz = getElementPosition(marker)
+			setElementRotation(arrow, 0, 70, findRotation(x, y, mx, my) - 90)
+			break
+		end
+	end
 end )
 
 function updateWheelState()

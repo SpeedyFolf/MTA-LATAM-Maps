@@ -10,6 +10,7 @@ local barrel = {}
 local scores = {}
 local krakenInnit = 0
 local showStartText = 1
+local rewardAchievement = true
 elementDataKey = "Pscore"
 elementDataKey2 = "Lscore"
 setElementData (localPlayer, elementDataKey , 0, true)
@@ -172,6 +173,9 @@ function dartScore ()
 			score = 10
 		end
 	end
+	if (score < 9) then
+		rewardAchievement = false
+	end
 	setElementData (localPlayer, elementDataKey2, score, true)
 	setTimer ( function ()
 		switch = 2
@@ -189,6 +193,9 @@ function dartScore ()
 		end
 		if totalScore >= 60 and lvl == 2 then
 			lvl = 3
+			if rewardAchievement then
+				triggerServerEvent("achievement", localPlayer, "dartsGoldScoresOnly")
+			end
 		end
 		local veh = getPedOccupiedVehicle(localPlayer)
 		if veh then

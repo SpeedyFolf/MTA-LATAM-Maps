@@ -17,6 +17,7 @@
         <setting name="#locked_time" value="[ true ]"></setting>
         <setting name="#duration" value="[ 1800 ]"></setting>
         <setting name="#respawn" value='[ &quot;timelimit&quot; ]'></setting>
+        <setting name="#autopimp" value="[ &quot;false&quot; ]"></setting>
     </settings>
         <script src="3dmodel.lua" type="client" />
         <file src="Files/cmodel.dff"></file>

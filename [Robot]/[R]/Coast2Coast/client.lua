@@ -25,4 +25,4 @@ end
 addEvent ( "coastFinish", true )
 addEventHandler ("coastFinish", getRootElement(), finishRace )
 
-setDevelopmentMode(true)
+--setDevelopmentMode(true)

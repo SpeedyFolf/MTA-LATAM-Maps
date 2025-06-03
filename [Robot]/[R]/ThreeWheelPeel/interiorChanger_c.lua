@@ -27,6 +27,7 @@ addEventHandler("onClientRender", root, function()
 			for index, markers in ipairs(getElementsByType("marker")) do setElementInterior(markers, 3) end
 			for index, vehicles in ipairs(getElementsByType("vehicle")) do setElementInterior(vehicles, 3) end
 			for index, pickups in ipairs(getElementsByType("pickup")) do setElementInterior(pickups, 3) end
+			for index, objects in ipairs(getElementsByType("object")) do setElementInterior(objects, 3) end
 			for index, spawnpoints in ipairs(getElementsByType("spawnpoint")) do setElementInterior(spawnpoints, 3) end
 			for index, peds in ipairs(getElementsByType("ped")) do setElementInterior(peds, 3) end
 		else
@@ -34,18 +35,20 @@ addEventHandler("onClientRender", root, function()
 			for index, markers in ipairs(getElementsByType("marker")) do setElementInterior(markers, 0) end
 			for index, vehicles in ipairs(getElementsByType("vehicle")) do setElementInterior(vehicles, 0) end
 			for index, pickups in ipairs(getElementsByType("pickup")) do setElementInterior(pickups, 0) end
+			for index, objects in ipairs(getElementsByType("object")) do setElementInterior(objects, 0) end
 			for index, spawnpoints in ipairs(getElementsByType("spawnpoint")) do setElementInterior(spawnpoints, 0) end
 			for index, peds in ipairs(getElementsByType("ped")) do setElementInterior(peds, 0) end
 		end
 	end
-end )
+end)
 
-addEventHandler( "onClientResourceStop", getRootElement( ),
-	function ( resetInteriorID )
+addEventHandler("onClientResourceStop", getRootElement(),
+	function (resetInteriorID)
 		for index, players in ipairs(getElementsByType("player")) do setElementInterior(players, 0) end
 		for index, markers in ipairs(getElementsByType("marker")) do setElementInterior(markers, 0) end
 		for index, vehicles in ipairs(getElementsByType("vehicle")) do setElementInterior(vehicles, 0) end
 		for index, pickups in ipairs(getElementsByType("pickup")) do setElementInterior(pickups, 0) end
+		for index, objects in ipairs(getElementsByType("object")) do setElementInterior(objects, 0) end
 		for index, spawnpoints in ipairs(getElementsByType("spawnpoint")) do setElementInterior(spawnpoints, 0) end
 		for index, peds in ipairs(getElementsByType("ped")) do setElementInterior(peds, 0) end
 	end

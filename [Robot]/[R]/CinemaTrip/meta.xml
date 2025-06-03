@@ -2,7 +2,8 @@
     <min_mta_version server="1.5.8-9.20957"></min_mta_version>
     <script src="newMapEditorScriptingExtension_s.lua" type="server"></script>
     <script src="cinema_c.lua" type="client" validate="true"></script>
-    <info gamemodes="race" racetype="R" type="map" name="Cinema Trip" author="Discoordination" version="1.0.0"></info>
+    <script src="cinema_s.lua" type="server"></script>
+    <info gamemodes="race" type="map" racetype="R" name="Cinema Trip" author="Discoordination" version="1.0.0"></info>
     <map src="CinemaTrip.map" dimension="0"></map>
     <settings>
         <setting name="#skins" value='[ &quot;58&quot; ]'></setting>

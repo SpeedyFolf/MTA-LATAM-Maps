@@ -17,6 +17,7 @@ function MarkerHit ( hitElement, matchingDimension )
 					outputChatBox( "" .. getPlayerNametagText(hitElement) .. " got to Grove Street FIRST using a " .. getVehicleName(getPedOccupiedVehicle(hitElement)) .. "!", getRootElement(), 231, 50, 50)
 					printLine1 = false
 					player1name = getPlayerNametagText(hitElement)
+					if getPlayerCount() > 2 then exports.achievements:triggerAchievement(hitElement, "general33", nil) end
 					
 				elseif printline2 == true  then
 					if player1name ~= getPlayerNametagText(hitElement) then

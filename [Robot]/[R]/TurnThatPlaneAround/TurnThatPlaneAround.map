@@ -1,0 +1,11 @@
+<map edf:definitions="editor_main,race">
+    <spawnpoint id="spawnpoint (AT-400) (1)" vehicle="577" interior="0" posX="1138" posY="1329.1" posZ="9.8" rotX="0" rotY="0" rotZ="-180"></spawnpoint>
+    <checkpoint id="checkpoint () (1)" extracolshapesize="4" type="checkpoint" color="#DEFE0099" blipsize="2" size="18" interior="0" posX="1138" posY="1414.9" posZ="4.9" rotX="0" rotY="0" rotZ="0"></checkpoint>
+    <removeWorldObject id="removeWorldObject (vgs_palm03) (1)" radius="14.100514" interior="-1" model="712" lodModel="0" posX="1132.4877" posY="1388.4301" posZ="19.20166" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (veg_palm02) (1)" radius="19.19784" interior="-1" model="621" lodModel="0" posX="1153.8672" posY="1387.7656" posZ="9.08594" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (sub_floodlite) (2)" radius="16.251438" interior="-1" model="1278" lodModel="0" posX="1157.0156" posY="1361.2266" posZ="23.9375" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <object id="object (sub_floodlite) (1)" breakable="false" interior="0" alpha="255" dimension="0" model="1278" scale="1" doublesided="false" collisions="true" posX="1099.3" posY="1220.6" posZ="24" rotX="0" rotY="0" rotZ="87.995"></object>
+    <object id="object (sub_floodlite) (2)" breakable="false" interior="0" alpha="255" dimension="0" model="1278" scale="1" doublesided="false" collisions="true" posX="1157.1" posY="1223.7" posZ="24" rotX="0" rotY="0" rotZ="-152.005"></object>
+    <object id="object (vgSbikeschl06) (1)" breakable="false" interior="0" alpha="255" dimension="0" model="8232" scale="0" doublesided="false" collisions="true" posX="1098.8" posY="1252.8" posZ="38.2" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (sub_floodlite) (3)" breakable="false" interior="0" alpha="255" dimension="0" model="1278" scale="1" doublesided="false" collisions="true" posX="1175.6" posY="1344.7" posZ="24" rotX="0" rotY="0" rotZ="87.995"></object>
+</map>

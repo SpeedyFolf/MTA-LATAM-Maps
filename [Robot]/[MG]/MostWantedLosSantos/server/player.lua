@@ -206,7 +206,7 @@ function Player:heal(amount)
 
 	local veh = getPedOccupiedVehicle(self.player)
 
-	if veh and getElementHealth(veh) > 1 then
+	if veh and getElementHealth(veh) > 250 then -- 250 is on fire threshold, affects mechanic and harvest healing
 		setElementHealth(veh, math.min(getElementHealth(veh) + amount, 1000))
 	end
 end

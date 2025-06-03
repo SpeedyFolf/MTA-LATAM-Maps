@@ -46,6 +46,7 @@ function showText()
 	
 	triggerServerEvent("lookatsphinx",localPlayer,localPlayer)
 	playLaugh()
+	setElementData(localPlayer, "correctAnswers", 0)
 end
 -- addEvent("showHelpText",true)
 -- addEventHandler("showHelpText",root,showText)
